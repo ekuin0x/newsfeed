@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>‘A Nearly Normal Family’ Is a Gripping Thriller That Lures You in From the First Episode</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The story is based on the best-selling book by M. T. Edvardsson (translated to E">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>‘A Nearly Normal Family’ Is a Gripping Thriller That Lures You in From the First Episode</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://publish.purewow.net/wp-content/uploads/sites/2/2023/11/a-nearly-normal-family-review-netflix.jpg?fit=1174%2C630" alt="">
+
+                <textarea id="text" readonly> The story is based on the best-selling book by M. T. Edvardsson (translated to English by Rachel Willson-Broyles). The show opens on a scene that might be triggering for some viewers, since it depicts a sexual assault. But if you can get past the first five minutes, you’ll be enthralled by the storytelling.
+
+The rest of the first episode takes place four years after the assault, and it’s told from three different perspectives: the daughter, the father and the mother.
+
+It begins with a glimpse of the daughter, Stella (Alexandra Karlsson Tyrefors), who is celebrating her 19th birthday. She meets a handsome man, Christoffer Olsen (Christian Fandango Sundgren), and they embark on a wild adventure. When Stella returns home in the wee hours of the morning, she starts acting suspicious.
+
+Her father, Adam (Björn Bengtsson), notices that Stella is hiding something. However, she’s not the only one. He also knows that his wife, Ulrika (Lo Kauppi), is lying to him about her whereabouts. (We later learn that she’s having an affair with a colleague.)
+
+It’s clear their family dynamic is strained. This only intensifies when Ulrika learns that Stella has been arrested for the murder of Christoffer. Dun dun dunnn. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

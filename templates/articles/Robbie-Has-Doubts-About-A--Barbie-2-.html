@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robbie Has Doubts About A “Barbie 2”</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Australian actress Margot Robbie has expressed doubts about the potential for a ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Robbie Has Doubts About A “Barbie 2”</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdndark.darkhorizons.com/wp-content/uploads/2023/07/barbie-could-have-years-biggest-debut.jpg" alt="">
+
+                <textarea id="text" readonly> Australian actress Margot Robbie has expressed doubts about the potential for a “Barbie” sequel, stating clearly the film was made with no plans for follow-ups.
+
+During a recent interview with Associated Press, Robbie was asked about her thoughts on a sequel to which she replied:
+
+“I think we put everything into this one. We didn’t build it to be a trilogy or something. It was like Greta put everything into this movie, so I can’t imagine what would be next.”
+
+The comedy has been a winner on all fronts. In terms of box-office it broke multiple records, and became the highest-grossing movie of the year thus far with over $1.4 billion. It’s also the highest-grossing film from a solo female director.
+
+It was also a critical darling and audience favourite, which is now being pegged as having serious potential in the upcoming awards season race.
+
+Talk has swirled about a potential sequel since the film’s opening but those involved have demurred on such a possibility. It’s also known the studio has no sequel options for anyone involved, so if one were to be made, expensive new deals with Robbie, Ryan Gosling, and co-writer/director Greta Gerwig would have to be struck.
+
+Mattel has understandably been more optimistic about the chances of a sequel and is pushing hard on multiple other film adaptations of its IP with several dozen projects rumored to be in development (far more than the 13 or so that have been announced).
+
+Source: Associated Press </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
