@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 
-<body onload="related()">
+<body>
     <nav>
         <div id="logo">NewsFeed</div>
         <a href="/a/politics">Politics</a>
@@ -22,16 +22,8 @@
         <a href="/a/entertainement">Entertainement</a>
         <i class="bi bi-list" onclick="openNav()"></i>
         <i class="bi bi-search" onclick="openSearch()"></i>
-    </nav>
 
-    <div id="mobile-nav">
-        <i class="bi bi-x-lg" onclick="closeNav()"></i>
-        <a href="/a/politics">Politics</a>
-        <a href="/a/world">World</a>
-        <a href="/a/technology">Technology</a>
-        <a href="/a/health">Health</a>
-        <a href="/a/entertainement">Entertainement</a>
-    </div>
+    </nav>
 
     <form action="/search" method="get" id="search">
         <input type="text" name="q" />
@@ -41,15 +33,15 @@
     <div id="wrapper">
 
         <div class="flex1" id="article">
-            <p>Kim Jong Un claims to see US target regions with spy satellite, including Pearl Harbor and Hickam Air Base</p>
-            <span id="topic" >world</span>
+            <pKim Jong Un claims to see US target regions with spy satellite, including Pearl Harbor and Hickam Air Base</p>
+            <span id="topic" ></span>
                 <span class="time">
-                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                    <i class="bi bi-clock"></i><b></b>
                 </span>
                 <br><br>
                 <img src="https://static.foxnews.com/foxnews.com/content/uploads/2023/11/GettyImages-1801107832-e1700914277341.jpg" alt="">
 
-                <textarea id="text" readonly> North Korea is claiming its newly launched military spy satellite has provided leadership with photo images of key South Korean and U.S. bases.
+                <textarea readonly> North Korea is claiming its newly launched military spy satellite has provided leadership with photo images of key South Korean and U.S. bases.
 
 Kim Jong Un visited the Pyongyang General Control Centre of the National Aerospace Technology Administration on Friday to learn about developments in using the spy satellite.
 
@@ -77,6 +69,26 @@ This was the third attempt by North Korean leaders to launch a military spy sate
 
 State media have also claimed similar operations are planned to continue into the future to fortify North Korea's war capabilities. </textarea>
 
+                <div id="wrapper-small">
+
+                    
+                    <a href="/articles/">
+                        <div class="small">
+                            <u></u>
+                            <img src="" alt="">
+                            <p></p>
+                            <br>
+                            <span class="time">
+                                <i class="bi bi-clock"></i><b></b>
+                            </span>
+
+                        </div>
+                    </a>
+                    
+
+                </div>
+
+
         </div>
 
 
@@ -93,6 +105,7 @@ State media have also claimed similar operations are planned to continue into th
     </div>
 
     <script src="/static/script.js"> </script>
+
 
 
 </body>

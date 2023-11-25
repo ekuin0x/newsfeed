@@ -1,0 +1,28 @@
+import pyrebase
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+firebase_api_key = os.getenv("FIREBASE_API_KEY")
+print(firebase_api_key)
+config = {
+  "apiKey": firebase_api_key,
+  "authDomain": "flask-firebase-storage.firebaseapp.com",
+  "databaseURL": "",
+  "storageBucket": "flask-firebase-storage.appspot.com",
+  "appId": "1:670694688551:web:d627e473ec0bce9112cb02",
+  "measurementId": "G-DSWWEJCHDT"
+}
+firebase = pyrebase.initialize_app(config)
+storage = firebase.storage()
+
+storage.child("hello.png").put("results/11944349.png")
+storage.delete('hello.png', '')
+
+
+'''
+#upload file to storage
+myFile = "results/11944349.png"
+cloudfilename = "results/11944349.png"
+result = firebase.post('/', cloudfilename)
+'''
