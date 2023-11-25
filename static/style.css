@@ -306,4 +306,15 @@ header img {
     right: 30px;
     color:white;
   }
+
+  
+#article p:nth-child(1){
+  font-size: 40px;
+}
+
+#article #text{
+  padding: 25px 5px;
+}
+
+
 }
