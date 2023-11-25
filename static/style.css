@@ -222,6 +222,9 @@ header img {
   padding: 25px 40px;
   outline-style: none;
 }
+#text::-webkit-scrollbar{
+  display: none;
+}
 
 #topic{
     background-color: rgb(169, 47, 47);
@@ -296,5 +299,9 @@ header img {
 
 #article #text{
     padding: 25px 10px;
+  }
+
+  .div{
+    width: 100% !important;
   }
 }
