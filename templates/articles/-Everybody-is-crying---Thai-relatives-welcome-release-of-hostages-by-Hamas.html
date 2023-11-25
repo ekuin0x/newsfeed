@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>‘Everybody is crying’: Thai relatives welcome release of hostages by Hamas</title>
@@ -12,18 +21,26 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 
-<body>
+<body onload="related()">
     <nav>
         <div id="logo">NewsFeed</div>
-        <a href="/a/politics">Politics</a>
+        <a href="/a/business">Business</a>
         <a href="/a/world">World</a>
         <a href="/a/technology">Technology</a>
         <a href="/a/health">Health</a>
-        <a href="/a/entertainement">Entertainement</a>
+        <a href="/a/entertainment">Entertainment</a>
         <i class="bi bi-list" onclick="openNav()"></i>
         <i class="bi bi-search" onclick="openSearch()"></i>
-
     </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
 
     <form action="/search" method="get" id="search">
         <input type="text" name="q" />
@@ -33,15 +50,15 @@
     <div id="wrapper">
 
         <div class="flex1" id="article">
-            <p‘Everybody is crying’: Thai relatives welcome release of hostages by Hamas</p>
+            <p>‘Everybody is crying’: Thai relatives welcome release of hostages by Hamas</p>
             <span id="topic" >world</span>
                 <span class="time">
-                    <i class="bi bi-clock"></i><b></b>
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
                 </span>
                 <br><br>
                 <img src="https://i.guim.co.uk/img/media/f888806a33aaaba2fce4578c5492aff8d45df9ba/0_84_863_518/master/863.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f9506bd7ecb72a5b500e4045a245b028" alt="">
 
-                <textarea readonly> The 10 Thai hostages released on Friday are now being supervised in an Israeli hospital, the Thai government has said, adding that a further 20 of its nationals are still being held hostage.
+                <textarea id="text" readonly> The 10 Thai hostages released on Friday are now being supervised in an Israeli hospital, the Thai government has said, adding that a further 20 of its nationals are still being held hostage.
 
 In a statement, Thailand’s ministry of foreign affairs said the 10, who were among 24 hostages freed on Friday hours after a ceasefire was implemented, were now being accompanied by embassy officials and were staying at Shamir medical centre, south-east of Tel Aviv.
 
@@ -83,26 +100,6 @@ The 10 Thais freed were taken to Rafah, then to the Kerem Shalom crossing, befor
 
 On Saturday, Thailand thanked governments and other organisations that helped secure the first group’s release, saying: “The Thai government would like to express, once again, its deepest appreciation to all of the parties from whom the Thai authorities had sought assistance and support, such as the governments of Qatar, Israel, Egypt, Iran, Malaysia and the ICRC [International Committee of the Red Cross], as well as others involved in the immense efforts that led to this recent release.” </textarea>
 
-                <div id="wrapper-small">
-
-                    
-                    <a href="/articles/">
-                        <div class="small">
-                            <u></u>
-                            <img src="" alt="">
-                            <p></p>
-                            <br>
-                            <span class="time">
-                                <i class="bi bi-clock"></i><b></b>
-                            </span>
-
-                        </div>
-                    </a>
-                    
-
-                </div>
-
-
         </div>
 
 
@@ -119,7 +116,6 @@ On Saturday, Thailand thanked governments and other organisations that helped se
     </div>
 
     <script src="/static/script.js"> </script>
-
 
 
 </body>
