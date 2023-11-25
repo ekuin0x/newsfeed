@@ -29,4 +29,4 @@ const closeNav = function(){
 }
 
 $("head").prepend("<!--hello-->")
-$("head").append('<meta name="monetag" content="1d3c1ce10fde12759c56d5b2accfd42a">')
+
