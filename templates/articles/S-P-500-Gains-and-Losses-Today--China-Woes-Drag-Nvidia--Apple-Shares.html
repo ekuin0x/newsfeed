@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S&P 500 Gains and Losses Today: China Woes Drag Nvidia, Apple Shares</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Key Takeaways U.S. equities were mixed and little changed, with the S&P 500 up 0">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>S&P 500 Gains and Losses Today: China Woes Drag Nvidia, Apple Shares</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.investopedia.com/thmb/aukwBqiz5S0LhHfD3viyUeFujhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1661433274-b2daee613d9f470fa91c1659f789ddf3.jpg" alt="">
+
+                <textarea id="text" readonly> Key Takeaways U.S. equities were mixed and little changed, with the S&P 500 up 0.06%, on the shortened Black Friday trading session following the Thanksgiving holiday.
+
+First Solar and SolarEdge Technologies shares lost ground as rising bond yields made solar power stocks less attractive.
+
+Nvidia shares fell on a report it has delayed the launch of a new AI chip designed to comply with new U.S. export rules to China.
+
+U.S. equities were mixed and little changed in the shortened Black Friday session following yesterday’s Thanksgiving holiday. The S&P 500 was up 0.06%. For the week, the Dow, S&P 500, and Nasdaq were all in positive territory.
+
+Almost all of the stocks in the Dow were higher. Walmart (WMT) shares gained 0.9% and Walgreens Boots Alliance (WBA) added 0.8% as retailers entered the key holiday shopping season.
+
+Amazon (AMZN) shares rose 0.02% on a report European regulators will approve its $1.4 billion acquisition of iRobot (IRBT). iRobot shares soared 39%.
+
+Shares of First Solar (FSLR) and SolarEdge Technologies (SEDG) declined 3.3% and 0.8% respectively, as bond yields jumped, making solar power stocks less attractive.
+
+Nvidia (NVDA) shares dropped 1.9% on a report the chipmaker has delayed the launch of an artificial intelligence (AI) semiconductor designed to comply with new White House restrictions on exports to China.
+
+Apple (AAPL) shares dipped 0.7% on a report its smartphone sales in China declined during the country’s recent Singles Day. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

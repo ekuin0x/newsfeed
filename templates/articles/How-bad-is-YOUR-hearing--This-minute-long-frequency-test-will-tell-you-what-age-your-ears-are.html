@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How bad is YOUR hearing? This minute-long frequency test will tell you what age your ears are</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="An online test promises to reveal the age of your ears — all via playing sounds ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>How bad is YOUR hearing? This minute-long frequency test will tell you what age your ears are</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://i.dailymail.co.uk/1s/2023/11/24/21/71485005-0-Recently_published_NHS_figures_show_that_over_a_third_of_patient-a-9_1700861381706.jpg" alt="">
+
+                <textarea id="text" readonly> An online test promises to reveal the age of your ears — all via playing sounds through your headphones.
+
+The minute-long test, popularized by UK-based educational organization eChalk, works by playing an increasingly higher-frequency sound to listeners.
+
+Participants are asked to hit 'stop' as soon as they can't hear sound anymore, which the test says reveals their ears' age.
+
+The test, developed by UK-based educational organization eChalk, works by playing an increasingly higher-frequency sound to listeners (screen shot from the test)
+
+Hearing experts say the test is largely a 'good party trick', but add it can act as a useful tool for alerting people who are suffering a decline in their hearing.
+
+The test uses hertz (Hz) to measure hearing, saying all humans start off being able to hear sounds up to 20,000 Hz.
+
+But by age 20, it suggests this has declined to being able to hear only sounds below 18,000 Hz.
+
+And by the age of 50, this should have declined further so that people can only hear sounds below 12,000 Hz.
+
+Audiologists say the natural range for human hearing is from about 2,000 to 20,000 Hz.
+
+But this gradually declines over time — with most adults being unable to hear sounds above 16,000Hz by the time they turn 30 years old.
+
+In their 70s, individuals may not be able to hear sounds above 14,000Hz.
+
+Dr Amy Sarow, an audiologist at Norway-based hearing device testing service Soundly, said: 'While entertaining to engage with, these tests lack the sensitivity and specificity to provide meaningful diagnostic insight into the severity and type of hearing loss a person may have.
+
+'At best, these tests could screen for high-frequency hearing loss.
+
+'For example, it could suggest high-frequency hearing loss if you have difficulty hearing sounds above 2,000 Hz.'
+
+Blake Cadwell, co-founder of Soundly, described the test as a 'fun party trick'.
+
+About 15.5 percent of American adults, or 40million people, have trouble hearing, survey data suggests.
+
+Among older adults, one third suffers from hearing loss.
+
+Hearing gradually declines with age — in a medical condition termed presbycusis.
+
+This can be caused by changes to blood flow to areas of the ear, changes to nerves in the ear or shifts in how the brain interprets sound.
+
+It typically affects only high-pitched sounds first, and is detected when people begin to notice subtle changes to their hearing over time.
+
+Common symptoms include having difficulty hearing softer voices, struggling with children's and speech in the presence of background noises.
+
+People who have diabetes, poor circulation or regular exposure to loud noise may suffer from more rapid hearing loss. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

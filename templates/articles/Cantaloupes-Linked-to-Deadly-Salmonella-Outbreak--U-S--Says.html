@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantaloupes Linked to Deadly Salmonella Outbreak, U.S. Says</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Two people have died in a salmonella outbreak linked to cantaloupes as cases hav">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Cantaloupes Linked to Deadly Salmonella Outbreak, U.S. Says</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/24/multimedia/24xp-salmonella-pzqw/24xp-salmonella-pzqw-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> Two people have died in a salmonella outbreak linked to cantaloupes as cases have more than doubled since the outbreak was first announced last week, the U.S. Centers for Disease Control and Prevention said on Friday.
+
+The Food and Drug Administration said on Nov. 17 that it was investigating the outbreak. At that point, 43 cases and 17 hospitalizations had been reported in 15 states. As of Friday, federal officials had reported 99 cases in 32 states.
+
+Several fruit producers have issued recalls for a number of cantaloupe and cantaloupe products that were distributed nationwide, the C.D.C. said.
+
+Health officials asked consumers and business to throw away the recalled fruits, which include imported whole cantaloupes grown in Mexico labeled “Rudy” and “Malichita” and pre-cut cantaloupes sold under the “Vinyard,” “Aldi,” “Freshness Guaranteed” and “RaceTrac” brand names. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

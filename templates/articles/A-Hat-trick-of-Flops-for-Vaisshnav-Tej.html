@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Hat-trick of Flops for Vaisshnav Tej</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Panja Vaisshnav Tej made a stunning debut in "Uppena," which proved to be a comm">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>A Hat-trick of Flops for Vaisshnav Tej</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.greatandhra.com/newphotos10/Aadikeshava21700890987.jpg" alt="">
+
+                <textarea id="text" readonly> Panja Vaisshnav Tej made a stunning debut in "Uppena," which proved to be a commercial success for the production house.
+
+Many producers and directors believed Vaisshnav Tej would emerge as the next big star.
+
+Following the triumph of "Uppena," Vaisshnav Tej signed three consecutive films.
+
+Unfortunately, all three of them failed to perform well at the box office: "Kondapolam," "Ranga Ranga Vaibhavanga," and "Aadikeshava."
+
+Among them, only "Kondapolam" enjoyed a better opening due to the success of the previous hit "Uppena."
+
+The most recent release, "Aadikeshava," received unfavorable reviews across the board and garnered low collections in all areas, indicating that the young actor has lost the acclaim he initially gained with his debut film. His appearance and acting abilities haven't shown significant improvement either.
+
+The question now is how Vaisshnav Tej will reinvent himself. Given his association with the "Mega Family," he still has a chance to make a comeback, and it remains to be seen how he will seize this opportunity. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

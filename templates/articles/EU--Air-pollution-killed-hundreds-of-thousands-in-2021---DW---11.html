@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU: Air pollution killed hundreds of thousands in 2021 – DW – 11</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Over 250,000 have died in a single year just from pollution caused by fine parti">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>EU: Air pollution killed hundreds of thousands in 2021 – DW – 11</p>
+            <span id="topic" >world</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static.dw.com/image/56709235_6.jpg" alt="">
+
+                <textarea id="text" readonly> Over 250,000 have died in a single year just from pollution caused by fine particulate matter, with ozone and nitrogen-dioxide also claiming lives, a new EU report has found.
+
+Air quality in Europe still falls short of WHO recommendations, with three main polluters — fine particulate matter, ozone and nitrogen-dioxide — causing hundreds of thousands of premature deaths in the EU in 2021 alone, according to a report published on Friday by the European Environment Agency.
+
+Air pollution is "still the number one environmental health problem in the EU," European Commissioner for Environment, Oceans and Fisheries Virginijus Sinkevicius said, commenting on the report.
+
+Poland loses 47,000 lives to small particle pollution
+
+The report found that 253,000 deaths could be attributed to fine particulate matter, small particles mostly created by gas-powered cars or coal-operated power plants. The particles are able to enter the respiratory tract and exacerbate the risk of lung disease. They also increase the threat of heart disease, strokes, and diabetes.
+
+Fine particulate matter claimed the most lives in Poland (47,300), Italy (46,800), and Germany (32,300).
+
+Air pollution is still a big problem in Europe To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video
+
+Further, 52,000 lives were claimed across the EU by nitrogen-dioxide, which is mostly produced by transport and can harm people's lungs while also raising the risk of diabetes. Short-term ozone pollution was responsible for 22,000 deaths across the bloc. Ozone can impair breathing, aggravate lung diseases such as asthma, and inflame and damage the airways.
+
+Air quality 'improving'
+
+EU experts noted that the number of deaths caused by this type of pollution had dropped by 41% since 2005. But the 2021 numbers show it is still a serious problem, they said.
+
+"The good news is that clean air policy works, and our air quality is improving," Sinkevicius said. "But we need to do better still, and bring pollution levels down further," he added, calling for the EU to quickly adopt and implement legislation to bring its air quality closer to WHO standards.
+
+Besides causing deaths, air pollution creates a "significant health burden" for people living with those diseases, the agency has warned.
+
+Europe’s Polluted Air To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video
+
+dj/sms (Reuters, dpa, AFP) </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

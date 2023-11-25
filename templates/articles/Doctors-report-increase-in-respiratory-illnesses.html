@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors report increase in respiratory illnesses</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The holiday season is here and with the social gatherings comes an increase in r">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Doctors report increase in respiratory illnesses</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://bloximages.newyork1.vip.townnews.com/postguam.com/content/tncms/assets/v3/editorial/6/2f/62f73212-7c37-11ed-8d22-a7115dca9273/639aad66191b0.image.jpg?crop=483%2C483%2C0%2C60&resize=200%2C200&order=crop%2Cresize" alt="">
+
+                <textarea id="text" readonly> The holiday season is here and with the social gatherings comes an increase in respiratory illness.
+
+Dr. Joleen Aguon confirmed Friday that there have been increases in the numbers of people diagnosed with influenza and COVID-19.
+
+“We don’t see a lot of hospitalizations, though,” she said.
+
+In some cases COVID-19 screen tests were initially showing negative results, but upon repeat testing, results were positive for virus.
+
+This raised the question, why are the results between the initial antigen test and PCR conflicting?
+
+“Not conflicting. Just timing may be too early. The viral load may not be high enough to detect at the time of testing,” Aguon said.
+
+Dr. Hoa Nguyen further confirmed that doctors have seen this increase in both upper and lower respiratory tract infection in the past four to six weeks.
+
+“This is for both COVID-19 and influenza. Few needs hospitalization. We will expect more during the holiday,” Nguyen said.
+
+Since the end of the coronavirus public health emergency, there is no more mandatory reporting requirement for COVID-19 positive test results to the Department of Public Health and Social Services.
+
+“Therefore, we do not keep track of the actual number. We ask the public to be aware and be cautious around anyone during the holidays that exhibit any upper respiratory tract infection like coughing and congestion,” Nguyen said.
+
+Dr. Vince Akimoto also confirmed that he has seen “too many cases of heat stroke and rhabdomyolysis and elderly patients with severe respiratory symptoms over the past three weeks.”
+
+According to the U.S. Centers for Disease Control and Prevention, “Rhabdomyolysis (rhabdo) is a medical condition associated with heat stress and prolonged physical exertion. Rhabdo causes the rapid breakdown, rupture and death of muscle. When muscle tissue dies, electrolytes and large proteins are released into the bloodstream.”
+
+Akimoto noted that in some cases the patients had “serious kidney complications and in other cases have required mechanical ventilation and life support."
+
+Akimoto warned the community to “stay well hydrated and work with a buddy in order to prevent delays in urgent medical care.” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

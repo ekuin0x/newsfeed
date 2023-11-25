@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYT Connections today: See hints and answers for November 25</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Connections is the latest New York Times word game that's captured the public's ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>NYT Connections today: See hints and answers for November 25</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://helios-i.mashable.com/imagery/articles/03Ua25aZQp4l8GNSrZGmnwW/hero-image.fill.size_1200x675.v1700520369.jpg" alt="">
+
+                <textarea id="text" readonly> Connections is the latest New York Times word game that's captured the public's attention. The game is all about finding the "common threads between words." And just like Wordle, Connections resets after midnight and each new set of words gets trickier and trickier—so we've served up some hints and tips to get you over the hurdle.
+
+If you just want to be told today's puzzle, you can jump to the end of this article for November 25's Connections solution. But if you'd rather solve it yourself, keep reading for some clues, tips, and strategies to assist you.
+
+What is Connections?
+
+The NYT's latest daily word game has become a social media hit. The Times credits associate puzzle editor Wyna Liu with helping to create the new word game and bringing it to the publications' Games section. Connections can be played on both web browsers and mobile devices and require players to group four words that share something in common.
+
+Each puzzle features 16 words and each grouping of words is split into four categories. These sets could comprise of anything from book titles, software, country names, etc. Even though multiple words will seem like they fit together, there's only one correct answer. If a player gets all four words in a set correct, those words are removed from the board. Guess wrong and it counts as a mistake—players get up to four mistakes until the game ends.
+
+Players can also rearrange and shuffle the board to make spotting connections easier. Additionally, each group is color-coded with yellow being the easiest, followed by green, blue, and purple. Like Wordle, you can share the results with your friends on social media.
+
+Here's a hint for today's Connections categories
+
+Want a hit about the categories without being told the categories? Then give these a try:
+
+Yellow: Isolated locations
+
+Green: Mathematical values
+
+Blue: Wet geographical landmarks
+
+Purple: Palindromes
+
+Here are today's Connections categories
+
+Need a little extra help? Today's connections fall into the following categories:
+
+Yellow: Secluded
+
+Green: Aggregate Size
+
+Blue: Bodies of Water
+
+Purple: Reads The Same Rotated 180
+
+Ready for the answers? This is your last chance to turn back and solve today's puzzle before we reveal the solutions.
+
+Drumroll, please!
+
+The solution to Connections #167 is...
+
+What is the answer to Connections today
+
+Secluded: HIDDEN, PRIVATE, REMOTE, SECRET
+
+Aggregate Size: AMOUNT, NUMBER, QUANTITY, VOLUME
+
+Bodies of Water: CANAL, CHANNEL, SOUND, STRAIT
+
+Reads The Same Rotated 180: 96, MOW, NOON, SIS
+
+Don't feel down if you didn't manage to guess it this time. There will be new Connections for you to stretch your brain with tomorrow, and we'll be back again to guide you with more helpful hints. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>‘Nothing standing’: Palestinians return to find Gaza homes destroyed</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Amid the truce, some Gaza Palestinians returned to their houses in north and cen">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>‘Nothing standing’: Palestinians return to find Gaza homes destroyed</p>
+            <span id="topic" >world</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.aljazeera.com/wp-content/uploads/2023/11/2023-11-24T104129Z_805295129_RC26J4A1D3UQ_RTRMADP_3_ISRAEL-PALESTINIANS-TRUCE-1700917438.jpg?resize=1920%2C1440" alt="">
+
+                <textarea id="text" readonly> Amid the truce, some Gaza Palestinians returned to their houses in north and central Gaza – only to find rubble and debris.
+
+Some Palestinians returned to their homes in the central and northern parts of the Gaza Strip after a four-day truce came into effect.
+
+But for many, only rubble waited where their homes once stood.
+
+Al Jazeera’s Hisham Zaqout visited the Bureij refugee camp in central Gaza on Saturday, where he spoke to several Palestinians who used the pause in fighting to return to their neighbourhoods – only to find utter destruction.
+
+“Our home is destroyed, nothing remains standing. And most of the ducks and chickens were eaten by hungry street dogs,” an elderly woman said.
+
+“This is not a war; it is a genocide,” she added. “It’s unprecedented crimes.”
+
+Zaqout said many residents of the Bureij camp had been forced to head to the Nuseirat refugee camp, further west, due to the constant, intense shelling by the Israeli military since last month.
+
+Upon returning, they found their homes levelled to the ground and some of the dead buried under the debris. The elderly woman said she used to “come every now and then, despite the ruthless shelling”.
+
+“It was very dangerous, but I have to come and check on my chicken livestock. I am not afraid. If I am destined to be killed, I will die. My life is not in the hands of the Zionists.”
+
+‘I hope the ceasefire can last forever’
+
+Another resident of the camp talked about the unimaginable destruction that awaited him upon his return.
+
+“Honestly, I never imagined the scale of destruction; not even 1 percent of it,” the young man said.
+
+“My home was shelled. It suffered damages and is not fit to live in any more. It must be rebuilt all over again,” he added.
+
+When asked how he could stay there again, he said he would prefer to live in a house without walls “than get humiliated in overcrowded UN schools”.
+
+“We drink seawater and pretend it is freshwater. What can we do?”
+
+Tens of thousands of Palestinians have been forced to take shelter inside United Nation-run schools since the start of the war. But they have not proven safe either, and many Israeli attacks targeting them have left dozens of civilians dead.
+
+The truce, which runs until Monday, involves the release of dozens of Palestinians imprisoned by Israel in exchange for Israelis and other nationals held in Gaza.
+
+It may be extended, the United States and others have signalled, but Israel and its Western allies have not supported a ceasefire in the besieged strip.
+
+Another Gaza resident speaking to Al Jazeera said they “wish for eternal peace, not just four days, because people have gone through too many pains and are still suffering”.
+
+“I hope the ceasefire can last forever. Why? Because we are tired, we are tired of a life like this.”
+
+Another displaced Palestinian, a resident of Khuza’a in southern Gaza, said the scale of destruction left them shocked after returning home to the north.
+
+“The destruction is very large, tears come down alone. God suffices us and that’s all I can say.” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

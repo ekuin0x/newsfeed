@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony faces $8B dollar lawsuit for overcharging Playstation customers</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="A London tribunal ruled Tuesday that Sony must face a nearly $8 billion lawsuit ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Sony faces $8B dollar lawsuit for overcharging Playstation customers</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://nypost.com/wp-content/uploads/sites/2/2023/11/iStock-458613669.jpg?quality=75&strip=all&w=1024" alt="">
+
+                <textarea id="text" readonly> A London tribunal ruled Tuesday that Sony must face a nearly $8 billion lawsuit over claims that the PlayStation maker abused its dominant position in the market by charging “excessive prices” to its customers.
+
+The U.K.’s Competition Appeal Tribunal ruled that Sony must face a lawsuit worth up to 6.3 billion pounds — roughly $7.9 billion — over the claims brought by Alex Neill, a consumer advocate who has worked on previous campaigns.
+
+Sony Interactive Entertainment (SIE) was sued last year on behalf of nearly 9 million people in the U.K. who had bought digital games or add-on content through Sony’s PlayStation Store.
+
+Neill’s lawyers said the aggregate damages estimate of the case was up to 6.3 billion pounds in court filings last month.
+
+Neill alleges that Sony required digital games and add-ons to be bought and sold only via the its online PlayStation Store, which charges a 30% commission to developers and publishers.
+
+The claim alleges customers have therefore paid higher prices for games and add-on content than they would have done.
+
+Sony did not respond to FOX Business’ request for comment.
+
+The claim accuses Sony of overcharging their customers for digital games and add-ons. Getty Images
+
+The company’s lawyers have previously argued that the case was “flawed from start to finish” and said it should be thrown out.
+
+The Tribunal ruled that Neill’s case could continue, though it said people who had made PlayStation Store purchases after the case was filed in 2022 should be removed from the proposed claimant class.
+
+“This is the first step in ensuring consumers get back what they’re owed as a result of Sony breaking the law,” Neill said in a statement. “PlayStation gamers’ loyalty has been taken advantage of by Sony who have been charging them excessive prices for years.” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

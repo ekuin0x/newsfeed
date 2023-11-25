@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Information’s Top Tech-Adjacent Gifts for 2023</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="With all of the turmoil afoot this week in Silicon Valley, you may have lost sig">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>The Information’s Top Tech-Adjacent Gifts for 2023</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://tii.imgix.net/production/articles/11784/e1ce25b9-ac0d-4fc4-a264-ae0f34681e9f.jpg?fm=jpg&auto=compress&w=1200&frame=0" alt="">
+
+                <textarea id="text" readonly> With all of the turmoil afoot this week in Silicon Valley, you may have lost sight of what really matters: its Black Friday, folks! As in past years, The Information’s highly discerning staffers have been busy testing out gear that we know for certain will satisfy holiday recipients. From the technologically assisted (a golf tracker that records every shot) to the blissfully analog (VC–backed sweaters, anyone?), we’re bringing you the products we love so much we bought them for ourselves. Plus, we’ve included a few wish list splurges—we’re only human, and sometimes humans want a Vespa.
+
+For even more options, take a peek at our past gift guides, from 2022 and 2021. And if you want to send any of these items over to our beleaguered OpenAI reporters, we’re sure they won’t complain. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

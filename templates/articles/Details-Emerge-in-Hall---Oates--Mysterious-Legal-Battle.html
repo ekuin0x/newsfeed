@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Emerge in Hall & Oates’ Mysterious Legal Battle</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Days after Daryl Hall filed a restraining order against his longtime musical par">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Details Emerge in Hall & Oates’ Mysterious Legal Battle</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.rollingstone.com/wp-content/uploads/2023/11/GettyImages-867941648.jpg?w=1600&h=900&crop=1" alt="">
+
+                <textarea id="text" readonly> Days after Daryl Hall filed a restraining order against his longtime musical partner John Oates, details about the legal rift between the Rock and Roll Hall of Fame-inducted duo have emerged.
+
+When the restraining order was filed on November 17 to a Nashville judge, the dispute itself was sealed, noting only that the dispute pertained to “Contract/Debt.” However, on Wednesday, the Nashville chancery court judge allowed for some documents to be unsealed, revealing the heart of the battle: Hall is trying to prevent Oates from selling his shares in the duo’s joint venture to music publishing firm Primary Wave.
+
+According to the Associated Press, Oates signed a letter of intent to sell his half of the duo’s business venture — dubbed Whole Oats Enterprises — to Primary Wave; by allowing the firm to see the duo’s confidential business agreement, Hall alleges that was “an indisputable breach of contract,” and thus filed the restraining order to stop Oates and Primary Wave from further pursuing a deal.
+
+Primary Wave already owns a “significant interest” in Hall & Oates’ music following a deal Hall made in 2006, which Hall admitted he regretted in interviews in recent years as the acquisition price of artists’ publishing has exploded.
+
+“Oh, in the early days, it got sold off for me and I didn’t get the money,” Hall said in a 2021 interview about the initial Primary Wave deal. “I have a bit of my publishing, but a lot of bad business was done in the early days – I’m a real rock and roll story when it comes to that kind of thing. Never sell your publishing — maybe if you’re, you know, 80 years old and you decided to retire, then you can sell your publishing, but I wouldn’t even suggest it then, I don’t believe in that concept. It’s all you have is that.”
+
+Primary Wave subsequently acquired the copyrights for about 70 songs written by sisters Sara and Janna Allen, who teamed with Hall & Oates on hits like “Maneater,” “You Make My Dreams” and “I Can’t Go for That (No Can Do),” Variety reports. Editor’s picks
+
+Even before the restraining order, comments by Hall and Oates over the past year suggested simmering tension between the duo, which last performed together in September 2022. Hall appeared on Bill Maher’s podcast that same month, where he pointedly referred to Oates as “my business partner… not my creative partner.”
+
+“John and I are brothers, but we are not creative brothers. We are business partners,” Hall said. “We made records called Hall & Oates together, but we’ve always been very separate, and that’s a really important thing for me.”
+
+In a separate interview the next month, Oates suggested that the pair could be done performing after over 50 years together.
+
+“Daryl and I are pretty much finished touring. I never say never, but right now I don’t see any tours,” Oates said. Trending Ridley Scott Is Not Sure He’ll Ever Top Cameron Diaz F*cking a Ferrari Third Accuser Sues Sean Combs for Sexual Assault Derek Chauvin, Minneapolis Cop Convicted in Murder of George Floyd, Stabbed in Prison ‘Napoleon’: Ridley Scott’s Portrait of an Emperor as a Total Douchebag
+
+“I think we both have grown apart professionally and personally. I think we both want to do something else. I don’t want to sound like doom and gloom, but there’s a reality to being old, to being our age. I think Daryl and I feel the exact same way. As our life is winding down, we want to make up for lost time and do the things that we didn’t get a chance to do while we were working together.”
+
+The next hearing in the legal battle is scheduled for November 30. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

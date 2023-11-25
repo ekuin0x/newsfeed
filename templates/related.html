@@ -1,0 +1,12 @@
+{% for x in related[1:13] %}
+<a href="/articles/{{x['fileName']}}">
+    <div class="div">
+        <img src="{{x['img']}}" alt="{{x['title']}}">
+        <p>{{x['title']}}<br>
+            <span class="time">
+                <i class="bi bi-clock"></i><b>{{x['publish_date']}}</b>
+            </span>
+        </p>
+    </div>
+</a>
+{% endfor %}

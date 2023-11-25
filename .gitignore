@@ -1,0 +1,6 @@
+/.dist
+/__pycache__
+/design
+/venv
+googlenews.py  
+test.py

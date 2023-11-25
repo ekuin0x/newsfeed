@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 Black Friday Deals for Photographers</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="It's time for great photography savings with some of the biggest deals of the ye">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>2023 Black Friday Deals for Photographers</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2023/11/black-friday_jpg.jpg" alt="">
+
+                <textarea id="text" readonly> It's time for great photography savings with some of the biggest deals of the year. If you happen to be looking for new gear, a faster or easier way to edit your photos, or a more efficient shooting workflow, here are offers that will help.
+
+Skylum
+
+Year’s Best Deal: Unmissable Black Friday Sale on Luminar Neo photo editor with 85% off plus a special gift!
+
+Luminar Neo is the photo editor for photography lovers who look to express themselves through their favorite hobby by giving them creative freedom and empowering them with advanced but fun-to-use tools.This Flack Friday, enjoy an incredible 85% off on the Year's Best Deal and get the Creative Assets Collection of presets, overlays, skies, and more as a gift. The offer is available till November 27 only. Get your gift here.
+
+Topaz Labs
+
+Save 60% on the Ultimate Bundle to supercharge your photo and video production with the power of AI. Trusted by major film studios, photographers, and creative pros everywhere.
+
+Includes Video AI 4, Photo AI 2, Gigapixel, DeNoise, and Sharpen for just $299.
+
+Loupedeck
+
+Loupedeck, maker of custom consoles for total control of livestreams and creative editing is offering deep Black Friday discounts from November 20 – 27, including their first-ever holiday discount on the new Live S. Loupedeck’s new partnership with Logitech now connects users to an entire ecosystem of hardware and software perfect for all kinds of creators, which will only make users’ experiences more connected this holiday season and beyond:
+
+Imagen
+
+Imagen is the ultimate post-production tool for Lightroom Classic, redefining the standard for photographers with AI-driven efficiency, creative freedom, and secure cloud backup.
+
+To celebrate Black Friday, Imagen offers a fantastic deal! New subscribers can enjoy a massive 30% discount on their first month of use. This special offer covers all of Imagen's features, including AI editing, Cloud Backup, and more advanced AI capabilities. Take advantage of this limited-time opportunity to maximize your post-production workflow!
+
+Subscribe to Imagen by November 30, and you'll enjoy an exclusive 30% discount on your invoice for the first month, with culling, cropping, straightening, and subject mask included.
+
+Simply subscribe and enter the code "blackfriday23" during checkout.
+
+This offer is valid from November 16th through November 30th.
+
+Pixellu
+
+We're celebrating a decade spent helping photographers do what they love with a sale — photographers can enjoy 40% off our All Apps Bundle for one year.
+
+Our All Apps Bundle includes unlimited access to all of our quality apps created specifically for the world of photography. Each tool improves and refines the image delivery process:
+
+Pixellu Galleries puts the world's most beautiful client galleries at photographers' fingertips.
+
+SmartSlides for delivering wow-factor slideshows.
+
+SmartAlbums for designing stunning photo albums in minutes, which can then be client-approved quickly and easily using Cloud Proofing.
+
+For the month of November, photographers can grab our annual All Apps Bundle at 40% off for one year, giving them more value for less than purchasing a top-tier subscription to any one product alone.
+
+BH
+
+BH is offering some incredible prices on all sorts of gear, from cameras and lenses to any accessory you need. Check out there savings now.
+
+
+
+Radiant Imaging Labs
+
+Get your hands on one of the best photo editing tools for 75% off!
+
+This bundle features Radiant Photo (includes a license for the standalone & plug-in versions, plus a Toolkit with presets and training worth $179), 1-year Mylio Photos back-up & sync between all devices ($99 value), and a Viewbug Platinum membership ($144 value).
+
+Normally everything would cost $471 but is all on sale for only $99.
+
+iPhone Photo Academy
+
+Our friends over at iPhone Photo Academy are selling their full tutorial for only $39 (84% off). With it you'll learn to take advantage of your phone's camera and take stunning photos in all situations.
+
+Check it out here! </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

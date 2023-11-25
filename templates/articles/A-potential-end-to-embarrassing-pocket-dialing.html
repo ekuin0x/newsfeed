@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A potential end to embarrassing pocket dialing</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Have you ever accidentally clicked on something on your phone screen that you di">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>A potential end to embarrassing pocket dialing</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static.foxnews.com/foxnews.com/content/uploads/2023/11/2-A-secret-phone-surveillance-program-is-spying-on-millions-of-Americans.jpg" alt="">
+
+                <textarea id="text" readonly> Have you ever accidentally clicked on something on your phone screen that you didn’t mean to? Or pocket-dialed someone without realizing it?
+
+If you have, you’re not alone.
+
+Many people struggle with the touchscreen sensitivity of their cellphones, which can cause frustration and embarrassment.
+
+But don’t worry. There is a solution for both iPhone and Android. Changing the touchscreen sensitivity of your phone is simple and can make things much better. Here’s how to do it.
+
+CLICK TO GET KURT’S FREE CYBERGUY NEWSLETTER WITH SECURITY ALERTS, QUICK VIDEO TIPS, TECH REVIEWS, AND EASY HOW-TO’S TO MAKE YOU SMARTER
+
+How to adjust touchscreen sensitivity for iPhone
+
+If you have an iPhone, you can adjust the touchscreen sensitivity by following these steps. However, please note that 3D Touch is only available on iPhone 6s and later models, while Haptic Touch is available on iPhone XR and later models. If you have an older iPhone model, you will not see these options in your settings.
+
+Go to Settings
+
+Tap on Accessibility
+
+Tap on Touch
+
+Click Haptic Touch or 3D Touch
+
+HOW TO TAKE GREAT FAMILY PHOTOS AND INCLUDE YOURSELF IN THEM
+
+Choose the touch duration — Fast or Slow (you can do a touch duration test by touching and holding the image to test the touch duration)
+
+On an iPhone with 3D Touch, you can also choose the pressure needed — Light, Medium or Firm
+
+By adjusting the sensitivity, you can make your phone more responsive or less responsive to your touch, depending on your preference. This can help you avoid accidental touches and improve your user experience.
+
+MORE: 32 BEST BLACK FRIDAY DEALS
+
+How to adjust touchscreen sensitivity for Android
+
+If you have an Android phone, here's how to increase the touch sensitivity of your touchscreen if you have a screen protector:
+
+Settings may vary depending on your Android phone’s manufacturer.
+
+First, tap on Settings
+
+Click Display
+
+Toggle on Touch sensitivity
+
+NEW CISA WARNING: THANKSGIVING CLICKJACKING THREAT IN POPULAR BROWSERS
+
+By changing the touchscreen sensitivity of your Android phone, it can help you avoid accidental touches and enhance your productivity.
+
+MORE: BEST BLACK FRIDAY LAPTOP DEALS
+
+Kurt's key takeaways
+
+Accidental touches on your phone screen can be annoying and inconvenient, but they don’t have to be. By changing the touchscreen sensitivity of your phone, you can prevent unwanted clicks and pocket dials and enjoy using your phone more. Whether you have an iPhone or an Android phone, you can easily adjust the sensitivity of your screen with a few simple steps. You can also experiment with different settings until you find the one that works best for you.
+
+CLICK HERE TO GET THE FOX NEWS APP
+
+What are some of the most common problems or frustrations you face when using your phone? Let us know by writing us at Cyberguy.com/Contact
+
+For more of my tech tips & security alerts, subscribe to my free CyberGuy Report Newsletter by heading to Cyberguy.com/Newsletter
+
+Ask Kurt a question or let us know what stories you'd like us to cover.
+
+Answers to the most asked CyberGuy questions:
+
+Copyright 2023 CyberGuy.com. All rights reserved. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

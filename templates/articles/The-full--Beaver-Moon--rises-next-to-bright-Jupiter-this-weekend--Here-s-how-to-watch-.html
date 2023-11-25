@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The full 'Beaver Moon' rises next to bright Jupiter this weekend. Here's how to watch.</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="On Monday, Nov. 27, look east in the evening to see the full "Beaver Moon" rise ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>The full 'Beaver Moon' rises next to bright Jupiter this weekend. Here's how to watch.</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.mos.cms.futurecdn.net/mMP9zTm6wn6whtVGWwgYKC-1200-80.jpg" alt="">
+
+                <textarea id="text" readonly> On Monday, Nov. 27, look east in the evening to see the full "Beaver Moon" rise into the sky.
+
+November's full moon occurs as Earth gets between the sun and moon. It's consequently 100% illuminated — at 4:16 a.m. EST on Nov. 27 — and will rise in the east at dusk, shining all night and setting in the west at dawn. To the casual stargazer, the moon will also appear full the night before and after, according to Live Science's sister site Space.com .
+
+The best time to see any phase of the moon — and particularly the full moon — is at moonrise and moonset. When the moon is very low on the horizon, viewers on Earth see it through a lot of atmosphere, which scatters short-wavelength blue light but enables reddish longer wavelength light to pass through. This produces some beautiful colors on the lunar surface, notably orange, pink and yellow — similar to what happens to the sun during sunrise and sunset.
+
+In addition, observing the moon when it's low lets viewers experience the "moon illusion." According to NASA , when the moon is particularly close to the horizon the human brain thinks our celestial neighbor looks much bigger than it actually is. It's purely an optical illusion, but it's a powerful one.
+
+When seen from North America, the full moon will rise on Nov. 27 while 99.5% illuminated, in the same patch of sky as the constellation Taurus. If you have binoculars you may be able to spot the Pleiades, the closest open cluster of stars to the solar system, just to the top-right of the full moon. Beyond the Pleiades will be Jupiter, which will appear very bright because it reached its bright annual opposition earlier this month. The giant planet will become visible as you watch the full moon rise.
+
+The following full moon will be the Cold Moon, which will rise on Tuesday, Dec. 26. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

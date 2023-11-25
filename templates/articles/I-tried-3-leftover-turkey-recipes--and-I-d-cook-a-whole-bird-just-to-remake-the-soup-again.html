@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I tried 3 leftover turkey recipes, and I'd cook a whole bird just to remake the soup again</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="In preparation for Thanksgiving , I've been looking for good ways to use up left">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>I tried 3 leftover turkey recipes, and I'd cook a whole bird just to remake the soup again</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://i.insider.com/655b83209c7d23cb3b9d623f?width=1200&format=jpeg" alt="">
+
+                <textarea id="text" readonly> In preparation for Thanksgiving , I've been looking for good ways to use up leftover turkey breast.
+
+I made a Thanksgiving-leftover sandwich but found it took more effort than what it was worth.
+
+I discovered a soup that was so delicious, I'd make another turkey just to have an excuse to eat it.
+
+NEW LOOK Sign up to get the inside scoop on today’s biggest stories in markets, tech, and business — delivered daily. Read preview Loading Something is loading. Thanks for signing up! Access your favorite topics in a personalized feed while you're on the go. download the app Email address Sign up By clicking “Sign Up”, you accept our Terms of Service and Privacy Policy . You can opt-out at any time.
+
+Advertisement
+
+Each Thanksgiving, I cook a full family meal and have lots of leftover turkey in my fridge.
+
+This year, I wanted to find creative ways to repurpose my leftovers.
+
+I tried making dishes with varying levels of difficulty, including a Thanksgiving-leftover sandwich, turkey salad, and soup. For these recipes, I used slices of a roasted 4-pound turkey breast.
+
+Here's how each leftover-turkey recipe stacked up. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

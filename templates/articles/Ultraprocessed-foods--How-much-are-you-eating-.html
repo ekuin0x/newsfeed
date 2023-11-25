@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultraprocessed foods: How much are you eating?</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="* * *
+
+Ultraprocessed foods have been linked to a higher risk of cancer, heart d">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Ultraprocessed foods: How much are you eating?</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.cnn.com/interactive/uploads/20231124-ultraprocessed_og.png" alt="">
+
+                <textarea id="text" readonly> * * *
+
+Ultraprocessed foods have been linked to a higher risk of cancer, heart disease, obesity and early death, yet estimates say 71% of the food supply in the United States may contain ingredients created in a laboratory.
+
+According to the Food and Agriculture Organization of the United Nations, ultraprocessed foods contain ingredients “never or rarely used in kitchens, or classes of additives whose function is to make the final product palatable or more appealing.”
+
+The list of additives* includes preservatives to resist mold and bacteria; emulsifiers to keep incompatible ingredients from separating; artificial colorings and dyes; anti-foaming, bulking, bleaching, gelling and glazing agents; and added or altered sugar, salt and fats intended to boost flavor to a “bliss point” that is hard to resist.
+
+Additives often boost the number of ingredients, but food and drink can still be ultraprocessed with only a few components. Why? It’s likely due to industrial techniques such as extrusion, molding and prefrying — which some experts say make the food “predigested.”
+
+Do you know how many of your daily food choices are ultraprocessed? Build your own lunch from the popular options in this menu and see how well you do!
+
+To develop this tool, CNN examined nutrition labels and ingredient lists for menu items sold by popular fast-food and lunch cafés around the country.
+
+More on what the FDA and food industry say about ultraprocessed foods. * Food additives are considered “generally recognized as safe,” or GRAS, by the US Food and Drug Administration, but not everyone agrees on the safety. Watchdog groups such as the Center for Science in the Public Interest and the Environmental Working Group, or EWG, provide lists of concerning chemicals found in food, as well as added sugars, salt and fats. A growing number of grocery stores and a few restaurants have also taken steps to ban worrisome chemicals from foods they sell. The National Restaurant Association, which represents fast-food and fast-casual establishments, told CNN “the restaurant industry works with its chefs and suppliers to offer consumers a variety of options and choices to meet varying preferences and dietary needs. Restaurant meal options range in diversity from scratched cooked menu items and fresh ingredients to some manufactured or processed ingredients. These ingredients can be used to add specific flavors or help with preparation, but are also used to improve food safety, nutrition, or reduce food waste.” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

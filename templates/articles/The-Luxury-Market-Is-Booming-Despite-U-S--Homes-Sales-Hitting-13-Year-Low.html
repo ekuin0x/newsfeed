@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Luxury Market Is Booming Despite U.S. Homes Sales Hitting 13-Year Low</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="By now, we know the crippling effect that sky-high mortgage rates and an invento">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>The Luxury Market Is Booming Despite U.S. Homes Sales Hitting 13-Year Low</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://robbreport.com/wp-content/uploads/2023/11/homesalesslow.jpg?w=681&h=383&crop=1" alt="">
+
+                <textarea id="text" readonly> By now, we know the crippling effect that sky-high mortgage rates and an inventory shortage can have on the real estate market. Last month, existing U.S. home sales dipped 4.1 percent to an annual rate of 3.79 million, a pace so slow it hasn’t been seen since 2010, according to a report from the National Association of Realtors. Compared to last October, sales across the country dropped 14.6 percent, despite an increase in existing home prices. This year, the median home price clocked in at $391,800, a noticeable 3.4 percent uptick from 2022.
+
+Even though October marked a 13-year low in activity within the overall market, it’s a different story for high-net-worth buyers shopping for homes in the luxury category, which a recent Redfin report defined as properties that are estimated to be in the top 5 percent of their respective metro area. In fact, in the third quarter of 2023, the luxury market grew at three times the rate of the mainstream market.
+
+Even though U.S. home sales have slowed, prices in both the luxury and non-luxury markets have increased. david blank davidblankphoto.com
+
+Indeed, the median price of a luxury residence reached a record high of $1.1 million, up 9 percent compared to last year. Not only did prices increase during this period, but the amount of inventory grew as well. In the third quarter, there were 2.9 percent more active luxury listings on the market than there were in 2022. The report noted that there’s also been an overall increase in homebuilding, with much of that new construction resulting in luxury residences.
+
+According to Redfin senior vice president of real estate operations Jason Aleem, paying cash “helped wealthy buyers weather the storm of high mortgage rates.” The report found that a whopping 42.5 percent of luxury homes that were sold in the third quarter were paid for in cash, an approximately 8 percent increase when compared to the same time last year. For context, only 28 percent of non-luxury properties were purchased in cash.
+
+While many wealthy buyers clearly believe that cash is king, “others are choosing to take on a higher rate and refinance later—an expensive option that isn’t feasible for a lot of lower-income consumers,” Aleem explained to Mansion Global. “Affluent Americans are still spending big, in large part because of pandemic savings and resilient housing and stock values.” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China Outbreak: Explainer: Why China is facing major outbreak of ‘walking pneumonia’ epidemic</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="China reports Influenza-like illness outbreak among children; India monitors sit">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>China Outbreak: Explainer: Why China is facing major outbreak of ‘walking pneumonia’ epidemic</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static.toiimg.com/thumb/msid-105500586,width-1070,height-580,imgsize-1552779,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" alt="">
+
+                <textarea id="text" readonly> China reports Influenza-like illness outbreak among children; India monitors situation
+
+China is grappling with a significant outbreak of mycoplasma infections, particularly affecting children. Beijing and other northern regions' hospitals have experienced a spike in patients with coughs and fevers, leading to extended waiting times for medical attention. Chinese health authorities have not disclosed the total number of infections but have indicated that the epidemic involves known pathogens like mycoplasma, RSV, adenovirus, and influenza.The public disease surveillance system ProMED -- which once issued an early warning about mysterious pneumonia cases that turned out to be Covid -- reported that some Chinese hospitals were "overwhelmed with sick children" due to a pneumonia outbreak .The term "walking pneumonia" has been used to describe these cases, as they often don't necessitate hospitalization.Challenges in hospitalsThe surge in cases has led to significant challenges in hospitals. "I brought my kid to Beijing Children's Hospital a few days ago. It was fully packed. There were 300 people in front of us waiting. We waited four hours until afternoon to see a doctor," shared Liu, a mother of a 4-year-old, with the Global Times. To manage the increasing cases, the Liulitun Community Health Center in Beijing's Chaoyang district has enhanced its capacity by bringing in additional medical staff.The State Council's Joint Prevention and Control Mechanism has directed local governments to combat new coronavirus infections and other key infectious diseases. The body anticipates a peak in influenza spread during winter and spring, with continued high mycoplasma pneumoniae infection rates in some areas.Mycoplasma infections, resistant to certain antibiotics due to their lack of a cell wall, can lead to complications like rash, meningitis, and hemolytic anemia in children.Immunity gap: Why only China?Currently, China is the sole nation experiencing a significant outbreak of mycoplasma, in contrast to other Asian countries, the United States, and many European nations.According to a Global Times report, the surge in ‘Walking pneumonia’ epidemic is due to "immunity gap" in children in China owing to strict lockdown measures adopted by it. China implemented one of the most severe lockdowns under its zero-Covid for almost three years.China has been largely successful in controlling the Covid-19 pandemic, thanks to its strict lockdown measures, mass testing, and vaccination campaigns. However, this also means that the population has been less exposed to other respiratory pathogens, such as influenza and mycoplasma pneumonia , resulting in a lower level of immunity and a higher susceptibility to infection. This is especially true for children, who have not been vaccinated against Covid-19, and who have missed out on the natural exposure to other pathogens due to school closures and social distancing.Francois Balloux of University College London said, "Since China experienced a far longer and harsher lockdown than essentially any other country on Earth, it was anticipated that those 'lockdown exit' waves could be substantial in China."Antibiotic resistanceMycoplasma pneumonia can be treated with antibiotics, such as macrolides, tetracyclines, and fluoroquinolones. However, the overuse and misuse of antibiotics in China, both in human and animal health, have contributed to the emergence and spread of antibiotic-resistant strains of mycoplasma pneumonia, which are harder to treat and more likely to cause severe outcomes. According to some studies, the prevalence of macrolide-resistant mycoplasma pneumonia (MRMP) in China ranges from 7.7% to 78.5%, which is much higher than in other countries.Underreporting and underdiagnosisThe actual number of walking pneumonia cases in China may be higher than the official figures, as many cases may go unreported or undiagnosed. This is because walking pneumonia is not a notifiable disease in China, meaning that health authorities do not require doctors to report every case to them. Moreover, many people may not seek medical attention for their mild symptoms, or they may be misdiagnosed with other respiratory illnesses, such as Covid-19, influenza, or common cold. Therefore, the true extent and impact of the walking pneumonia epidemic in China may be underestimatedNew Covid variant?The current outbreak has triggered memories of the pandemic, with social media users fearing "a new virus coming from China," or a "new Covid".Bruce Thompson, head of the Melbourne School of Health Sciences at the University of Melbourne, said very preliminary data suggested there was nothing out of the ordinary."At this stage, there is nothing to suggest that it may be a new variant of Covid," he told Reuters.WHO recommendationsThe WHO has advised following normal rules to avoid respiratory illnesses, including vaccination and isolation if symptoms emerge. Despite the surge, there has been no undue public alarm, and parents in Shanghai expressed confidence that the situation would soon resolve.(With inputs from agencies) </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

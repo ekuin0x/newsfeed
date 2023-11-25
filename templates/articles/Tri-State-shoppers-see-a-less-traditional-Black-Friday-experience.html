@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tri-State shoppers see a less traditional Black Friday experience</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="CINCINNATI (WKRC) - A day known for retail deals has been fighting to stay stron">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Tri-State shoppers see a less traditional Black Friday experience</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://local12.com/resources/media/e34048b2-5a18-435e-ab1d-37f38640eeff-large16x9_PBLACKFRIDAYTRENDS.transfer_frame_5503.jpeg" alt="">
+
+                <textarea id="text" readonly> CINCINNATI (WKRC) - A day known for retail deals has been fighting to stay strong amid the rise of online shopping.
+
+
+
+Black Friday is known for doorbuster sales, but was described as a "typical day."
+
+There were fewer long lines, no shopping frenzy and fewer markdowns. Shoppers said some of the stores they expected to be open were closed.
+
+
+
+"We went to a few other stores and there's no one in there, like completely empty. Then we were looking at some of the sales, but some of the sales are always the same price for things," said Black Friday shopper Susan Eppley.
+
+Eppley's husband said he remembers a time when his wife woke up at 5 a.m. on Black Friday.
+
+The two shop online as well, but they went out because it's a shopping experience tradition.
+
+"We want to be out and start the holidays and see people and kind of have that spirit," Eppley said.
+
+The Corbin family thought their shopping experience would be less crowded, like the Eppley's.
+
+To their surprise, Temesha said the nostalgia of Black Friday remains.
+
+"Just going to the restroom, I felt like I was in line at Kings Island to get on a ride. Getting into the mall parking lot area, it was a long time. We had to wait a long time. And we had to be patient, of course," said Temesha Corbin.
+
+Around 68% of people planned to shop online for sales rather than in person, according to a drive research study.
+
+This was coupled with many retailers offering their Black Friday deals weeks earlier.
+
+But as Local 12 could see, there wasn't a shortage of shoppers.
+
+"When I get home today, I'm going to be able to give my friends an instant haul. And if I online shopped for Black Friday, I wouldn't be able to do that," said shopper Ada Christian.
+
+The National Retail Federation predicted 2023's weekend shopping will surpass 2022's 166 million shoppers. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

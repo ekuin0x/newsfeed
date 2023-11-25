@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somalia officially joins East Africa trade bloc</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Somalia, which has been seeking to join the regional trade bloc since 2012, beco">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Somalia officially joins East Africa trade bloc</p>
+            <span id="topic" >world</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.aljazeera.com/wp-content/uploads/2022/05/AP668379648041-1.jpg?resize=1200%2C675" alt="">
+
+                <textarea id="text" readonly> Somalia, which has been seeking to join the regional trade bloc since 2012, becomes its eight member.
+
+Somalia was admitted into the East African Community (EAC) on Friday as the eighth member of the bloc as it seeks to expand free trade across the region.
+
+The entry of the fragile Horn of Africa nation, which has a population of 17 million, will boost the EAC market to more than 300 million people.
+
+“We have decided to admit the Federal Republic of Somalia under the treaty of accession,” outgoing EAC chair, Burundian President Evariste Ndayishimiye, said at a summit of the grouping in Tanzania.
+
+Somalia – whose President Hassan Sheikh Mohamud was at the summit – joined Burundi, the Democratic Republic of Congo, Kenya, Rwanda, South Sudan, Tanzania and Uganda in the regional bloc.
+
+“Let us all embrace this new chapter in our history,” Mohamud’s chief economic adviser said on X, the platform formerly known as Twitter. “This moment is not just a culmination of our aspirations but a beacon of hope for a future full with possibilities and opportunities.”
+
+The EAC, based in the Tanzanian town of Arusha where the summit was taking place, was founded in 2000 and works to encourage trade by removing customs duties between member states.
+
+It established a common market in 2010.
+
+Excluding Somalia, combined EAC countries covered a land area of 4.8 million sq kilometres (1.8 million sq miles) and had a combined gross domestic product of $305bn, according to the bloc’s website. Total EAC trade was $78.75bn in 2022, it said.
+
+The last member the group admitted before Somalia was the DRC, in April 2022.
+
+Challenges
+
+The admission of Somalia could portend more security challenges for the bloc as the country is struggling to stem a deadly rebellion by the al-Qaeda-linked al-Shabab group.
+
+After making significant progress, Somalia’s offensive against the armed group has stalled for months and raised concerns about the government’s capacity to crush the 16-year rebellion.
+
+EAC members Kenya and Uganda contribute troops to an African Union force which was first deployed to Somalia in 2007 to crush al-Shabab.
+
+In November last year, the EAC also sent troops into the restive east of the DRC, which had joined the bloc last year, after the resurgence of the M23 rebel group.
+
+Mogadishu-based think tank Heritage Institute for Policy Studies said the entry of Somalia – which has been seeking to join the bloc since 2012 – was a “pivotal leap” in the EAC’s expansion across East Africa.
+
+But it said in a report before the summit that Somalia’s “poor track record in governance, human rights and the rule of law” could hinder its smooth integration into the bloc.
+
+The country has also been embroiled in disputes with its neighbours – Ethiopia, Djibouti and Kenya – sometimes leading to a breakdown in diplomatic relations. However, it has taken steps in recent years to repair regional ties. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

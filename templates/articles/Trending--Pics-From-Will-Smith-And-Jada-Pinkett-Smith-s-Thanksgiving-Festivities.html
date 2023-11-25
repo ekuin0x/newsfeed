@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending: Pics From Will Smith And Jada Pinkett Smith's Thanksgiving Festivities</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Will Smith shared this image. (courtesy: willsmith)
+
+Will Smith and Jada Pinkett">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Trending: Pics From Will Smith And Jada Pinkett Smith's Thanksgiving Festivities</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://c.ndtvimg.com/2023-11/uephoeao_will-smith_625x300_25_November_23.jpg" alt="">
+
+                <textarea id="text" readonly> Will Smith shared this image. (courtesy: willsmith)
+
+Will Smith and Jada Pinkett Smith reunited along with their family to celebrate Thanksgiving together and photos from it are viral, naturally. The pictures also feature Jaden, Willow and Trey Smith. Will Smith captioned the post, "Best Thanksgiving Ever! (That's Mom-Mom with her 9 grandkids!). Meanwhile, Jada, sharing a few greyscale shots on Instagram, wrote, "A perfect Thanksgiving Day. I hope yours was as well." Will Smith and Jada have been making headlines ever since actor Jada Pinkett Smith revealed that she and Will Smith have been separated since 2016. The closest Will Smith came to commenting on the separation remarks is through a series of cryptic Instagram posts.
+
+See Will and Jada's posts here:
+
+Will and Jada Pinkett Smith first met on the set of his sitcom The Fresh Prince of Bel-Air in 1994. However, they got married in 1997. The couple have two children together, Jaden and Willow. In her memoir, Jada also discussed the infamous Oscar slapgate involving Will Smith and Chris Rock. FYI, the Academy took disciplinary action against the King Richard star who slapped and swore at Oscar presenter Chris Rock for a joke he made at the expense of Will Smith's wife Jada Pinkett. Will Smith has been banned from attending the Oscars for the next 10 years.
+
+Among other explosive statements, Jada Pinkett Smith also told People that Chris Rock had once asked her out when he thought she and Will Smith had separated. "I think every summer all the reports would come out that me and Will were getting a divorce, and this particular summer, Chris, he thought that we were getting a divorce," People quoted Jada as saying. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

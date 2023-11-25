@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southwest Florida Christmas tree lots are now open</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="With Thanksgiving over, Christmas is now just around the corner, meaning it’s ti">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Southwest Florida Christmas tree lots are now open</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://winknews.com/wp-content/uploads/2023/11/vlcsnap-2023-11-24-05h44m15s755.png" alt="">
+
+                <textarea id="text" readonly> With Thanksgiving over, Christmas is now just around the corner, meaning it’s time to start tree shopping.
+
+Al Mueller, owner of Uncles Al’s Christmas Trees, has one message for those searching for the perfect tree: shop now and shop fast because the hundreds of trees for sale inside his tent sell out quickly.
+
+“It’s really exciting seeing the excitement in the kids’ eyes. Parents are equally into it– the fun,” said Mueller. “For 33 years, we put close to 250,000 Christmas trees in their homes to celebrate — and take pictures with — that will forever be ingrained in their family.”
+
+Mueller told WINK News the day after Thanksgiving is their busiest day.
+
+Christmas tree pricing can vary depending on size, with some going for as little as $40 to as much as $300.
+
+Uncle Al’s has been at the same spot for 33 years. You can visit Mueller’s Christmas tree tent at 5170 South Cleveland Ave. in Fort Myers.
+
+Mueller announced another location in Cape Coral, but again, he warns, the trees will go quickly. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New COVID-19 variant spreads as Kansans travel for the holidays</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="By RACHEL MIPRO, Kansas Reflector
+
+TOPEKA — Health officials warn travelers to w">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>New COVID-19 variant spreads as Kansans travel for the holidays</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://media.eaglewebservices.com/public/2023/8/1691181735917.png" alt="">
+
+                <textarea id="text" readonly> By RACHEL MIPRO, Kansas Reflector
+
+TOPEKA — Health officials warn travelers to watch out for a highly contagious new COVID-19 variant when making plans this month.
+
+During a Tuesday update on COVID-19 cases, the University of Kansas Health System reported treating 24 COVID-19 patients this week. Dana Hawkinson, director of infection prevention and control at the system, said the slight increase — up from 16 cases the week prior, showed the virus is still spreading in Kansas communities.
+
+“We know the virus is circulating out there, so everybody be careful and have a plan when you are traveling and going to visit families and friends,” Hawkinson said.
+
+The Centers for Disease Control and Prevention reported a spike in a new subvariant, the HV.1 COVID-19 variant. For the week ending Nov. 11, the latest national data shows COVID-19 hospitalization rose about 8.6% and COVID-19-related deaths rose about 9.1%. During that same time frame, 16, 239 people were hospitalized due to the virus.
+
+Andrea Garcia, vice president of science, health and medicine at the American Medical Association, said there has been a seasonal spread.
+
+“We have a new COVID variant called HV.1 that we do need to keep an eye on,” Garcia said. “It’s just been a few short weeks and HV.1 has become the variant responsible for most COVID cases here in the U.S.”
+
+Kansas COVID-19 cases haven’t been widely documented by the state since the end of the federal COVID-19 emergency declaration. Since the CDC stopped tracking cases of infection, hospitalizations are now the primary indicator of COVID-19 spread.
+
+While cases in general remain low, Montana, Wyoming, Nebraska and Kansas have documented rising clusters of cases. In Kansas, CDC data shows around 197 new weekly hospitalizations. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Musk's X could lose $75 million in ad revenue following antisemitic content backlash</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="X, the social network formerly known as Twitter, typically earns the most money ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Elon Musk's X could lose $75 million in ad revenue following antisemitic content backlash</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://s.yimg.com/ny/api/res/1.2/4yVqwHTRspZVqg_ePWviaw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-11/93bbf3f0-7a43-11ee-bfff-76c76c93034e" alt="">
+
+                <textarea id="text" readonly> X, the social network formerly known as Twitter, typically earns the most money in the last months of the year, as brands ramp up their advertising campaigns for the holiday shopping season. According to The New York Times, though, the company's earnings report for this quarter might look different than usual. Based on internal documents The Times has seen, over 100 brands and even other types of advertisers, such as political candidates, have fully paused their ads on the website, while dozens more are considering pulling their campaigns. If advertisers don't come back, X could lose up to $75 million in ad revenue earnings this year.
+
+The documents reportedly track how X would be affected by brands leaving the website, including the first ones that paused their ads shortly after Elon Musk's controversial tweet, wherein he agreed with an antisemitic conspiracy theory. Shortly after he posted his tweet, media watchdog Media Matters published a report showing ads on the website right next to antisemitic content. In response, X filed a lawsuit against the organization, accusing it of "knowingly and maliciously [manufacturing] side-by-side images depicting advertisers' posts on X Corp.'s social media platform beside Neo-Nazi and white national fringe content."
+
+X said in its complaint that Media Matters deliberately created an environment to show ads from some of the platform's biggest advertisers next to "extreme, fringe content." Linda Yaccarino, the company's CEO, defended X in a post and said that only two users saw Apple's ad next to unpalatable content on the platform. One of them was Media Matters, she added. The organization called X's lawsuit "frivolous" in a statement to Engadget and said it looks forward to winning in court.
+
+IBM, Apple and Disney were among the brands that quickly pulled their ads from X after the incidents. Lionsgate specifically cited Musk's tweet as its reason for suspending its advertising campaigns, while Ubisoft was one of the first video game companies to withdraw its ads from X. According to The Times' report, Airbnb has halted over $1 million worth of advertising on X, and Netflix has pulled $3 million in ads. X could also lose $4 million in ad revenue due to Microsoft's subsidiaries pausing their campaigns. Uber and Coca-Cola are two other well-known brands that have chosen to put their advertising on X on hold.
+
+In a statement to the publication, the company said the figures it viewed were either outdated or "represented an internal exercise to evaluate total risk." It also said that the revenue at risk was only around $11 million and that the exact amount keeps fluctuating as some advertisers return or increase their ad spending. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

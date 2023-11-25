@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <meta name="description" content="{{ text }}" />
+    <link rel="stylesheet" href="/static/style.css" />
+
+</head>
+
+<body>
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="title">Latest News : <b><u>{{topic}}</u></b></div>
+    <div id="wrapper">
+
+            {% for x in dict %}
+            <a href="/articles/{{x['fileName']}}">
+                <div class="div">
+                    <img src="{{x['img']}}" alt="{{x['title']}}">
+                    <p>{{x['title']}}<br>
+                        <span class="time">
+                            <i class="bi bi-clock"></i><b>{{x['publish_date']}}</b>
+                        </span>
+                    </p>
+                </div>
+            </a>
+
+            {% endfor %}
+            
+    </div>
+
+        <script src="/static/script.js" ></script>
+
+</body>
+
+</html>

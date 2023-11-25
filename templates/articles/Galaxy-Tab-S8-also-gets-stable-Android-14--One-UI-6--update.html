@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Tab S8 also gets stable Android 14 (One UI 6) update</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Samsung has been on a roll over the past couple of weeks. After releasing the st">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Galaxy Tab S8 also gets stable Android 14 (One UI 6) update</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.sammobile.com/wp-content/uploads/2022/04/Galaxy-Tab-S8-review-11-720x404.jpg" alt="">
+
+                <textarea id="text" readonly> Samsung has been on a roll over the past couple of weeks. After releasing the stable Android 14 update to the Galaxy Tab S9 series two days ago, the company has released the stable Android 14-based One UI 6.0 update to the Galaxy Tab S8 series.
+
+The stable Android 14 update for the Galaxy Tab S8, Galaxy Tab S8+, and Galaxy Tab S8 Ultra is now available in European countries. The update comes with firmware version X906BXXU5CWK7 for the Galaxy Tab S8 Ultra. For the Galaxy Tab S8 and the Galaxy Tab S8+, the updates should come bearing firmware versions X706BXXU5CWK7 and X806BXXU5CWK7, respectively. The update also brings these high-end tablets up to speed with the November 2023 security patch.
+
+If you have a Galaxy Tab S8 series device and live in Europe, you can now check for the stable Android 14 update by opening the Settings app on your device and navigating to Software update » Download and install. The firmware files should also be available in our firmware database shortly.
+
+One UI 6.0 brings several new features and design improvements to the Galaxy Tab S8 series. You can view all of them in detail in our in-depth video below. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

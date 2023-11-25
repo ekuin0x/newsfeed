@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skipping weekday workouts? Weekend-only exercise offers similar benefits, study finds</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="For many people, weekdays mean a lot of work and not a lot of time for working o">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Skipping weekday workouts? Weekend-only exercise offers similar benefits, study finds</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://assets3.cbsnewsstatic.com/hub/i/r/2023/11/21/0f7a37ea-5219-40d8-b763-673a84e0d0ea/thumbnail/1200x630/07db3ed4a275ca9637710c3cf8263007/gettyimages-1280950564.jpg?v=5659e73acd91751548aa89950cf015b0" alt="">
+
+                <textarea id="text" readonly> For many people, weekdays mean a lot of work and not a lot of time for working out. But according to recent research, you may not need to exercise during the week if you work out for at least 150 minutes over the weekend.
+
+The study, published in JAMA, the journal of the American Medical Association, followed almost 90,000 people, and found that moderate to vigorous activity, concentrated during one or two days a week, offers similar cardiovascular benefits to a similar amount of exercise spread throughout the week.
+
+"I think it's empowering to say it doesn't matter so much how you get it. The important thing is that you do get it," says Dr. Shaan Khurshid, a cardiologist at Massachusetts General Hospital, who led the study.
+
+
+
+Whether it's a weekend run, bike ride, soccer match or a brisk walk — it all counts.
+
+"As a physician, there's frequently kind of a rule of thumb that we say, you know, 30 minutes, five days a week," Khurshid says. "It makes sense in certain schedules, but that is also very difficult to achieve for other people who only have the weekend available or only have one or two days a week."
+
+The research is also great news for weekend warriors like Kathy Odds, who meets up with a running group on Saturdays.
+
+"I work for a bank, so it's a pretty long day most days. So finding the times to fit exercising can be tricky," she told CBS News. "What I love most about the weekend exercise (is) the opportunity to socialize. So not only is it my physical well-being that I'm looking after, it's also my mental well-being."
+
+
+
+Utilizing time on the weekend to workout can also help when the days get shorter and darker sooner.
+
+Other research, however, has shown benefits of less intense but more frequent movement, especially for those who sit a lot during the workday.
+
+Dr. Keith Diaz, an exercise physiologist at Columbia University Irving Medical Center, previously told CBS News his research found quick strolls throughout the day could go a long way for your health.
+
+"We found a five-minute light walk every half-hour offset many of the harms from sitting," he says. Spending too much time sitting can increase the risk for heart disease, diabetes and even some forms of cancer. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

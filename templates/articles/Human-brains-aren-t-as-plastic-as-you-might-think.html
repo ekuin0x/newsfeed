@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human brains aren't as plastic as you might think</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The human brain's ability to adapt and change, known as neuroplasticity, has lon">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Human brains aren't as plastic as you might think</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.mos.cms.futurecdn.net/G8hT33DGFUCgWbQQQjNoGe-1200-80.jpg" alt="">
+
+                <textarea id="text" readonly> The human brain's ability to adapt and change, known as neuroplasticity, has long captivated both the scientific community and the public imagination. It's a concept that brings hope and fascination, especially when we hear extraordinary stories of, for example, blind individuals developing heightened senses that enable them to navigate through a cluttered room purely based on echolocation or stroke survivors miraculously regaining motor abilities once thought lost.
+
+For years, the notion that neurological challenges such as blindness, deafness, amputation or stroke lead to dramatic and significant changes in brain function has been widely accepted. These narratives paint a picture of a highly malleable brain that is capable of dramatic reorganization to compensate for lost functions. It's an appealing notion: the brain, in response to injury or deficit, unlocks untapped potentials, rewires itself to achieve new capabilities and self-repurposes its regions to achieve new functions. This idea can also be linked with the widespread, though inherently false, myth that we only use 10 percent of our brain, suggesting that we have extensive neural reserves to lean on in times of need.
+
+But how accurate is this portrayal of the brain's adaptive abilities to reorganize? Are we truly able to tap into reserves of unused brain potential following an injury, or have these captivating stories led to a misunderstanding of the brain's true plastic nature? In a paper we wrote for the journal eLife, we delved into the heart of these questions, analyzing classical studies and reevaluating long-held beliefs about cortical reorganization and neuroplasticity. What we found offers a compelling new perspective on how the brain adapts to change and challenges some of the popularized notions about its flexible capacity for recovery.
+
+The roots of this fascination can be traced back to neuroscientist Michael Merzenich’s pioneering work, and it was popularized through books such as Norman Doidge's The Brain That Changes Itself. Merzenich's insights were built on the influential studies of Nobel Prize–winning neuroscientists David Hubel and Torsten Wiesel, who explored ocular dominance in kittens. Their experiments involved suturing one eyelid of a kitten, then observing the resulting changes in the visual cortex. They found that the neurons in the visual cortex, which would normally respond to input from the closed eye, started responding more to the open eye. This shift in ocular dominance was taken as a clear indication of the brain's ability to reorganize its sensory processing pathways in response to altered sensory experiences in early life. When Hubel and Wiesel tested adult cats, however, they were unable to replicate these profound shifts in ocular preference, suggesting that the adult brain is far less plastic.
+
+Merzenich's work demonstrated that even the adult brain is not the immutable structure it was once thought to be. In his experiments, he meticulously observed how, when a monkey’s fingers were amputated, the cortical sensory maps that initially represented these fingers became responsive to the neighboring fingers. In his account, Merzenich described how areas in the cortex expanded to occupy, or "take over," the cortical space that had previously represented the amputated fingers. These findings were interpreted as evidence that the adult brain could indeed rewire its structure in response to changes in sensory input, a concept that was both thrilling and full of potential for enhancing brain recovery processes.
+
+These seminal studies, along with many others focusing on sensory deprivation and brain injuries, underscored a process termed brain remapping, where the brain can reallocate one brain area — belonging to a certain finger or eye, for instance — to support a different finger or eye. In the context of blindness, it was assumed that the visual cortex is repurposed to support the enhanced hearing, touching and smelling abilities that are often displayed by individuals with blindness. This idea goes beyond simple adaptation, or plasticity, in an existing brain area allocated to a specific function; it implies a wholesale repurposing of brain regions. Our research reveals a different story, however.
+
+Driven by a blend of curiosity and skepticism, we chose 10 of the most quintessential examples of reorganization in the field of neuroscience and reassessed the published evidence from a fresh perspective. We argue that what is often observed in successful rehabilitation cases is not the brain creating new functions in previously unrelated areas. Instead it's more about utilizing latent capacities that have been present since birth. This distinction is crucial. It suggests that the brain's ability to adapt to injury does not typically involve commandeering new neural territories for entirely different purposes. For instance, in the cases of Merzenich's monkey studies and Hubel and Wiesel's work on kittens, a closer examination reveals a more nuanced picture of brain adaptability. In the former case, the cortical regions did not start processing completely new types of information. Rather the processing abilities for the other fingers were ready to be tapped in the examined brain area even before the amputation. Scientists just had not paid much notice to them because they were weaker than those in the finger that was about to be amputated.
+
+Similarly, in Hubel and Wiesel's experiments, the shift in ocular dominance in kittens did not represent the creation of new visual capabilities. Instead there was an adjustment in preference for the opposite eye within the existing visual cortex. The neurons originally attuned to the closed eye did not acquire new visual capabilities but rather heightened their response to the input from the open eye. We also did not find compelling evidence that the visual cortices of individuals who were born blind or the uninjured cortices of stroke survivors developed a novel functional ability that did not otherwise exist since birth.
+
+This suggests that what has often been interpreted as the brain's capacity for dramatic reorganization through rewiring might actually be an example of its ability to refine its existing inputs. In our research, we found that rather than completely repurposing regions for new tasks, the brain is more likely to enhance or modify its preexisting architecture. This redefinition of neuroplasticity implies that the brain's adaptability is marked not by an infinite potential for change but by a strategic and efficient use of its existing resources and capacities. While neuroplasticity is indeed a real and powerful attribute of our brain, its true nature and extent are more constrained and specific than the broad, sweeping changes that are often depicted in popular narratives.
+
+So how can blind people navigate purely based on hearing or individuals who have experienced a stroke regain their motor functions? The answer, our research suggests, lies not in the brain's ability to undergo dramatic reorganization but in the power of training and learning. These are the true mechanisms of neuroplasticity. For a blind person to develop acute echolocation skills or a stroke survivor to relearn motor functions, intensive, repetitive training is required. This learning process is a testament to the brain's remarkable but constrained capacity for plasticity. It's a slow, incremental journey that demands persistent effort and practice.
+
+Our extensive analysis of many of the cases previously described as "reorganization" suggests there are no shortcuts or fast tracks in this journey of brain adaptation. The idea of quickly unlocking hidden brain potential or tapping into vast unused reserves is more wishful thinking than reality. Understanding the true nature and limits of brain plasticity is crucial, both for setting realistic expectations for patients and for guiding clinical practitioners in their rehabilitative approaches. The brain's ability to adapt, while amazing, is bound by inherent constraints. Recognizing this helps us appreciate the hard work behind every story of recovery and adapt our strategies accordingly. Far from being a realm of magical transformations, the path to neuroplasticity is one of dedication, resilience and gradual progress. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

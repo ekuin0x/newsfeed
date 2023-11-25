@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think your relationship is on the rocks? It could be this little-known disorder: ‘It eats me alive’</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Constantly questioning aspects of your relationship even though there’s nothing ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Think your relationship is on the rocks? It could be this little-known disorder: ‘It eats me alive’</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://nypost.com/wp-content/uploads/sites/2/2023/11/mental-health-condition-person-obsessive-72777385.jpg?quality=75&strip=all&w=1024" alt="">
+
+                <textarea id="text" readonly> Constantly questioning aspects of your relationship even though there’s nothing to worry about?
+
+Turns out you’re not alone — you may be suffering from a condition so common it’s now a diagnosed medical disorder.
+
+Relationship Obsessive Compulsive Disorder (rOCD) is a “newly recognized” type of OCD, with a sufferer “primarily concerned with fears and doubts” about life with their significant other.
+
+“People with rOCD may experience intrusive thoughts, fears, and anxiety about whether their partner is right for them, whether they are attracted to their partner or their partner is attracted to them, and intense doubt regarding whether they need to end their relationship,” one online explainer reads.
+
+Courtney Pare, a Rhode Island doctor who specializes in anxiety, recently took to TikTok to share a video about rOCD which quickly went viral.
+
+In the explainer clip, Pare shares the questions that plague those who suffer from the condition as she acts out how they might look while in the throes of rOCD.
+
+3 Relationship Obsessive Compulsive Disorder (rOCD) is a “newly recognized” type of OCD, with a sufferer “primarily concerned with fears and doubts” about life with their significant other. Prostock-studio – stock.adobe.com
+
+“What if I’m not really in love with my partner?” Pare asks as she tosses and turns in her bed.
+
+“What if they don’t really love me?” she further queries as she forlornly brushes her teeth.
+
+Other questions that cripple a rOCD sufferer include “What if I’m missing out on someone else by being with my partner?” and “Do I miss them enough when I’m not with them?”
+
+
+
+3 In the explainer clip, Pare shares the questions that plague those who suffer from the condition as she acts out how they might look while in the throes of rOCD. TikTok / @drcourtneypare
+
+Viewers of Pare’s video were left stunned, with many realizing that they had been asking themselves those questions, realizing that they had rOCD.
+
+“OH MY GOD you just changed my life,” one stated. “I have OCD and this has been happening even though my partner is absolutely amazing and I felt like such a bad girlfriend.”
+
+“It’s literal hell, because I know I love him so much and would do anything for him but these thoughts eat me alive,” another agreed.
+
+“I thought I was alone in feeling this way and was wrong for thinking like this. Thank you for providing me comfort and reassurance,” a third chimed in.
+
+3 Viewers of Pare’s video were left stunned, with many realizing that they had been asking themselves those questions, realizing that they had rOCD. TikTok / @drcourtneypare
+
+However, Pare says there are ways to help manage — and even overcome — rOCD.
+
+The doctor recommends therapy and even journaling, saying that seeing your thoughts on the page may alleviate some of the compulsive questioning.
+
+Communication with your partner may also be helpful, but Pare also says that no relationship is ever without uncertainty, which is something an rOCD sufferer must come to terms with.
+
+“This can be distressing & exhausting but you CAN have loving, fulfilling relationships without certainty,” she stated. “You’ve got this.” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

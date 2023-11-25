@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientists Uncover Potentially Serious Side Effect of Common Cancer Drug</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The research evaluated the occurrence, contributing factors, and treatment strat">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Scientists Uncover Potentially Serious Side Effect of Common Cancer Drug</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://scitechdaily.com/images/Cancer-Cells-Illustration.jpg" alt="">
+
+                <textarea id="text" readonly> The research evaluated the occurrence, contributing factors, and treatment strategies for high blood sugar caused by alpelisib in individuals with metastatic breast cancer.
+
+Recent studies have revealed that breast cancer patients undergoing treatment with the oral medication alpelisib are experiencing increased occurrences of hyperglycemia, or high blood sugar. This finding was detailed in a recent study published in Cancer, a peer-reviewed journal of the American Cancer Society.
+
+Alpelisib is a drug that specifically inhibits the phosphoinositide 3-kinase (PI3K) protein, which plays a crucial role in cell growth. Mutations in this protein can lead to cancer development. In 2019, the US Food and Drug Administration sanctioned the use of alpelisib along with fulvestrant, a drug that blocks estrogen receptors, for treating specific types of metastatic breast cancer characterized by mutations in the gene responsible for encoding a PI3K subunit.
+
+Side Effects and Research Findings
+
+Unfortunately, targeting PI3K can lead to hyperglycemia as a side effect which, if severe, can result in dehydration or kidney damage and can require hospitalization. Sherry Shen, MD, of Memorial Sloan Kettering Cancer Center, and her colleagues set out to describe the incidence, risk factors, and treatment patterns of alpelisib-associated hyperglycemia in patients with metastatic breast cancer treated in a clinical trial or as standard care at their institution.
+
+Among 147 patients treated with alpelisib as standard care, the rate of hyperglycemia was 80.3%, and the rate of serious hyperglycemia was 40.2%. Among 100 patients who were treated during a clinical trial, rates were lower (34.0% any grade and 13.0% serious hyperglycemia). The median time to onset of hyperglycemia after initiating alpelisib was 16 days. An initially elevated hemoglobin A1c, an indicator of high blood sugar such as in prediabetes or diabetes, was a risk factor for later developing hyperglycemia.
+
+Among patients who developed hyperglycemia, 66.4% received treatment, most commonly with the diabetes drug metformin.
+
+Managing Hyperglycemia and Future Directions
+
+“If a patient is identified to have a PI3KCA mutation and thus eligible for treatment with alpelisib, we should be checking hemoglobin A1c level and partnering with the patient’s primary care physician and/or endocrinologist to optimize their blood sugar levels,” said Dr. Shen. “This needs to be done months before initiating alpelisib, because once alpelisib is started, hyperglycemia usually develops within the first two weeks of treatment. Being pre-emptive about improving glycemic status and treating prediabetes/diabetes will hopefully lower the patient’s risk of developing hyperglycemia and thus, lower their risk of needing to discontinue a drug that could be effective for their cancer.”
+
+Senior author Neil M. Iyengar, MD noted that optimizing a patient’s blood sugar levels often involves changes to dietary and exercise patterns, and potentially introducing certain medications. “Improving metabolic risk factors through lifestyle interventions may also improve dose delivery of alpelisib, and ongoing clinical trials by our group and other groups are testing whether metabolic interventions such as the ketogenic diet or newer medications used to treat diabetes could also improve the treatment efficacy of cancer therapies that target the PI3K pathway,” he said.
+
+Reference: “Incidence, risk factors, and management of alpelisib-associated hyperglycemia in metastatic breast cancer” by Sherry Shen, Yuan Chen, Andrea Carpio, Cassandra Chang and Neil M. Iyengar, 25 September 2023, Cancer.
+
+DOI: 10.1002/cncr.34928 </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

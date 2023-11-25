@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Here's how much shoppers plan to spend between Black Friday and Cyber Monday</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Despite mounting financial pressures, holiday shoppers say they are planning to ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Here's how much shoppers plan to spend between Black Friday and Cyber Monday</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://assets3.cbsnewsstatic.com/hub/i/r/2023/11/21/5159f17e-8919-4c7f-8f8d-5224dfd0e924/thumbnail/1200x630/3c49f44772f8817f5fb137eb13470c52/cbsn-fusion-useful-tips-for-black-friday-shopping-thumbnail-2469875-640x360.jpg?v=5659e73acd91751548aa89950cf015b0" alt="">
+
+                <textarea id="text" readonly> Despite mounting financial pressures, holiday shoppers say they are planning to shell out more money on Black Friday and Cyber Monday sales this year than last.
+
+That's according to a recent survey from auditing firm Deloitte that shows consumers plan to spend an average of $567 between Black Friday and Cyber Monday this holiday season, or 13% more than they spent during the four-day shopping extravaganza in 2022.
+
+Check out CBS Essentials for information on the best Black Friday deals:
+
+Consumers have bumped up their holiday shopping budgets as retailers this year have stepped up sales and deepened discounts to attract households squeezed by inflation and rising credit card rates.
+
+"Cyber Week is off to a strong start, with Thanksgiving driving a record $5.6 billion in online spend as consumers took advantage of strong discounts and continued their shopping plans, virtually," said Vivek Pandya, lead analyst, Adobe Digital Insights.
+
+Deloitte surveyed 1,200 consumers between Oct.19 and Oct. 25.
+
+Despite the early rise in holiday spending, consumers are feeling strapped for cash as their savings dwindle and their credit card debt grows. And although forecasters predict easing inflation will continue to slow, many necessities like food and rent remain significantly more expensive than they were before the pandemic.
+
+Those cost pressures have left consumers "a lot more cautious about spending," Neil Saunders, a retail analyst at GlobalData Retail, told CBS MoneyWatch. At the same time. many shopper are also "more receptive to bargains," increasing the likelihood that they'll spend during Black Friday, Saunders said.
+
+Best Black Friday deals in years
+
+Both the number of Black Friday shoppers and the size of their budgets are growing, as retailers reduce prices to lows not seen in years. This holiday season, toys, games and hobby gear are on track to see their best bargains since 2020, according to a Reuters analysis of federal labor data. Men's suits, outerwear, sports coats, women's dresses and audio equipment are 8% to 14% cheaper compared with pre-pandemic levels, the analysis shows.
+
+According to Adobe's estimates toys will be discounted 35% on average this year, compared with 22% a year ago, while electronics prices will be slashed 30%. compared with 27% over the same period in 2022.
+
+More than half of shoppers plan to take full advantage of store bargains during Black Friday and Cyber Monday, with four in 10 consumers planning to complete all of their seasonal shopping during that four-day sales window, according to Deloitte's survey. Meanwhile, data from the National Retail Federation shows that 182 million people are expected to shop between Thanksgiving Day and Cyber Monday this year, marking the highest turnout of holiday shoppers since 2017.
+
+Shoppers are earmarking more of their money for virtual holiday shopping, rather than deals at brick-and-mortar stores, Deloitte's survey shows.
+
+According to the poll, shoppers plan to spend $169 in online purchases this Black Friday, a 40% increase from $121 in 2019. By comparison, consumers say they plan to spend $138 on in-store purchases on Black Friday this year.
+
+—The Associated Press contributed reporting </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

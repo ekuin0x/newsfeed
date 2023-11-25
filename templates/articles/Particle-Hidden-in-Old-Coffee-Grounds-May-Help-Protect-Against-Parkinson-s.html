@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Hidden in Old Coffee Grounds May Help Protect Against Parkinson's</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Long before symptoms of neurodegeneration appear, the brain's tissues are slowly">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Particle Hidden in Old Coffee Grounds May Help Protect Against Parkinson's</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.sciencealert.com/images/2023/11/coffee_grounds_quantum_dots.jpg" alt="">
+
+                <textarea id="text" readonly> Long before symptoms of neurodegeneration appear, the brain's tissues are slowly failing under a barrage of chemical assaults.
+
+Reinforcing our nervous system against such attacks requires smuggling some kind of protection across a formidable boundary called the blood-brain barrier.
+
+A tiny particle made from compounds found in discarded coffee grinds just might be up to the job.
+
+Researchers from The University of Texas at El Paso (UTEP) demonstrated in lab tests their specially formulated material was more than capable of mopping up the kinds of substances that trigger the degeneration of nerve cells that leads to conditions like dementia and Parkinson's disease.
+
+"It is critical to address these disorders before they reach the clinical stage," says UTEP chemist and study first author, Mahesh Narayan.
+
+"At that point, it is likely too late. Any current treatments that can address advanced symptoms of neurodegenerative disease are simply beyond the means of most people. Our aim is to come up with a solution that can prevent most cases of these conditions at a cost that is manageable for as many patients as possible."
+
+Among the numerous contributing causes of neurodegeneration are a host of environmental factors, including various herbicides and pesticides. One notorious example is the widely used weed killer paraquat.
+
+Despite numerous studies linking the chemical with increased risk of developing Parkinson's disease – a risk paraquat's Swiss manufacturer has allegedly known about since the 1960s – the herbicide is increasingly being used alongside other herbicides to manage crop pests.
+
+Inside the nervous system, paraquat's talent for catalyzing the formation of superoxide free radicals can trigger a chain of reactions that leads to the death of neurons.
+
+Countering those free radicals through the use of antioxidants could give nerve cells a fighting chance. There's just one problem – the blood-brain barrier is just too good at its job, preventing most antioxidants we might load up on in our diet from seeping deep into our brain.
+
+Caffeic acid is a notable exception. An antioxidant found in wine, apples, and, of course, coffee, its detectability in spinal fluid suggests it might be able to slip through our nervous system's fences in some concentrations.
+
+To give caffeic acid's superoxide-fighting kung-fu a boost, Narayan and his team transformed the compound into something called a quantum dot.
+
+Just a few nanometers across, these itty-bitty chunks have electromagnetic properties that let quantum effects shine through, making them handy in technologies that rely on highly tunable optical outputs.
+
+In this case, baking coffee waste into caffeic acid carbon quantum dots (CACQD) enriches electromagnetic bonds within the molecules referred to as an sp2-network, helping them not only mop up radicals more efficiently but potentially slip through the blood-brain barrier with greater ease.
+
+Analyzing the physical characteristics of their CACQDs, and conducting a series of tests on human neuroblastoma-derived cell lines, the researchers showed their spin on caffeic acid was effective at impeding the clumping of proteins typically associated with neurodegeneration.
+
+Knowing a therapeutic compound works in a glass dish isn't the same as demonstrating success in a human body, of course. But the fact CACQDs can be produced easily from a readily-available waste material only adds to their appeal.
+
+"Caffeic-acid based Carbon Quantum Dots have the potential to be transformative in the treatment of neurodegenerative disorders," says the research team's leader, UTEP chemist Jyotish Kumar.
+
+"This is because none of the current treatments resolve the diseases; they only help manage the symptoms. Our aim is to find a cure by addressing the atomic and molecular underpinnings that drive these conditions."
+
+This research was published in Environmental Research. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is it cold weather, allergies or something worse? DC-area doctor shares how to spot the signs</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Colder weather and holiday gatherings are coming, and local doctors are warning ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Is it cold weather, allergies or something worse? DC-area doctor shares how to spot the signs</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://wtop.com/wp-content/uploads/2020/01/GettyImages-1124732633.jpg" alt="">
+
+                <textarea id="text" readonly> Colder weather and holiday gatherings are coming, and local doctors are warning about how to tell whether you might be having allergies — or something more.
+
+Colder weather and holiday gatherings are coming, and local doctors are warning about how to tell whether you might be having allergies — or something more.
+
+Dr. Troy Baker, an allergist with Kaiser Permanente, said one allergen in particular is most prevalent this time of year.
+
+“Mold is out, so people with mold allergies are going to be suffering from hay fever-type symptoms,” he told WTOP.
+
+But, he said, that can also be misleading.
+
+“Viruses circulate like RSV, COVID-19, even the common cold — can make people feel confused,” Baker said.
+
+He explained some symptoms — runny nose, sore throat and sinus congestion, to name a few — can overlap with allergies.
+
+“If you have a virus, it’s going to be different in some ways,” Baker said. “Getting a fever, having muscle aches or chills, losing your sense of smell.”
+
+With those other sicknesses out there, Baker said you may want to talk to your doctor about geting a vaccine, and if that’s right for you.
+
+Currently, he said, there are vaccines for flu, COVID and RSV available for those 6 months and older. The RSV vaccine is only available for populations more susceptible to RSV.
+
+“That includes individuals ages 60 years of age and up,” he explained. “It also includes pregnant women in their third trimester of pregnancy between weeks 32 and 36, and infants 8 months or younger, about to enter their first RSV season.”
+
+Baker said to remember, if you do decide to get a shot around the holidays, that it can take up to two weeks for the body to fully immunize from a vaccine.
+
+“So if you’re thinking about travel for the holidays, now is the time for you to get the vaccine — to give yourself time for your body to make the antibodies you need to protect yourself,” he said.
+
+Baker also said that good hygiene is a great practice to employ this season to help avoid these illnesses altogether. He said washing your hands and keeping hand sanitizer handy can go a long way in helping prevent the spread of germs.
+
+Finally, he said, if you do believe you are suffering from fall allergies and not an illness, making an appointment with your doctor for allergy testing (through blood work or skin testing) can be an important first step.
+
+“That can help answer your questions,” he said, “and give you that piece of mind once and for all!” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

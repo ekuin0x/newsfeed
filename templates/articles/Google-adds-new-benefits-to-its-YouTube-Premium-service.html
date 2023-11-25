@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google adds new benefits to its YouTube Premium service</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="After the Stadia fiasco, Google’s next adventure in the gaming world is much sma">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Google adds new benefits to its YouTube Premium service</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://m-cdn.phonearena.com/images/article/152942-wide-two_1200/Google-adds-new-benefits-to-its-YouTube-Premium-service.jpg" alt="">
+
+                <textarea id="text" readonly> After the Stadia fiasco, Google’s next adventure in the gaming world is much smaller in magnitude. Back in September, the search giant announced a new YouTube feature called Playables.Announced as an “experimental” feature, the new perk allowed users to play games in the YouTube app without having to actually download anything. Only a limited number of users had access to the new Playables tab, which is why we didn’t know what the new feature looks like.Less than a week ago, Android Authority published several screenshots showing the Playables tab, thus predicting today’s launch. Granted, the new feature is only available in select countries, it’s a sign that Google plans to expand Playables globally.According to Droid-life , only YouTube Premium members benefit from the new Playables feature. If you’re a Premium subscriber, you should receive a notification from YouTube letting you know about Playables.Just like Netflix, YouTube’s Playables allows Premium subscribers to play games directly in the app on both desktop and mobile devices. The new Playables section should be displayed alongside other content on YouTube’s home feed.Currently, there are nearly three dozen mobile games available to play for free, which is kind of surprising since Google initially said that it will bring the games both to mobile and desktop devices.What’s even more surprising is that the games are only available for free until March 28, 2024. It’s highly unlikely that anyone will pay for such a service, especially since other companies offer similar benefits for free. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

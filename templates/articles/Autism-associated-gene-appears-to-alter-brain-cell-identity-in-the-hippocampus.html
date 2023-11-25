@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autism-associated gene appears to alter brain cell identity in the hippocampus</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="This article has been reviewed according to Science X's editorial process and po">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Autism-associated gene appears to alter brain cell identity in the hippocampus</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://scx2.b-cdn.net/gfx/news/hires/2023/autism-associated-gene.jpg" alt="">
+
+                <textarea id="text" readonly> This article has been reviewed according to Science X's editorial process and policies . Editors have highlighted the following attributes while ensuring the content's credibility:
+
+This image, obtained from a mouse brain using a brightfield microscope, shows the richly diverse cells of the hippocampus pseudocolored with different hues. Maria Chahrour, Ph.D., and colleagues investigated how cells in the hippocampus are affected in autism spectrum disorder, showing that unique subtypes of excitatory and inhibitory neurons are particularly vulnerable upon loss of an autism gene and chromatin regulator. Credit: UT Southwestern Medical Center
+
+A gene previously linked to autism spectrum disorder (ASD) by UT Southwestern Medical Center researchers appears to play an important role in steering cells in the brain's hippocampus toward their ultimate identities, the same team reported in a new study. The findings, published in Science Advances, could eventually lead to new therapies for the prevalent neurodevelopmental disorder.
+
+"This study is one of the few that provides a mechanistic understanding of autism spectrum disorder," said senior author Maria Chahrour, Ph.D., Associate Professor of Neuroscience and Psychiatry and an Investigator in the Peter O'Donnell Jr. Brain Institute at UT Southwestern.
+
+About 1 out of every 36 children in the United States is diagnosed with ASD, according to the Centers for Disease Control and Prevention. Underscoring the significant role of genetics in ASD, Dr. Chahrour noted that twin studies suggest about 90% heritability. Although hundreds of genes associated with ASD have been identified, she added, how these genes might contribute to the disorder is largely unknown.
+
+In 2020, Dr. Chahrour and her colleagues discovered an ASD-associated gene called KDM5A, showing that patients carrying mutations in this gene typically have ASD, lack of speech, intellectual disability, and other symptoms. Although KDM5A is known to encode a chromatin regulator—a protein that affects how DNA is packaged in cells and whether other genes are expressed—the mechanism behind its role in ASD was unknown.
+
+Knowing that chromatin regulators affect cell identity, or how cells develop into specific types, Dr. Chahrour and her colleagues delved into the assortment of cell types in a mouse model in which this gene had been eliminated. They looked specifically at the brain's center of learning and memory, the hippocampus, the structure and function of which is altered in ASD.
+
+The hippocampus has four main cell types—excitatory neurons, inhibitory neurons, glia, and endothelial cells—and these four are further divided into 24 subtypes. Using a technique known as single-nuclei RNA sequencing, the researchers sequenced more than 105,000 nuclei to compare the populations of cell types present in the hippocampus among mice with KDM5A and mice without the gene, or "knockouts."
+
+Their analysis showed distinct differences in four subtypes of excitatory neurons and two subtypes of inhibitory neurons. In the mice without KDM5A, some of these cell types increased in number, some decreased, and one switched to a different subtype within its class, suggesting KDM5A plays an important part in determining cell identity during development.
+
+A closer look at the cells in the KDM5A knockout animals' hippocampi showed cells in this area appeared more mature, with abnormally more and longer branching cells than in animals with KDM5A. Many of the affected cells resided in a region of the hippocampus known as CA1, key for storing social memories, or recollections of interactions with others.
+
+The changes in cell types can result in imbalances of excitation and inhibition, and the defects in cellular development can damage hippocampal circuits and lead to dysfunction of the hippocampus, accounting for some of the symptoms associated with ASD, Dr. Chahrour said.
+
+Dr. Chahrour, who is also an associate professor in the Eugene McDermott Center for Human Growth and Development and the Center for the Genetics of Host Defense at UTSW, said these findings further the vital mission of her lab: To understand molecular mechanisms underlying ASD and related neurodevelopmental conditions.
+
+More information: Lauretta El Hayek et al, Disruption of the autism gene and chromatin regulator KDM5A alters hippocampal cell identity, Science Advances (2023). DOI: 10.1126/sciadv.adi0074 Journal information: Science Advances </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

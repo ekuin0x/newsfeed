@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What triggers itchiness in skin conditions like eczema?</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="This representational image shows an individual scratching their itchy arm. — He">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>What triggers itchiness in skin conditions like eczema?</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.thenews.com.pk/assets/uploads/updates/2023-11-25/l_1132355_031829_updates.jpg" alt="">
+
+                <textarea id="text" readonly> This representational image shows an individual scratching their itchy arm. — Health Shots/File
+
+The discomfort from an itch, especially the one you experience in eczema or dermatitis, is like no other and it seems to only be relieved once it is scratched.
+
+However, despite the temporary relief it gives, excessive scratching can damage the skin, leading to inflammation and further exacerbating the very irritation one seeks to alleviate.
+
+Harvard Medical School scientists, in a recent study published in the journal Cell, discovered that bacteria can trigger itch by activating nerve cells in the skin.
+
+Their breakthrough discovery could potentially help treat itches in inflammatory skin conditions like eczema and dermatitis, Axios reported.
+
+"Up until now, the itch that occurs with eczema and atopic dermatitis was believed to arise from the accompanying inflammation of the skin," according to a statement accompanying the study.
+
+However, the new findings show that Staph aureus, a common bacterium, "single-handedly causes itch" by releasing an enzyme that "culminates in the urge to scratch."
+
+According to the National Eczema Association, about 31.6 million people in the US have some form of eczema, with the prevalence peaking during early childhood.
+
+A key finding of the research, that scientists based on mice and human cells, occurred when they discovered that using an already approved anticlotting drug that blocks a protein called PAR1 stopped itching in mice.
+
+"We've identified an entirely novel mechanism behind itch — the bacterium Staph aureus, which is found on almost every patient with the chronic condition atopic dermatitis," said study co-author Isaac Chiu, an associate professor of immunology at Harvard Medical School.
+
+"We show that itch can be caused by the microbe itself."
+
+Meanwhile, according to Stat News, Brian Kim, a physician-scientist at Icahn School of Medicine at Mount Sinai who was not involved in the study, said that this was among the first research to show a "clear mechanism" between itching and bacteria.
+
+"It kind of makes you wonder ... what else did we miss?"
+
+Researchers at Harvard are planning to further investigate if other microbes can trigger itch, and may explore the reasons behind a microbe causing itch and its evolutionary implications in the future.
+
+"We know that many microbes, including fungi, viruses, and bacteria, are accompanied by itch but how they cause itch is not clear," Chiu said. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Friday: Samsung US offers exclusive discounts on foldables, the S23 Ultra and more</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="You’ve been hearing about Black Friday deals for a couple of weeks now, but toda">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Black Friday: Samsung US offers exclusive discounts on foldables, the S23 Ultra and more</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://fdn.gsmarena.com/imgroot/news/23/11/samsung-us-black-friday-24/-952x498w6/gsmarena_000.jpg" alt="">
+
+                <textarea id="text" readonly> You’ve been hearing about Black Friday deals for a couple of weeks now, but today is the day. Once again Samsung US is using the opportunity to get you to try out its Shop Samsung app with some exclusive discounts. You can go through the web store too, though you will need a student discount to get the same price drops that the app offers.
+
+Let’s start with the foldables. The Samsung Galaxy Z Fold5 comes with a free storage upgrade to 512GB and you can get 25% off through the app. The student discount is also 25%, but they don’t stack. What does stack is the trade-in credit – you can drop the price by up to $1,000. Note: the free storage upgrade is also available through the web store but only for today.
+
+The Samsung Galaxy Z Flip5 gets a 25% discount through the app and you can get up to $600 trade-in credit. The student discount is actually a bit higher at 30%. Note that the trade-in credit is subtracted from the MSRP first, the percentage discount is applied second.
+
+If you’re not into foldables, the Samsung Galaxy S23 Ultra has a better camera setup and a place to put the S Pen without a case. It has a 25% discount through the app or you can go for the 25% student discount from the web store. In either case the trade-in credit is capped at $800.
+
+You can also pick up Samsung accessories. The Galaxy Watch6 is $80 off through the app and the web store.
+
+There are also the Galaxy Buds2 Pro – if you want a discount on these, you can get $70 off through the app and the web store.
+
+Here are some entertainment options to wrap things up. If you have a place to put a screen for a projector, you can grab The Freestyle (2nd gen) from Samsung with a 25% discount. The projector will figure out details like focus, keystone correction and so on, you just pick which movie you want to watch. Or you can use it to play a game using the Game Hub (which supports the major game streaming services).
+
+For gaming you might be better off with the 57” Samsung Odyssey Neo G9, which is basically two 4K monitors side by side (and with no bezel in between). It’s a curved display (1000R), a mini-LED panel with a DisplayHDR 1000 rating (1,000 nits) and 240Hz refresh rate (1ms gray-to-gray response time).
+
+We may get a commission from qualifying sales. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

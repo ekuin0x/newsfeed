@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cigna denied a cancer patient's lung transplant. Now the insurer says it was an 'error.'</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="A large health insurance company said it made an error when it denied coverage t">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Cigna denied a cancer patient's lung transplant. Now the insurer says it was an 'error.'</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.usatoday.com/tangstatic/sites/usat/og-image-q1a2z3fb72acfa.png" alt="">
+
+                <textarea id="text" readonly> A large health insurance company said it made an error when it denied coverage this week to a 47-year-old woman as she prepared to undergo a double-lung transplant to treat her lung cancer.
+
+The woman, Carole Taylor, was summoned to Vanderbilt University Medical Center Tuesday when the hospital found a donor match for a double lung transplant. As the transplant team prepared her for the procedure, she was informed the insurance company, Cigna Healthcare, had denied the transplant.
+
+Instead of getting a pair of donor lungs, Taylor was sent home and deactivated from the transplant waitlist.
+
+But following a public outcry on the social media site X and Taylor's own words describing the ordeal on Substack, Cigna Healthcare said the insurer now will cover the transplant.
+
+"There are a number of unique circumstances in this case, and we have moved swiftly to resolve our error so (Carole Taylor's) transplant will be covered," Cigna Healthcare said in a statement emailed Wednesday to USA TODAY. "We deeply regret the pain and stress this has caused (Taylor) and her loved ones.”
+
+Vanderbilt Medical Center officials said she will once again be activated on the transplant list. The medical team will need to identify a pair of donor lungs before she's able to once again to undergo a transplant procedure, Vanderbilt spokesman John Howser told USA TODAY.
+
+Howser said patients generally must have prior approval for insurance coverage to be listed on the United Network for Organ Sharing, a nonprofit which manages the nation's organ transplant system. Patients need to take anti-rejection medications and follow-up care after a transplant, and nearly all patients can't afford those costs without insurance coverage.
+
+Insurance pre-approval is part of Vanderbilt's evaluation process, along with tests and a comprehensive medical evaluation, according to Howser.
+
+On her Substack post shared by the writer David Dark on Wednesday, Taylor said she was sent home Tuesday from Vanderbilt "because my insurance company, Cigna Healthcare, has now denied my claim which they had previously approved."
+
+Cigna had determined cancer was not an approved condition for lung transplant and decided not to cover it.
+
+"Our healthcare system is not simply broken, it is corrupt and anti-life," Taylor said in the post. "When a company has the power to step in moments before a lifesaving surgery and refuse coverage despite the medical experts insisting it is crucial, time-sensitive, and all other options have been carefully weighed, there is no logical explanation other than greed."
+
+Taylor, a teacher in Nashville, could not be reached Wednesday.
+
+Howser said donor organs are matched with recipients based on factors such as body size, blood and tissue type and other criteria. There are typically several candidates waiting for an organ donation. When there's a delay or denial in the transplant process for a recipient, the organ usually goes to the next candidate who is a match.
+
+Taylor said in her post that's she the first lung cancer patient at Vanderbilt to receive approval for lung transplant. Her doctors had been in close contact with a team at Northwestern University, which completed lung transplants on two lung cancer patients since 2021. Taylor has non-small cell lung cancer.
+
+The Northwestern team completed lung transplants on patients whose conventional chemotherapy and other treatments failed. Doctors planned to track up to 75 patients as part of a study listed on clinicaltrials.gov, a federal website that tracks clinical trial results.
+
+Ken Alltucker is on X, formerly Twitter, at @kalltucker, or can be emailed at alltuck@usatoday.com. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

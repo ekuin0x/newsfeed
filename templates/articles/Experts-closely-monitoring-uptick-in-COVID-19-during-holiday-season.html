@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experts closely monitoring uptick in COVID-19 during holiday season</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="As the season of gatherings and get-togethers begins, a warning from those track">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Experts closely monitoring uptick in COVID-19 during holiday season</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://kstp.com/wp-content/uploads/2022/03/COVID-19-Rapid-test-MGN_1280x720.jpg" alt="">
+
+                <textarea id="text" readonly> As the season of gatherings and get-togethers begins, a warning from those tracking COVID-19 throughout the state comes along with it – caution will be key to help turn an increasing trend around.
+
+“Right now, we are seeing an uptick,” Dr. Susan Kline, of the University of Minnesota’s Medical School, said, adding, “It is increased compared to where we’ve been the last several weeks.”
+
+Dr. Kline said it’s not a dramatic increase, but one they’ll be watching closely as the university and Minnesota Department of Health (MDH) are now in charge of tracking COVID-19 in the state’s wastewater.
+
+The latest data available shows a 13-percent increase over the last two weeks, part of a slow rise that began in June. But, the state is nowhere near the levels tracked at the beginning of the year. Still, Dr. Kline says with the timing of the trend, people should lean on our experience about what we know about this virus.
+
+“If you’ve been exposed to somebody who’s ill, especially if it’s someone with COVID, again, probably best to test yourself before you go to a holiday gathering,” Dr. Kline said. “If you’re feeling well, and the test is negative, I think it’d be okay to go [to a holiday gathering]. But, depending on how close your exposure was, you maybe should be wearing a mask.”
+
+She also suggests taking advantage of the tools at hand – including Paxlovid, a medication meant to treat COVID-19 that needs a prescription. And, just this week, the federal government is sending free at-home COVID-19 tests again – households can order up to eight tests, depending if they ordered the four offered earlier this year.
+
+“I think those [at-home COVID-19 tests] are probably the easiest and quickest tests that people can get their hands on at short notice, and they’re quite good,” Dr. Kline said.
+
+Order your free tests HERE.
+
+Dr. Kline said it’s also not too late to get the COVID-19 vaccine for it to make an impact this season. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

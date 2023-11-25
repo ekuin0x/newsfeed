@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What happens to your body if you eat tomatoes every day?</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Tomatoes, with their vibrant colours and rich flavours, have long been a staple ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>What happens to your body if you eat tomatoes every day?</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://images.indianexpress.com/2023/11/tomatoes.jpg" alt="">
+
+                <textarea id="text" readonly> Tomatoes, with their vibrant colours and rich flavours, have long been a staple in kitchens around the world. Beyond their culinary versatility, these juicy fruits pack a nutritional punch that can positively impact your overall health. But what happens to your body when you make tomatoes a daily part of your diet?
+
+Dr K. Somnath Gupta, physician & diabetologist, Yashoda Hospitals Hyderabad, said it can have various effects on your body as tomatoes are rich in vitamins, minerals, and antioxidants, providing several health benefits.
+
+High levels of antioxidants, such as lycopene, in tomatoes, may contribute to improved heart health by reducing the risk of cardiovascular diseases.
+
+Advertisement
+
+Dr Ranga Santhosh Kumar, who is also a physician & diabetologist at Yashoda noted that both lycopene and β-carotene are two important carotenoids found in tomatoes and both have been suggested to confer the anticancer properties of the fruit.
+
+He added that tomato powder has also been shown to significantly increase the diversity and richness of the gut microbiome and prevent inflammatory responses and intestinal damage.
+
+On top of this, tomatoes are a good source of vitamins C and K, as well as potassium. “Vitamin C supports the immune system and skin health, while vitamin K is essential for blood clotting and bone health. Potassium helps regulate blood pressure and fluid balance,” Dr Gupta explained.
+
+Tomatoes intake regularly may aid in weight management due to their low calorie and high water content, he added. “The fibre in tomatoes can promote satiety, potentially reducing overall calorie intake.”
+
+Advertisement
+
+Tomatoes intake regularly may aid in weight management due to their low calorie and high water content (Source: Freepik) Tomatoes intake regularly may aid in weight management due to their low calorie and high water content (Source: Freepik)
+
+Are there any drawbacks of eating tomatoes?
+
+In contrast to the above-mentioned beneficial effects of a tomato-enriched diet, it is also important to report the potentially detrimental effects that tomato-enriched diets can have on human health.
+
+Some people may be sensitive to the acidic nature of tomatoes, which could lead to digestive issues or exacerbate symptoms of conditions like acid reflux.
+
+May lead to nutritional imbalances.
+
+It may also cause “urinary problems, migraines, body aches related to glycoalkaloids, anaphylactic reactions, lycopenodermia,” said Dr Kumar
+
+Is there anyone who should avoid eating too many tomatoes?
+
+Individuals with certain medical conditions, such as kidney stones, may need to monitor their tomato intake due to the presence of oxalates, which can contribute to stone formation, noted Dr Gupta. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

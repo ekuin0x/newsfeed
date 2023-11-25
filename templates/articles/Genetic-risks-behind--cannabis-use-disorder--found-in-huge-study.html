@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genetic risks behind 'cannabis use disorder' found in huge study</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Scientists have pinpointed gene variants tied to the risk of developing cannabis">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Genetic risks behind 'cannabis use disorder' found in huge study</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://s.yimg.com/ny/api/res/1.2/7RMzhx9CMg82EIy8gUPPVg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/live_science_953/f53568d16148dc27604f62e9976e8c4c" alt="">
+
+                <textarea id="text" readonly> Scientists have pinpointed gene variants tied to the risk of developing cannabis use disorder , in which people build up tolerance to weed and struggle to cut back despite negative impacts on their life and health.
+
+The disorder has formal diagnostic criteria in the manual for mental health disorders . But "roughly, what it means is cannabis use that becomes problematic and involves tolerance or other biological signs of dependence, like withdrawal," Dr. Joel Gelernter , a professor of genetics and neuroscience at Yale University School of Medicine and researcher with the U.S. Department of Veterans Affairs (UDVA), told Live Science.
+
+To probe potential genetic risks of the disorder, Gelernter and colleagues drew data from the Million Veterans Program , which gathers genetic and medical data from U.S. veterans, as well as other large datasets.
+
+In all, their analysis included the genomes of more than 1 million people, about 64,000 of whom had a cannabis use disorder diagnosis. These included mostly people of European descent, but also those of African, East Asian and mixed ancestries.
+
+Related: How does cannabis get you high?
+
+In each population, the team uncovered key hotspots of genetic variation in the genome — called "loci" — associated with cannabis use disorder. They found 22 loci relevant to Europeans, two each among Africans and East Asians, and one in people with mixed ancestries.
+
+"That's why it's just a crucial need to increase recruitment outside of European ancestry" for genomic research, first study author Daniel Levey , an assistant professor of psychiatry at Yale University School of Medicine and researcher with UDVA, told Live Science. Expanding the dataset will reveal more gene variants that are relevant to each population.
+
+The genetics behind cannabis use disorder
+
+In the new study, published Monday (Nov. 20) in the journal Nature Genetics , hotspots of variation often appeared near genes related to neurons, the nervous system cells that communicate with electrical and chemical messages . This included a gene that codes for a dopamine receptor that's known to be crucial to the brain's reward system and to play a role in addiction.
+
+Other types of neurons that respond to different chemical messengers also cropped up in the data. But "we didn't see cannabinoid receptors pop up to the top," which are the receptors cannabis' ingredients directly plug into, Gelernter noted. It's possible that genes related to cannabinoid receptors would pop up in larger datasets. But for now, "I think most of what we saw is downstream to the direct interaction of ingredients in cannabis with brain receptors," he said.
+
+In addition to identifying loci, the researchers investigated if these genetic traits appeared alongside those related to other disorders and behaviors. They uncovered links between cannabis use disorder and smoking cigarettes, various forms of substance dependence, and symptoms of post-traumatic stress disorder (PTSD).
+
+They compared these genetic patterns tied to cannabis use disorder with patterns previously linked to general cannabis use . The two patterns were quite different — general cannabis use was not linked to PTSD, for example. However, both general cannabis use and the diagnosed disorder were linked to schizophrenia, although the latter was a stronger link. Gelernter said the team plans to further study the link between schizophrenia and cannabis use disorder, since this has been raised in past research .
+
+Finally, the team uncovered a potential genetic link between cannabis use disorder and lung cancer, but this requires more research to fully understand.
+
+"Smoking cannabis does contain combustion products that could be a mechanism for how it's associated with lung cancer," Levey said. "But we need to have more focused studies to disentangle that relationship." That's especially true because cannabis use disorder was also tied to cigarette smoking, a known cause of lung cancer .
+
+RELATED STORIES
+
+—Cannabis is no better than a placebo for treating pain, 20 studies show
+
+—CBD reportedly discovered in plant that's not cannabis
+
+—We may finally know where the cannabis plant originated
+
+"To what extent might what we observed be attributable to people simultaneously smoking cigarettes?" Gelernter said. At least in their analyses, cannabis use disorder remained linked to lung cancer even after cigarettes were removed from the equation, but further research is still needed to know what that link means.
+
+Ever wonder why some people build muscle more easily than others or why freckles come out in the sun ? Send us your questions about how the human body works to community@livescience.com with the subject line "Health Desk Q," and you may see your question answered on the website! </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

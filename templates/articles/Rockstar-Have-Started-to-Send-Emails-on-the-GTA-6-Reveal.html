@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockstar Have Started to Send Emails on the GTA 6 Reveal</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="It has been a decade since the release of GTA 5 and now we are just days away fr">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Rockstar Have Started to Send Emails on the GTA 6 Reveal</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://insider-gaming.com/wp-content/uploads/2023/10/gta-6.jpg" alt="">
+
+                <textarea id="text" readonly> It has been a decade since the release of GTA 5 and now we are just days away from GTA 6 finally being revealed by Rockstar Games and it is almost impossible to contain our excitement. It also appears that Rockstar Games is just as excited as it has begun sending emails to players to hype up the upcoming trailer.
+
+A member of Capcom USA’s QA team known as Nima on X has revealed that they received an email from Rockstar Games regarding the upcoming GTA 6 reveal. Nima didn’t share any details of the email, except the sender handle is RGSYNC PR, as well as the heading that reads “[Important] Unveiling the Next Chapter.”
+
+It may seem unusual on the surface that Rockstar Games would send an email to a Capcom USA employee regarding one of its games. However, the two companies have a lengthy relationship, with Capcom handling the publishing of every GTA game from GTA 3 to GTA 4 in Japan between 2003 and 2008. Nima’s affiliation with Capcom USA could also be a coincidence and they are part of a press list for the developer that dates back before their current employment. Taking a look at their X account reveals past posts about receiving review copies for testing games such as Saints Row.
+
+With such little information given by Nima, and no other known instances right now of these emails being sent to other people, it is hard to verify the validity of the post. But it isn’t unusual for competitor studios to communicate with each other as it helps both parties to be able to schedule releases to not conflict with other titles.
+
+Rockstar Games has yet to make an official announcement regarding when GTA 6 will be revealed, except that it will be in early December. Many people are pointing towards The Game Awards which is set to take place on December 6, which would be a giant platform for Rockstar Games to release the trailer for perhaps the most highly anticipated game of all time, but it could also choose to release it earlier as the franchise has enough traction that it doesn’t need to use another platform to gain exposure.
+
+For more Insider Gaming, check out everything we know so far about GTA 6. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

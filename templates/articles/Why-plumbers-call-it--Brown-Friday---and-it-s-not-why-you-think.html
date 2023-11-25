@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why plumbers call it ‘Brown Friday,’ and it’s not why you think</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="While shoppers across the U.S. consider the Friday after Thanksgiving Black Frid">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Why plumbers call it ‘Brown Friday,’ and it’s not why you think</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://ktla.com/wp-content/uploads/sites/4/2020/11/GettyImages-1057497684.jpg?w=1280" alt="">
+
+                <textarea id="text" readonly> While shoppers across the U.S. consider the Friday after Thanksgiving Black Friday, plumbers call it “Brown Friday.”
+
+So, what is Brown Friday?
+
+Sounds gross, right? Well, it is, but not for the reasons you would expect.
+
+For plumbers, the day after Thanksgiving is their busiest day of the year due to the increased amount of house calls regarding clogged drains and broken garbage disposals – and, despite its moniker, not clogged toilets.
+
+More food cooked on Thanksgiving equates to more waste, which guests don’t always dispose of correctly.
+
+Here are a few tips for Thanksgiving hosts this year to help you avoid calling a plumber on Brown Friday.
+
+Don’t throw all waste down garbage disposals
+
+Some guests can treat a garbage disposal as an extra trash can. Experts warn against throwing waste down a drain that can’t be liquified. Doing so can overheat the blades or cause them to die.
+
+Hosts should remind their guests to throw extra food peelings into the trash can, not the garbage disposal, or have more trash cans available.
+
+Certain liquids shouldn’t be tossed down the drain
+
+No one should pour fatty oils and grease down the drain. It’s a common misconception that pouring grease and oil down the drain, followed by hot water, will fix the problem, but experts say that’s not the case.
+
+Instead of pouring the liquids down the drain, people should store the liquid in a container or throw it away.
+
+Toilets aren’t a second trash can
+
+Like garbage disposals, certain items can’t go down a toilet. Experts say that toilets are only suitable to get rid of human waste and toilet paper – nothing else.
+
+Thanksgiving hosts can set out extra trash cans in the bathrooms so guests can quickly get rid of their trash. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

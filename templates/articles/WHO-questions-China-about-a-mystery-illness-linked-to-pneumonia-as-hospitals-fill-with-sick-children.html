@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHO questions China about a mystery illness linked to pneumonia as hospitals fill with sick children</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The World Health Organization has requested more information from China about an">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>WHO questions China about a mystery illness linked to pneumonia as hospitals fill with sick children</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://i.insider.com/6561da11fe5bc6545ebbde3b?width=1200&format=jpeg" alt="">
+
+                <textarea id="text" readonly> The World Health Organization has requested more information from China about an illness affecting children.
+
+Chinese authorities reported an increasing number of respiratory diseases earlier this month.
+
+Reports of "undiagnosed pneumonia" in children in northern China circulated on November 21.
+
+NEW LOOK Sign up to get the inside scoop on today’s biggest stories in markets, tech, and business — delivered daily. Read preview Loading Something is loading. Thanks for signing up! Access your favorite topics in a personalized feed while you're on the go. download the app Email address Sign up By clicking “Sign Up”, you accept our Terms of Service and Privacy Policy . You can opt-out at any time.
+
+Advertisement
+
+The World Health Organization (WHO) asked China for "detailed information" about a respiratory illness that's affecting children in the north of the country.
+
+The organization requested "additional epidemiologic and clinical information" following reports of "undiagnosed pneumonia" spreading among children, according to a statement released on Wednesday.
+
+The rise in cases had led to overcrowded clinics and emergency rooms, the South China Morning Post reported, citing social media posts. Hospitals in northern China appear to be "overwhelmed with sick children," NBC News reported.
+
+The WHO statement said that Chinese authorities had attributed the surge in cases to "the lifting of COVID-19 restrictions and the circulation of known pathogens such as influenza, mycoplasma pneumoniae (a common bacterial infection which typically affects younger children), respiratory syncytial virus (RSV), and SARS-CoV-2 (the virus that causes COVID-19)."
+
+Advertisement
+
+Beijing has since said that no new or unusual pathogens were causing the illnesses, the South China Morning Post reported.
+
+Memories of COVID-19 outbreak
+
+Children and their parents wait at an outpatient area at a children hospital in Beijing on November 23, 2023. The World Health Organization has asked on November 23, 2023, China for more data on a respiratory illness spreading in the north of the country, urging people to take steps to reduce the risk of infection. JADE GAO/AFP via Getty Images
+
+China faced added scrutiny over the news as it conjured up memories of its handling of the COVID-19 outbreak.
+
+Health experts added that a continuing drug resistance problem from the overuse of antibiotics had helped the spread of the illnesses, which were caused by mycoplasma pneumoniae bacteria, per the report.
+
+Mycoplasma pneumoniae bacteria usually cause "mild infections of the respiratory system," but they can sometimes lead to more serious problems that may require hospital treatment, according to the Centers for Disease Control and Prevention.
+
+Advertisement
+
+The health agency says good hygiene is key to preventing the bacteria from spreading to others.
+
+The WHO suggested people in China follow specific steps to mitigate the risk of infection, including taking the "recommended vaccination; keeping distance from people who are ill; staying home when ill; getting tested and medical care as needed; wearing masks as appropriate; ensuring good ventilation; and regular hand-washing. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Travel Tuesday" emerges as a prime day for holiday and winter travel deals</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Travel experts detail some of the Black Friday and Travel Tuesday deals
+
+As the ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/politics">Politics</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainement">Entertainement</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>"Travel Tuesday" emerges as a prime day for holiday and winter travel deals</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sat-6, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://assets2.cbsnewsstatic.com/hub/i/r/2023/11/24/caed869e-137e-4bfd-8944-caf9ebd36bc9/thumbnail/1200x630/106d559aa29a97dbe36a20d51600d180/1124-cmo-traveldeal-kvc-2476921-640x360.jpg?v=5659e73acd91751548aa89950cf015b0" alt="">
+
+                <textarea id="text" readonly> Travel experts detail some of the Black Friday and Travel Tuesday deals
+
+As the holiday shopping frenzy grips the nation, with over 180 million Americans poised to shop from Thanksgiving through Cyber Monday, the travel industry is carving out its niche with "Travel Tuesday." Travel experts call it the best opportunity to snag holiday travel and winter getaway deals.
+
+Travel deals extend beyond Black Friday, continuing into Cyber Monday and culminating in "Travel Tuesday." The day after Thanksgiving promises a broader range of discounts, especially for those flexible with their travel dates and destinations.
+
+Major players in the industry like Royal Caribbean are offering significant discounts, including an extra $750 off on top of up to 30% discounts, with a booking deadline set for Tuesday.
+
+Frontier Airlines is enticing travelers with a year-long "all you can fly" pass for under $500. Spirit Airlines is not far behind, offering flights as low as $20 to destinations like Vegas, Miami and Chicago. Additionally, Priority Pass is cutting prices for airport lounge access by up to 30%.
+
+Brett Keller, Priceline's CEO, said that the holiday shopping season is becoming a time for travel deals.
+
+"What's nice about this timeframe is it really opens up inventory, now is a really compelling time to take advantage of a number of deep discounts and credits that the cruise lines will offer. There's a lot more hotel inventory looking into, into the winter and spring of next year," said Keller.
+
+Hayley Berg, travel app Hopper's lead economist, said that this time often catches people off guard since they are just finishing up celebrating Thanksgiving.
+
+"Most folks aren't thinking about booking their next trip. They've just booked Thanksgiving, thinking about the holidays, gifts.
+
+So for airlines hotels in the travel industry, that's typically a low week in terms of bookings," said Berg.
+
+However, Berg cautions that flexibility might be key to securing these deals.
+
+"You might not get the time of day or the airline that you're looking for. But last year, we saw travelers save upwards of 80% off of their Christmas travel booking on Travel Deal Tuesday," she said. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
