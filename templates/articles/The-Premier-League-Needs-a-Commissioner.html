@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Premier League Needs a Commissioner</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Pete Rozelle’s immediate reaction could not accurately be described as unbridled">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>The Premier League Needs a Commissioner</p>
+            <span id="topic" >premier league</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/24/multimedia/24rory-trophy-pwlz/24rory-trophy-pwlz-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> Pete Rozelle’s immediate reaction could not accurately be described as unbridled enthusiasm. He was 33. He had, for the last three years, been the general manager of the Los Angeles Rams. He was suave, charming and well liked. But he was nevertheless starting to wonder whether running an N.F.L. football team was really the job for him.
+
+And then, outside the Kenilworth Hotel in Miami in January 1960, he was cornered by a cadre of the league’s most fearsome power brokers: the Mara brothers, Jack and Wellington, owners of the Giants; Dan Reeves, the Rams’ benefactor; and Paul Brown, the coach and founder and all-purpose potentate of the team in Cleveland that still bears his name.
+
+They had an offer to make Rozelle. They did not want him to run a franchise. They wanted to put him in charge of the whole league.
+
+It was an offer, in Rozelle’s mind, that he had to refuse. “You’ve got to be kidding,” he told them, according to Michael MacCambridge’s magisterial history of the league, “America’s Game.” “That is the most ludicrous thing I have ever heard.” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

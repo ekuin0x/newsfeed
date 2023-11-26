@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who’s playing for Team USA in the 2023 Davis Cup?</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The Davis Cup, an international men’s tennis competition, was founded in 1900 an">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Who’s playing for Team USA in the 2023 Davis Cup?</p>
+            <span id="topic" >Davis Cup</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://img.asmedia.epimg.net/resizer/Qnl5EGjG3P_7kmSq_gP3CODKd-c=/1472x828/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/KT7AHLKMEQTUU5XQBFWMIV4BYA.jpg" alt="">
+
+                <textarea id="text" readonly> The Davis Cup, an international men’s tennis competition, was founded in 1900 and has since been won by 15 different nations. Interestingly, the inaugural event was won by the U.S. team.
+
+The last time the United States won in the Davis Cup was in 2007, under the captaincy of Patrick McEnroe. The winning team comprised Andy Roddick, James Blake, Mike Bryan, and Bob Bryan. The U.S. team defeated Russia in the final in Portland, Oregon, to clinch their 32nd title.
+
+🏆 2007 champions
+
+🇺🇸 15th year representing USA
+
+🎾 Most ties played for USA (Mike 32, Bob 30)
+
+
+
+After an incredible #DavisCup career, the Bryan brothers will play their final tie this weekend pic.twitter.com/32DSaXPyUR — Davis Cup (@DavisCup) March 3, 2020
+
+John McEnroe, a former American tennis player and Patrick’s brother, still holds the record for the most singles wins in Davis Cup history. He has an impressive tally of 41 victories, a testament to his incredible skills and achievements in the sport.
+
+Team USA in the 2023 Davis Cup
+
+The group stage lineup was finalized in February after the qualifiers. Six teams representing Great Britain, Serbia, Switzerland, Sweden, the USA, and France were among those that made it through.
+
+The 2023 Davis Cup Finals Group Stage is scheduled for September 12 to 17. This event will take place in four different cities across Europe. The premier international team event in men’s tennis will have eight nations competing in the final. The top two teams from each of the four groups of four will advance to the last, which is set to take place in Malaga, Spain, in November.
+
+The U.S. Davis Cup team has secured a spot in the 2023 Davis Cup Finals thanks to the contributions of three rookies. Austin Krajicek, Denis Kudla, and Mackenzie McDonald joined Australian Open semifinalists Tommy Paul and Rajeev Ram in leading the team to a 4-0 sweep over Uzbekistan in the February qualifying round held in Tashkent.
+
+The win earned the team a place in the 2023 Davis Cup Finals group stage, where this time, Francis Tiafoe will lead them against the teams of Croatia, Finland, and the Netherlands in the beautiful coastal city of Split, Croatia. The matches are scheduled to be held during the week, starting on September 11, 2023. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
