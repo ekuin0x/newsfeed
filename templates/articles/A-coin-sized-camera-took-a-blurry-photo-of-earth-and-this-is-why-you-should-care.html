@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A coin-sized camera took a blurry photo of earth and this is why you should care</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The European Space Agency has just released a photo of Earth which is unlike any">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>A coin-sized camera took a blurry photo of earth and this is why you should care</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://media.zenfs.com/en/digital_camera_world_590/a7d150a5e389bb3ce2a7c2bb49886147" alt="">
+
+                <textarea id="text" readonly> The European Space Agency has just released a photo of Earth which is unlike anything you expect to see from modern space imaging equipment. Earth itself is concealed by a dark shadow, it’s hard to distinguish between areas of land and sea and it looks like someone has forgotten to wipe the lens. However, this image has been taken on a camera no bigger than a 20 Euro cent coin (which is smaller than a quarter) on board the very tiny TRISAT-R CubeSat, a satellite roughly the size of a shoebox.
+
+OK, it's small. But in a post-Hubble, post-James Webb Space Telescope age high-resolution images of deep space are something of a given. Since the JWST launched in December 2021 we’ve been treated to photos of the ring nebula in stunning unseen detail, out-of-this-world photos of distant spiral galaxies and it even discovered an asteroid belt commet with water vapor. So why should you care about a blurry, low-resolution image of Earth taken from 6,000km away? I think it all comes down to size and money.
+
+The camera on board the James Webb telescope measures 6.5 meters in diameter and is made up of 18, hexagon mirror segments made of gold-plated beryllium. It cost a whopping $10 billion dollars to launch and had been in development for more than 20 years. To put things into perspective, you would need a generously sized room to house the James Webb telescope, ignoring the enormous solar panels, while the TRISAT-R CubeSat would fit into a camera backpack.
+
+Check out the best Black Friday telescope deals
+
+Mirrors on James Webb Telescope
+
+With two entirely different missions, it’s hard to really compare the image capabilities of these spacecraft – while the James Webb telescope's sole purpose is to observe deep space to give us a greater understanding of the origin of the universe, the TRISAT-R CubeSat’s mission is to provide ionizing radiation measurements at an altitude of just 6,000km. However, that didn’t stop the scientists at SkyLabs in Slovenia from fitting it with a pair of tiny cameras consisting of a 2mm lens made of borosilicate glass mounted onto a 320x320 pixel image sensor.
+
+micro camera on trisat cubesat
+
+Each of the 10 sensors found on the JWST's NIRCam are 4 megapixels which are able to produce an image measuring 2560 x 1440 pixels – a considerable difference to the tiny image capabilities of the TRISAT-R CubeSat. It’s like comparing an image taken on a Fujifilm GFX 100s with one of those crappy cameras from the 2000s; each does what it’s designed to do but you’ll never be able to print a billboard image with a 320x320 pixel image.
+
+There is something very humbling about the European Space Agency’s latest image, it isn’t the most distinguished and it doesn’t offer much in terms of clarity but what it does deliver is almost easier for the average Joe to ascertain. Perhaps we’ve all become so accustomed to seeing dazzling, colorful, jaw-dropping photos of galaxies thousands of light years away that when we see something much more attainable we’re left disappointed or uninterested.
+
+I still think it’s fascinating that such a small satellite could capture any photos at all and surely that is the big takeaway here. You don’t actually have to invest in one of the best telescopes or cameras for astrophotography if you have an interest in shooting the night sky – I’ve taken pretty impressive photos using my iPhone 11 and a telephoto lens for iPhone that show the details of the moon craters. Sure, I’ll never submit them to the Astronomy Photographer of the Year competition but it goes to show what you can do with minimal equipment and minimal spending. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

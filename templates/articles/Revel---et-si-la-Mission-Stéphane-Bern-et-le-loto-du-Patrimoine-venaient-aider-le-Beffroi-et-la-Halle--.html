@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revel : et si la Mission Stéphane Bern et le loto du Patrimoine venaient aider le Beffroi et la Halle ?</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="l'essentiel Cela fait plusieurs mois qu'une souscription a été lancée via la Fon">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Revel : et si la Mission Stéphane Bern et le loto du Patrimoine venaient aider le Beffroi et la Halle ?</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://images.ladepeche.fr/api/v1/images/view/655de29bf1c9061495562758/large/image.jpg?v=1" alt="">
+
+                <textarea id="text" readonly> l'essentiel Cela fait plusieurs mois qu'une souscription a été lancée via la Fondation du Patrimoine pour la restauration de la Halle et du Beffroi. Revel vient en plus de déposer un dossier pour participer au loto du Patrimoine.
+
+La restauration du Beffroi et de la Halle de Revel est une nécessité. Il y a quelques mois, à la suite d'un diagnostic réalisé par des architectes spécialisés dans le patrimoine, Revel a pris conscience de l'urgence d'un vaste chantier de restauration de ce bijou architectural : corniches abîmées, tuiles cassées, infiltrations, fissures, mais surtout socles des poteaux de chênes de la Halle en mauvais état. "Le coût des travaux à réaliser est conséquent, constate Léa Girod, directrice du projet Action cœur de ville. Autour de deux millions d'euros. Mais dans tous les cas, on les fera. On parle d'un joyau, du symbole de Revel !" Il est vrai qu'on a parfois tendance à s'habituer à la majesté du bâtiment. "On ne se rend pas toujours compte à quel point c'est exceptionnel, poursuit Léa Girod. Les architectes du patrimoine nous le disent, au regard de sa taille, de son ancienneté, c'est extraordinaire!"
+
+Stéphane Bern à la rescousse ?
+
+Pour financer ce chantier de restauration qui durera plus d'un an (il doit commencer en septembre 2024), la Ville a fait appel à tous les financements possibles : Etat, Région, Département, mais aussi Fondation du Patrimoine, où chaque habitant peut participer à hauteur de ses moyens. "On a déjà recueilli plus de 8000 euros, avec des dons importants. On sent que cela mobilise les habitants." Mais pour mettre toutes les chances de son côté, Revel vient de se porter candidat à la Mission Stéphane Bern, et son fameux loto du Patrimoine : si le projet est sélectionné, une partie de l'argent récolté par le loto ira à Revel. "On espère que nous serons retenus, confie Léa Girod. Nous avons expliqué qu'il s'agit de plus qu'un monument. C'est un lieu de vie, le cœur de la ville. Tout s'y passe ! On est au-delà du monument historique." La concurrence sera forcément importante. Mais Revel pourrait se démarquer, au milieu de nombreux dossiers concernant des lieux de cultes. La sélection sera annoncée au cours de l'année 2024.
+
+Plus qu'un symbole, un lieu de vie
+
+En attendant, le travail se poursuit : des travaux d'urgences, pour étayer le campanile, ont déjà eu lieu. Et le 2 décembre, les élus revélois tiendront un stand sur le marché pour sensibiliser les habitants au financement participatif en cours avec la Fondation du Patrimoine. "Notre objectif sur ce financement est ambitieux : on espère réunir 200 000 euros. Il y a encore un an et demi pour cela. On reçoit des dons réguliers, les gens sont concernés" conclut Léa Girod. La mobilisation est donc active, pour restaurer - sauver ? - le majestueux symbole de Revel.
+
+Vous pouvez participer au financement participatif de la Fondation du Patrimoine </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>« La Grande Soirée des cabarets » présentée par Nicky Doll et Stéphane Bern</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="« La Grande Soirée des cabarets » présentée par Nicky Doll et Stéphane Bern
+
+Gla">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>« La Grande Soirée des cabarets » présentée par Nicky Doll et Stéphane Bern</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static.francetelevisions.fr/styles/scale_520/public/2023-06/La%20grande%20soire%CC%81e%20des%20cabarets.jpg?itok=kvvln9v1" alt="">
+
+                <textarea id="text" readonly> « La Grande Soirée des cabarets » présentée par Nicky Doll et Stéphane Bern
+
+Glamour, strass et paillettes ! Le temps d’une émission exceptionnelle présentée par Nicky Doll et Stéphane Bern, France Télévisions met à l’honneur, dans l’écrin somptueux qu’est le château de Fontainebleau, les plus grands et les plus mythiques cabarets de France. Samedi à 21.10 sur France 2.
+
+
+
+Nicky Doll (Host de Drag Race France) et Stéphane Bern nous convient à un voyage extraordinaire et inédit dans la féerie des cabarets que toute la planète nous envie : ces prestigieuses revues que sont le Moulin-Rouge, le Paradis Latin, le Crazy Horse, Chez Michou, Madame Arthur, Le Royal Palace et Mon Premier Cabaret. Ce sont plus de 200 danseuses et danseurs aux costumes somptueux et aux chorégraphies emblématiques qui accompagneront Mentissa, Claudio Capéo, Chimène Badi, Julie Zenatti, Elisa Tovati, Les Coquettes, la troupe Les Retrouvailles, Paloma (lauréate de Drag Race France) et beaucoup d’autres encore tout au long d’une soirée d’exception.
+
+Pour prolonger la fête, La Grande Soirée des cabarets sera suivi d’un documentaire… © DR Le Phénomène Drag Race France, un an avec les queens ! Un an après le succès de la première saison de Drag Race France, c’est l’heure des grandes retrouvailles pour les reines ! Dans son appartement flamboyant, Paloma reçoit ses sœurs pour revenir sur cet incroyable phénomène. C’est avec une pointe de nostalgie et beaucoup d’humour qu’elles se livrent sur les meilleurs moments de cette aventure déjà iconique. Entre shows dans toute la France, à l’étranger et de nouvelles collaborations, à quoi ressemblent leurs nouvelles vies ? C’est aussi une occasion exceptionnelle pour revenir sur l’impact positif de Drag Race France sur la société et sur la façon dont l’émission a fait bouger les lignes en France. Un moment exclusif avec les queens à ne pas manquer ! Documentaire (40 min – 2023) – Réalisation Timothée Vienne et Justine Cheneau – Production Endemol France
+
+La Grande Soirée des cabarets Divertissement (112 min) – Réalisation François Goetghebeur – Production Electron Libre Productions
+
+
+
+Diffusion samedi 24 juin à 21.10 sur France 2
+
+À voir et revoir sur france.tv </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

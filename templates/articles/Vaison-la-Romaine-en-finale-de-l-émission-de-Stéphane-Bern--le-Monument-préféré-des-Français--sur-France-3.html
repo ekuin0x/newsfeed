@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaison-la-Romaine en finale de l'émission de Stéphane Bern "le Monument préféré des Français" sur France 3</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Vaison-la-Romaine devait triompher du château d'If à Marseille et des Cap Modern">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Vaison-la-Romaine en finale de l'émission de Stéphane Bern "le Monument préféré des Français" sur France 3</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.francebleu.fr/s3/cruiser-production/2023/06/5f9bc665-404e-412a-9f17-4c7ab60a0ae8/1200x680_sc_img-20230629-141530.jpg" alt="">
+
+                <textarea id="text" readonly> Vaison-la-Romaine devait triompher du château d'If à Marseille et des Cap Moderne, Eileen Gray et Le Corbusier au Cap Martin pour la région PACA. Vaison a remporté cette étape, c'est officiel depuis hier soir, et son pont romain, son théâtre antique et ses quartiers sur la colline de Puymin et la Villasse seront en finale nationale de l'émission avec 13 autres monuments (un pour chaque région), le 16 septembre à l'occasion des journées européenne du patrimoine.
+
+ⓘ Publicité
+
+"C'est une fierté pour ce qu'est notre ville et pour son histoire la plus ancienne. Cela atteste aussi que ce site compte, qu'il a une place particulière aux yeux des Vaisonnais mais aussi plus largement il participe de la réputation de notre ville au niveau - a minima - continental" se félicite le maire de la ville Jean-François Perilhou.
+
+Un beau coup de projecteur en effet pour Vaison-la-Romaine, ville de 7000 habitants il faut le rappeler. Ses sites archéologiques attirent déjà plus de 100 000 visiteurs par an. Maintenant l'objectif est "d'étaler la saison touristique" confie Jean-François Perilhou.
+
+Pour la suite de l'émission, Vaison "joue" sa finale le 16 septembre lors de l'émission sur France 3 à l'occasion des journées européennes du patrimoine. Les votes sont ouverts du 1ier au 20 juillet. "J'en ai fait des campagnes électorales mais celle là est un peu spéciale" sourit le maire. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mission patrimoine de Stéphane Bern booste la restauration du château de Marcoussis</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="« Ça a été un grand coup d’accélérateur », concède le président de l’association">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>La Mission patrimoine de Stéphane Bern booste la restauration du château de Marcoussis</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.leparisien.fr/resizer/a76xGB5Y-qj9OGgv_GNj-sOpPP0=/1200x675/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/KMOIRP3FCZEIHFATQL5ISFN5XY.jpg" alt="">
+
+                <textarea id="text" readonly> « Ça a été un grand coup d’accélérateur », concède le président de l’association historique de Marcoussis, Patrick Bourgueil. Dans la foulée, la direction régionale des affaires culturelles (Drac) a suivi, en finançant 60 % du projet. Puis la région et le département ont emboîté le pas. « On prévoyait un budget de 740 000 euros, ajoute le président. Aujourd’hui, on s’en rapproche même si nous avons dû faire des économies. Une souscription a également été ouverte , elle l’est toujours d’ailleurs. »
+
+Enfin, un toit flambant neuf surplombant une nouvelle charpente a été monté et des gargouilles ont été posées pour évacuer l’eau de pluie. « Ce ne sont pas les gargouilles de Notre-Dame de Paris, prévient Stéphane. Celles-ci font 400 kg et ont été taillées dans du calcaire. » Les menuiseries du rez-de-chaussée et des trois étages ont également été faites sur mesure et peintes en rouge Vauban, une couleur qui se rapproche du sang de bœuf mélangé à l’huile de lin qui était utilisé à l’époque. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

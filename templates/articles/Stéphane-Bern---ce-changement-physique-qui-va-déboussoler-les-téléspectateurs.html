@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stéphane Bern : ce changement physique qui va déboussoler les téléspectateurs</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Peu importe les moqueries, Stéphane Bern a bien l’intention de continuer à jouer">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Stéphane Bern : ce changement physique qui va déboussoler les téléspectateurs</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.voici.fr/imgre/fit/~1~fac~2023~07~19~bde7abae-b56c-4ee7-9a27-725f06ca6344.jpeg/1200x600/cr/wqkgUGF0cmljayBCZXJuYXJkIC8gRmFiaWVuIENvdHRlcmVhdSAvIEJlc3RpbWFnZSAvIFZvaWNp/crop-from/top/stephane-bern-ce-changement-physique-qui-va-deboussoler-les-telespectateurs.jpg" alt="">
+
+                <textarea id="text" readonly> Peu importe les moqueries, Stéphane Bern a bien l’intention de continuer à jouer la comédie. Les performances de l’habituel animateur comme militaire dans un téléfilm de France 3 ou grimé en assassin d’un célèbre jeu vidéo dans une vidéo de YouTube ont toutes été commentées, souvent raillées, mais ne l’ont pas découragé. Au contraire, le féru d’histoire et de la famille royale a fait preuve d’autodérision et ne compte pas renoncer à ses envies. "Je rêve de jouer l'acteur de plus en plus. En partie parce qu'un vieil animateur de télévision, ça devient pathétique, alors qu'on dit plutôt d'un vieil acteur qu'il a de la bouteille", confiait-il dans les colonnes du Journal du dimanche, en août dernier.
+
+Une nouvelle occasion de prouver ses talents lui sera donnée dans Bellefond, le 28 novembre prochain. Et celui qui reprendra son rôle de procureur et prof de droit ne s’est pas reposé sur ses lauriers entre deux épisodes de cette fiction policière. "Je suis des séances de coaching et je demande qu’on ne me fasse pas de cadeau", a souligné l'élève discipliné dans les colonnes de Télé Magazine.
+
+"J'en avais marre d'être obsédé par mon poids"
+
+Et histoire d’être à l’aise dans son personnage, le compagnon de Yori Bailleres a ajouté une métamorphose physique à sa détermination d’acier. "J’ai perdu dix kilos, parce que j’en avais marre d’être obsédé par mon poids", a avoué ce grand complexé, qui apprend au contact de femmes à prendre confiance en son corps. "Quand je me tiens mal, elles me glissent à l’oreille ‘tu es voûté, rentre ton ventre, tiens-toi-droit’ pour que je sois le mieux possible", confie-t-il dans l'hebdomadaire. De précieux conseils mis en application dans de nouvelles cascades badass ? </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

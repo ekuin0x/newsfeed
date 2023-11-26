@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cergy : il faut sauver la maison Gérard-Philipe</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Voir mon actu Suivre La Gazette du Val d'Oise
+
+Envie de participer au sauvetage ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Cergy : il faut sauver la maison Gérard-Philipe</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static.actu.fr/uploads/2023/11/c4c7905e87556b8c7905e87558cc79v.jpg" alt="">
+
+                <textarea id="text" readonly> Voir mon actu Suivre La Gazette du Val d'Oise
+
+Envie de participer au sauvetage de la maison Gérard-Philipe à Cergy (Val-d’Oise) ? La Fondation du patrimoine continue de récolter des fonds destinés à financer la réhabilitation aussi indispensable que nécessaire de l’ancienne demeure du célèbre acteur français et de sa femme, Anne.
+
+Stéphane Bern à son chevet
+
+Lancée en novembre 2022, la collecte de dons a déjà permis de rassembler quelque 8 000 euros, soit 16% d’un montant à atteindre fixé à 50 000 euros. Une manne qui s’ajoutera à la subvention de 300 000 euros du Loto du patrimoine porté par Stéphane Bern et des 300 000 euros octroyés par la Région Ile-de-France au titre du label Patrimoine d’intérêt régional.
+
+Ce ne sera pas trop. Et pour cause : le coût total de la rénovation de la bâtisse est estimé à près de 3 millions d’euros entre la restauration « intra-muros » en elle-même et la réhabilitation du parc et des réseaux d’eau, d’électricité et d’évacuation. Un chantier considérable.
+
+Pour stopper net sa lente agonie, la mairie de Cergy, propriétaire de la jolie bâtisse installée sur les bords de l’Oise, a ficelé un projet de rénovation dont les travaux doivent débuter l’été prochain, après une première phase de désamiantage et de déplombage programmée à partir de janvier.
+
+« La maison de maître présente un état de délabrement inquiétant. Des travaux de structure et d’aménagement sont indispensables avant de pouvoir la rouvrir au public », précise la Fondation du patrimoine.
+
+La guinguette qui a pris ses quartiers l’été dernier au sein du parc n’est que la première étape d’une ambition plus vaste. « La Ville de Cergy souhaite transformer ce haut lieu du patrimoine cergyssois en un lieu mémoriel et touristique, de création et d’éducation populaire, intégrant l’histoire agricole de la ville, indique la Fondation du patrimoine. La maison, restaurée et sécurisée, pourra à nouveau être ouverte au public, accueillir des résidences d’écriture, un espace mémoriel Anne-et-Gérard-Philipe, des actions d’éducation artistique, culturelle et écologique, et un temps fort festivalier à la belle saison dans le parc. »
+
+Suivez toute l’actualité de vos villes et médias favoris en vous inscrivant à Mon Actu. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

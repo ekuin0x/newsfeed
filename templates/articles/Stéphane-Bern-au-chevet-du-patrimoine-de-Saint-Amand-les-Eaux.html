@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stéphane Bern au chevet du patrimoine de Saint-Amand-les-Eaux</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Stéphane Bern aux côtés du maire de Saint-Amand, Alain Bocquet et du député du N">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Stéphane Bern au chevet du patrimoine de Saint-Amand-les-Eaux</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.francebleu.fr/s3/cruiser-production/2023/06/90c983ce-3244-41fa-a88c-9186eb4a22f7/1200x680_sc_img-1995.jpg" alt="">
+
+                <textarea id="text" readonly> Stéphane Bern aux côtés du maire de Saint-Amand, Alain Bocquet et du député du Nord, Fabien Roussel
+
+Stéphane Bern était en visite dans le Nord ce mercredi 28 juin. Il était invité à Saint-Amand-les-Eaux par le maire, Alain Bocquet et le député du Nord, Fabien Roussel. Le monsieur Patrimoine a notamment visité la commune et découvert son histoire. Il s'est également rendu sur le chantier d'un très vieux pont face au parvis de la Tour Abbatiale.
+
+ⓘ Publicité
+
+L'ouvrage, construit au XVIIe siècle, a été découvert lors de fouilles archéologiques en 2019. La ville souhaite désormais le restaurer mais le coût des travaux est important. Elle compte sur Stéphane Bern pour mettre en lumière le projet et l'aider à trouver des financements.
+
+Le pont, découvert lors de fouilles archéologiques, se trouve face au parvis de la Tour Abbatiale © Radio France - Justine Claux
+
+loading
+
+Des travaux à deux millions d'euros
+
+À plus de 400 ans, le pont de la Tour Abbatiale a besoin d'un coup de neuf. "Il faut absolument le restaurer, insiste le maire de Saint-Amand, Alain Bocquet. Cela renforce le patrimoine local de refaire le pont tel qu'il était pour accéder à la Tour au XVIIe siècle. C'est un retour vers le passé qui permet de se tourner vers l'avenir, notamment pour l'accueil culturel et patrimonial de la ville".
+
+Le coût des travaux de restauration est estimé à près de deux millions d'euros, une somme trop importante à assumer pour la ville. Pour trouver des financements, Fabien Roussel, député du Nord, a eu une idée : inviter Stéphane Bern à Saint-Amand. "On est en train de boucler le budget et si Stéphane Bern peut y participer, c'est tant mieux, explique-t-il. C'est aussi important qu'une personnalité nationale, attachée au patrimoine, vienne ici, c'est une forme de reconnaissance".
+
+Stéphane Bern est sous le charme
+
+L'opération séduction a semblé fonctionner. Après la visite du chantier, Stéphane Bern s'est dit sous le charme. "Je trouve que ce pont est magique et le projet très bien réfléchi. Il va être très beau, très esthétique et symboliquement très fort. Cela va relier les habitants d'aujourd'hui à leur histoire et j'y souscrit entièrement", raconte-t-il.
+
+Stéphane Bern a ainsi promis de soutenir le projet : "c'est un formidable projet que je vais personnellement soutenir, je vais envoyer ma contribution. Je crois beaucoup à la valeur de l'exemple, si vous soutenez quelque chose, il faut le dire et le faire". Le monsieur Patrimoine devrait notamment envoyer un chèque et parler du projet autour de lui. Au total, il manque encore près de 30.000 euros pour financer les travaux de restauration du pont, qui devraient commencer en septembre prochain. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

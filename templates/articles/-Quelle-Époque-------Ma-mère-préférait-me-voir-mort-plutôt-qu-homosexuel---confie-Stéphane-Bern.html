@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Quelle Époque !" - "Ma mère préférait me voir mort plutôt qu'homosexuel", confie Stéphane Bern</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Stéphane Bern assume davantage son homosexualité à 60 qu'à 30 ans. "Surtout quan">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>"Quelle Époque !" - "Ma mère préférait me voir mort plutôt qu'homosexuel", confie Stéphane Bern</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://images.rtl.fr/~c/2000v2000/rtl/www/1632865-stephane-bern-invite-de-quelle-epoque-samedi-25-novembre-2023.jpeg" alt="">
+
+                <textarea id="text" readonly> Stéphane Bern assume davantage son homosexualité à 60 qu'à 30 ans. "Surtout quand on a la chance de vivre avec un mec sublime [...] Il a tout pour lui. Yori est profondément gentil", confie t-il dans l'émission Quelle Époque !, diffusée ce samedi 25 novembre.
+
+L'animateur revient aussi sur les relations guère simples avec ses parents, et de mots, terribles, entendus. Un jour, ma mère m'a dit : 'Je préfère te savoir mort qu'homosexuel.' Je lui ai répondu : 'Cela va être difficile.'"
+
+Il a depuis "tout pardonné" à ses géniteurs. "Ils m'ont donné une très bonne éducation [...] Je les ai aimés. On aime toujours son bourreau aussi. Ma mère était une femme qui avait beaucoup souffert, malade, morte à l'âge de 53 ans. J'étais très jeune", se souvient Stéphane Bern.
+
+Ce dernier quitta le cocon familial à (seulement) 17 ans, s'envolant de ses propres ailes. "J'appartenais à la petite bourgeoisie. On avait les moyens de s'en sortir, je veux dire intellectuellement. Je suis parti faire mes études et ça marchait." Et de conclure : "Mais certains ne peuvent pas, c'est pour eux que je me bats [...] aider tous les gamins qui sont rejetés.
+
+L’actualité par la rédaction de RTL dans votre boîte mail. Grâce à votre compte RTL abonnez-vous à la newsletter RTL info pour suivre toute l'actualité au quotidien Je créé mon compte Se connecter S’abonner à la Newsletter RTL Info </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

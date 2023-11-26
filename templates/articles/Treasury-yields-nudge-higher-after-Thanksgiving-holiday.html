@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasury yields nudge higher after Thanksgiving holiday</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The benchmark 10-year Treasury yield was more than 5 basis points higher at 4.47">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Treasury yields nudge higher after Thanksgiving holiday</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://image.cnbcfm.com/api/v1/image/107338385-17007484462023-11-23t053716z_1909366874_rc2ei4a76kzg_rtrmadp_0_usa-stocks.jpeg?v=1700748466&w=1920&h=1080" alt="">
+
+                <textarea id="text" readonly> The benchmark 10-year Treasury yield was more than 5 basis points higher at 4.47%, pulling away from the two-month low reached before the holiday. The 2-year note yield rose by nearly 5 basis points to 4.955%.
+
+U.S. Treasury yields were broadly higher early Friday as markets reopen following the Thanksgiving break.
+
+Investors are continuing to assess the outlook for interest rates and the economy after the Federal Reserve's latest meeting minutes on Tuesday gave no indication of rate cuts in the near future.
+
+Markets are pricing in a 99.5% chance of rates being held in the current 5.25%-5.5% range at the final Fed meeting in December, according to CME Group's FedWatch tool.
+
+Friday, which is a shortened trading day, will provide insight into U.S. business activity across services and manufacturing with the release of S&P Global flash purchasing managers' index figures. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

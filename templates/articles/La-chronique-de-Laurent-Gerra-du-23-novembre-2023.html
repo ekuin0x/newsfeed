@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La chronique de Laurent Gerra du 23 novembre 2023</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Dans ce nouvel épisode des "Aventures de Finky", Laurent Gerra met en scène Alai">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>La chronique de Laurent Gerra du 23 novembre 2023</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://images.rtl.fr/~c/2000v2000/rtl/www/1506844-laurent-gerra.jpg" alt="">
+
+                <textarea id="text" readonly> Dans ce nouvel épisode des "Aventures de Finky", Laurent Gerra met en scène Alain Finkielkraut dans une boutique d'alcool. Le philosophe veut acheter une bouteille de whisky à 100 euros. La vendeuse lui annonce que ça lui revient à 75 euros grâce au Black Friday. L'écrivain n'y comprend rien. "Allons bon, encore des mots anglais. Ce grand remplacement linguistique commence gentiment à m’exaspérer", répond-t-il. Son interlocutrice lui explique cette tendance commerciale. Il ne comprend pas pourquoi il bénéficie du Black Friday alors que nous sommes jeudi. Alain Finkielkraut a l'impression de se faire avoir. "Mais enfin c’est incroyable ! Votre politique tarifaire est encore plus absurde que celle de la SNCF !", s'énerve-t-il.
+
+Mardi dernier, France 2 a diffusé le documentaire L'Ukraine au cœur, de Bernard-Henri Lévy. Le réalisateur s'attendait à plus d'audiences. "La guerre, elle, ne veut plus de moi, ni de mes cadreurs de guerre", se désole-t-il. "Je vais créer une association : L'A.D.G.Q.N.V.P.V.M.Q.S.P.Q.M. L'Association Des Gens Qu'on Ne Veut Plus Voir Mais Qui Sont Partout Quand Même. Nous sommes déjà trois : Laurent Ruquier, ainsi que Cyril Hanouna. Thierry Ardisson a également postulé. Nous monterons une chaîne de télévision, modestement appelée 'BHLTV', pour que les gens puissent voir mes 200 heures de rush sur l'Ukraine et mes 800 heures sur la Libye. Et la nuit, pour réussir à endormir les insomniaques, il y aura des diffusions de tous les concerts de ma femme, Arielle Dombasle", explique l'écrivain.
+
+Si vous trouvez que Michel Sardou est trop de droite, Laurent Gerra vous propose une solution alternative. L'imitateur imagine un nouvel album Michel Sardou chante la gauche. Le chanteur reprendrait ses grands tubes en réadaptant les paroles. Voici ce que donnerait Être une femme : "Femme des années 2020, qui a rangé ses escarpins, et ne s’épile plus sous les bras, tant pis pour le patriarcat. Femme des années 2020, qui picole avec ses copines, pendant que son mari déconstruit, repasse le linge et fait la cuisine". Et pour La maladie d'amour le texte serait : "Elle court, elle cout la mangeuse de boulgour, derrière tous les mâles blancs de 7 à 77 ans. Elle tranche, elle tranche, les couilles insolentes. Merci Sandrine Rousseau, que c’est bon d’être déconstruit".
+
+Dans cette chronique du 23 novembre, Laurent Gerra également imité Jacky Chiasson, Stéphane Bern et Muriel Robin.
+
+
+
+À écouter L'INTÉGRALE - Finkielkraut, Bern, Robin... La chronique du 23 novembre 2023 00:07:03
+
+Imitations cultes, archives ou encore nombreux best of, retrouvez tous les jours les chroniques de Laurent Gerra sur l'antenne de RTL et en podcast sur RTL.fr et sur toutes vos plateformes préférées.
+
+
+
+L’actualité par la rédaction de RTL dans votre boîte mail. Grâce à votre compte RTL abonnez-vous à la newsletter RTL info pour suivre toute l'actualité au quotidien Je créé mon compte Se connecter S’abonner à la Newsletter RTL Info </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

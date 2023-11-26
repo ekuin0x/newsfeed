@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stéphane Bern et son bel héritage : "Tout est réglé pour après ma mort..."</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Stéphane Bern vit désormais au collège royal et militaire de Thiron-Gardais, lie">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Stéphane Bern et son bel héritage : "Tout est réglé pour après ma mort..."</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://img-3.journaldesfemmes.fr/sAR-p3uVe_3yt7KUyTSvLUmbvjA=/1500x/smart/265d56e5131a4f2ca292477470252a6c/ccmcms-jdf/39662266.jpg" alt="">
+
+                <textarea id="text" readonly> Stéphane Bern vit désormais au collège royal et militaire de Thiron-Gardais, lieu qu'il a restauré grâce à un très gros prêt de la banque. L'animateur de 59 ans sait d'ores et déjà ce qu'il adviendra de son patrimoine à son décès. Il s'est confié en toute franchise.
+
+Dans une longue interview pour TV Magazine, Stéphane Bern est revenu sur l'histoire de l'acquisition de son collège royal et militaire, en Eure-et-Loir. "Je rencontrais des maires désespérés qui n'arrivaient pas à sauvegarder leurs monuments. Quand le département de l'Eure-et-Loir m'a sollicité pour le collège royal, je me suis engagé pleinement", a-t-il confié.
+
+Stéphane Bern y vit désormais à plein temps avec son compagnon Yori Bailleres, fondateur du club de rencontres Le Cercle de Socrate. Alors qu'il n'a pas d'enfant, qu'a prévu l'animateur pour son héritage ?
+
+"Tout est réglé après ma mort" : il a pris les devants !
+
+L'animateur de Secrets d'Histoire compte préserver ce lieu historique, il a également aménagé un espace muséographique ouvert au public. Pour Stéphane Bern, ce lieu est l'œuvre de sa vie. "Au fond, qu'est-ce qui restera des émissions de télé et de radio ? Il faut être lucide, quand même. Peut-être retrouvera-t-on un de mes livres chez un bouquiniste des quais de Seine, si l'on arrive à les préserver. Les monuments, eux, je les aurai sauvés. Pour au moins trois siècles. En achetant Thiron-Gardais, je me suis engagé à ce que le collège ne soit plus jamais dans des mains privées. Il appartiendra donc à une fondation, la mienne. Tout est réglé pour que ça puisse vivre après ma mort."
+
+Une envie de conserver le patrimoine de la France
+
+Pour l'animateur télé de 59 ans - qui a vendu ses meubles et son appartement de Paris il y a quelques mois pour vivre dans le Perche -, il est important de conserver les monuments pour leur éviter la destruction. "Je ne peux pas inciter les Français à sauver leur patrimoine et moi me dérober le jour où on me demande de l'aide. Et ça a été mon école. J'ai compris ce que cela représentait de vivre dans un monument historique. J'ai mesuré aussi les contraintes, surtout administratives. D'autant que je n'ai pas demandé de subvention."
+
+En effet, Stéphane Bern - qui doit aussi vendre sa maison de Grèce, à Paros - ne voulait aucune aide de l'Etat : "J'ai donc tout emprunté pour restaurer ce bâtiment [Il a contracté un prêt de 4 millions d'euros, ndlr]. Ensuite, on m'a proposé la Mission patrimoine. C'était une idée que j'avais soufflée à Emmanuel Macron quand il a été élu à l'Élysée en 2017". </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

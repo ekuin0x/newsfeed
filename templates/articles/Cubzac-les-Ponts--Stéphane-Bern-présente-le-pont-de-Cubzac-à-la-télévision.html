@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubzac-les-Ponts. Stéphane Bern présente le pont de Cubzac à la télévision</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="L'animateur Stéphane Bern a profité de son émission Visites Privées sur France 2">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Cubzac-les-Ponts. Stéphane Bern présente le pont de Cubzac à la télévision</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.hautegironde.fr/photos/1200/125/" alt="">
+
+                <textarea id="text" readonly> L'animateur Stéphane Bern a profité de son émission Visites Privées sur France 2 pour consacrer un reportage aux constructions de Gustave Eiffel en Gironde, avec la participation de notre journaliste Christophe Meynard.
+
+Tout le monde connaît l’ingénieur Gustave Eiffel, principalement pour la construction de la fameuse tour parisienne, mais l’animateur Stéphane Bern a voulu présenter ses œuvres moins connus : la passerelle Eiffel à Bordeaux et le pont de Cubzac. Reportage réalisé avec la participation de Christophe Meynard, journaliste à Haute Gironde
+
+À l’aide d’un drone, le journaliste Charles Bourla a pu montrer le pont construit par l’ingénieur Gustave Eiffel sous différents angles : depuis les airs, en volant à travers la structure métallique, en se glissant sous les arches maçonnées des années 1830, du côté Cubzac mais aussi du côté Saint-Vincent-de-Paul.
+
+Durant une dizaine de minutes, les magnifiques images recueillies par la production mettent en valeur cet édifice peu connu d’Eiffel et pourtant considéré comme une de ses réalisations les plus importantes. L’émission Visites Privées est diffusée sur le service public depuis septembre dernier. Elle commence à bien s’installer dans le paysage audiovisuel en attirant tous les après-midi de la semaine entre 350 000 et 400 000 téléspectateurs. Charles Bourla, journaliste à France 2, nous raconte comment l’émis- sion se prépare.
+
+Haute Gironde : Comment est choisi le thème des émissions ?
+
+Charles Bourla : Chaque émission est articulée autour d’un grand thème sélectionné par les rédacteurs en chef. Nous pensons que tout est patrimoine ou peut l’être, c’est ainsi que l’on peut parler à la fois de grandes personnalités, de traditions ou de monuments. Cinq émissions sont diffusées chaque semaine, ce qui correspond à quinze reportages de dix minutes. Plusieurs émissions sont enregistrées dans une journée avec l’équipe d’une trentaine de journalistes qui sillonnent la France, et même l’étranger pour tourner les reportages.
+
+Pourquoi ce reportage sur Gustave Eiffel ?
+
+On a pensé immédiatement à Gustave Eiffel, très réputé en France et à l’international. On s’est interrogé : où sa carrière a débuté ? Quels sont ses premiers ouvrages ? Et justement, sa première grande réalisation est la passerelle Eiffel à Bordeaux, il avait juste 26 ans ! Et à quelques kilomètres se trouve le pont de Cubzac, édifié entre 1878 et 1883. Et c’est aussi une région où habitent encore les descendants d’Eiffel.
+
+Comment avez-vous préparé l’émission ?
+
+L’association des descendants d’Eiffel nous a bien aidés à réaliser le reportage que nous avons complété avec les témoignages du responsable des archives de Cubzac, Gilles Thibaud et du journaliste et historien Christophe Meynard. Les belles images prises par le drone montrent l’esthétique absolument impressionnante du pont de Cubzac ainsi que l’évolution des techniques avec la construction novatrice par lançage.
+
+A retrouver ici : https://www.youtube.com/watch?v=jyXH5i-WO7Y
+
+Visite Privées au Pont de Cubzac
+
+Vidéo du reportage tourné avec Stéphane Bern autour du Pont de Cubzac en Gironde et des constructions de Gustave Eiffel. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

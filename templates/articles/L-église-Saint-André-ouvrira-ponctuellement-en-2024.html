@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'église Saint-André ouvrira ponctuellement en 2024</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Par Claudia BELTON c.belton@agmedias.fr
+
+Pendant 10 ans l'église du bourg est re">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>L'église Saint-André ouvrira ponctuellement en 2024</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://medias.franceantilles.fr/api/v1/images/view/655fd44943ffed34776aa33b/width_1000/image.jpg" alt="">
+
+                <textarea id="text" readonly> Par Claudia BELTON c.belton@agmedias.fr
+
+Pendant 10 ans l'église du bourg est restée fermée au grand désespoir des habitants. D'ici quelques semaines, les travaux de restauration de l'église et de son clocher devraient démarrer, enfin !
+
+L'église Saint-André est fermée depuis plus de 10 ans, au grand désespoir des Mornaliens, pour des raisons de sécurité. Agée de près de 95 ans, aux dires des spécialistes, qui l'ont auscultée pour sa restauration, elle est bien conservée pour son âge. L'église et le clocher ont fait l'objet de diagnostics et d'études poussés, cm2 par cm2, les fondations, l'acoustique, l'électricité, la plomberie, le mobilier, etc. Aussi, vendredi dernier, lors de leur restitution par le maire et tous les acteurs du dossier, les paroissiens se sont sentis soulagés lorsque Jean Bardail leur a annoncé que les travaux de restauration démarreraient en 2024, en début d'année, et qu'un calendrier ponctuel pour la messe serait mis en place, en accord avec le prêtre de la paroisse. La plupart n'auraient manqué cette réunion citoyenne pour rien au monde où ils pouvaient poser des questions aux experts : architecte des bâtiments de France, représentants de la Société d'économie mixte d'aménagement de la Guadeloupe (Semag) ou le chef de projet de la commune. Avant d'entrer dans le vif du sujet, M. Bardail, le maire, a rappelé quelques faits historiques. « L'église Saint-André a été construite, entre 1930 et 1934, par l'architecte Ali Tur et des Guadeloupéens »,... </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
