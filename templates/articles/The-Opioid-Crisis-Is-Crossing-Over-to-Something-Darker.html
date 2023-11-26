@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Opioid Crisis Is Crossing Over to Something Darker</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The opioid epidemic has become an uphill battle with the rise of fentanyl on the">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>The Opioid Crisis Is Crossing Over to Something Darker</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://img2-azrcdn.newser.com/image/1503897-12-20231126161830.jpeg" alt="">
+
+                <textarea id="text" readonly> The opioid epidemic has become an uphill battle with the rise of fentanyl on the streets, but experts are seeing an even scarier trend. The New York Times reports that people addicted to drugs are more likely to use multiple substances now, combining a cocktail of uppers and downers that health officials struggle to treat. The CDC calls it polysubstance use, and it's become the norm for 70-80% of people addicted to opioids. "It's no longer an opioid epidemic," Dr. Cara Poland, an associate professor at the Michigan State University, tells the Times. "This is an addiction crisis." Newer stimulants being mixed with opioids include the animal tranquilizer xylazine, anti-anxiety medicine like Valium, Xanax, and Klonopin, and counterfeit pills that are laced with fentanyl.
+
+Addiction medicine specialist Dr. Paul Trowbridge tells the Times that "sloppy" drug dealers contaminate their supply with fentanyl, or intentionally add it to other drugs so their customers become addicted. "It's really unpredictable what people are buying, which makes it so dangerous for them," Trowbridge, said. "It's a killing field out there." And while fentanyl tends to dominate headlines, methamphetamine has made a sneaky comeback since its producers starting making a more potent drug, according to the Texas Tribune. "Meth is eating everybody's lunch and nobody's talking about it," Peter Stout of the Houston Forensic Science Center tells the Tribune. "Meth is crawling up on everybody. Meth fatalities are way up even if you look at the Texas numbers."
+
+Strategies that work for treating opioid addictions are all but thrown out the window once stimulants like meth enter in the mix. "Finding that moment when someone says they're ready for treatment is hard in all addiction, but meth is making this so much harder," a harm reduction worker tells the Times. Stimulants are now being traced in 42% of opioid overdoses. The Times notes while a lot of money is being poured into treating opioid addiction, politicians need to catch up on the newer problem of multi-drug use. (Read about one woman's controversial method to combat addiction.) </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costa Rica Faces Alarming Surge in Dengue Cases</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Costa Rica’s health authorities have raised concerns over a significant increase">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Costa Rica Faces Alarming Surge in Dengue Cases</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://ticotimes.net/wp-content/uploads/2023/11/dengue-outbreak.jpg" alt="">
+
+                <textarea id="text" readonly> Costa Rica’s health authorities have raised concerns over a significant increase in dengue cases, urging the public to take preventive measures to curb the spread of the mosquito-borne disease. As of this week, Costa Rica has recorded 22,561 dengue cases, marking a notable rise of 1,165 cases compared to the same period last year.
+
+Despite the evident spike in cases, health analysts maintain that the disease’s overall status remains stable, attributing the surge to climatic conditions that favor mosquito proliferation. However, projections suggest a potential decrease in dengue cases as the dry season approaches, creating less favorable conditions for mosquito breeding.
+
+The Huetar Caribe region has been disproportionately affected by the dengue outbreak, accounting for 5,825 cases, followed by Central Norte with 5,680 cases and Central Pacífico with 3,344 cases. The area’s most severely impacted include Puntarenas (2,220 cases), Alajuela (1,893 cases), Sarapiquí (1,624 cases), Siquirres (1,525 cases), Pococí (1,473 cases), and San Carlos (1,333 cases).
+
+In response to the surge, the Ministry of Health has intensified efforts to curb the disease’s spread, deploying control teams to high-incidence areas. These teams are conducting fumigations, eliminating mosquito breeding sites both inside and outside homes, and engaging in targeted door-to-door visits.
+
+Emphasizing that dengue is a preventable and controllable disease, the Ministry of Health urges the public to adopt proactive measures, including:
+
+Regularly cleaning and emptying water containers used for domestic purposes
+
+Cooperating with officials during home visits for fumigation, ensuring proper identification
+
+Using mosquito nets, long-sleeved clothing, and insect repellent to minimize the risk of mosquito bites
+
+Individuals experiencing dengue symptoms are advised to visit the nearest clinic or health facility promptly for evaluation and treatment. Symptoms may include fever, headache, nausea, vomiting, muscle and joint pain, rash, and bleeding. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

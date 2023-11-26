@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Ça me bouleverse" : Karine Le Marchand en larmes face à Léa Salamé dans "Quelle époque!"</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Un moment particulièrement émouvant. Léa Salamé et ses complices accueillaient, ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>"Ça me bouleverse" : Karine Le Marchand en larmes face à Léa Salamé dans "Quelle époque!"</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static1.ozap.com/articles/2/63/98/92/@/4694716--ca-me-bouleverse-karine-le-marchand-opengraph_1200-3.png" alt="">
+
+                <textarea id="text" readonly> Un moment particulièrement émouvant. Léa Salamé et ses complices accueillaient, samedi 25 novembre dans "Quelle époque", les animateurs Karine Le Marchand et Stéphane Bern, l'humoriste Alex Vizorek, ou encore les chanteurs Hélène Ségara et Eddy de Pretto. Durant le talk-show incontournable de France 2, ont été diffusées les images de la danse de Stéphane Voirin, mari d'Agnès Lassalle, enseignante tuée par un élève le 22 février dernier. Car cette danse fut une source d'inspiration pour l'artiste Eddy de Pretto.
+
+À lire aussi TV Eurovision junior 2023 : Zoé Clauzure offre une deuxième victoire consécutive à la... TV Eurovision junior 2023 : Qui est Zoé Clauzure ("The Voice Kids") qui représente la... TV "On me l'a proposé deux fois" : Pourquoi Hélène Ségara ne souhaite pas participer...
+
+"J'ai beaucoup d'espoir quand même"
+
+"Vous ne l'aviez pas vue, Karine ?" a alors lancé Léa Salamé à la star de M6 au sujet de la vidéo. "Si si, mais à chaque fois, ça me bouleverse ! Je disais tout à l'heure que j'avais peur que la civilisation s'éteigne. Il y a peut-être moins de gens qui sont lumineux mais je les trouve plus puissants qu'avant. J'ai beaucoup d'espoir quand même. Ils irradient, il y a des gens qui nous bouleversent par leur humanité aussi. Et c'est à eux qu'il faut s'accrocher", a raconté Karine Le Marchand.
+
+Quelques secondes auparavant, Christophe Dechavanne, invité permanent du programme hebdomadaire, avait précisé : "Il danse parce qu'elle adorait danser. Il danse tout seul sans elle... C'est une représentation extraordinaire de l'amour, que ce que fait cet homme."
+
+A lire aussi : Audiences samedi : Nagui large leader en access, "Le jeu des 1000 euros" encore millionnaire, Léa Salamé proche de son record
+
+Et Eddy de Pretto d'enchaîner sur France 2 : "Justement quand j'ai vu cette image, quand je suis tombé sur cette image, il y a avait une chanson que j'ai écrite sur cet album qui s'appelle "Urgences 911" et qui parle de comment on va danser et jusqu'où on danse même quand la personne avec qui on aime part, meurt. Est-ce qu'on continuera à danser dans l'ambulance avec elle, sur la piste de danse ? Et c'est exactement cette image qui m'a fait boum quand j'ai écrit cette chanson et il y a eu un lien. Et c'est pour ça que c'est une image très forte qui parle de cet album."
+
+Puremédias vous propose de découvrir cette séquence. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

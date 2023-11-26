@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PipeWire 1.0 Released For Managing Audio/Video Streams On The Linux Desktop</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Happy Holidays! If you enjoy all the original Linux hardware reviews and open-so">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>PipeWire 1.0 Released For Managing Audio/Video Streams On The Linux Desktop</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.phoronix.net/image.php?id=2022&image=pipewire_logo" alt="">
+
+                <textarea id="text" readonly> Happy Holidays! If you enjoy all the original Linux hardware reviews and open-source news content on Phoronix, consider joining Phoronix Premium this holiday season. For Black Friday / Cyber Monday, there is a cyber week special to go premium and enjoy an ad-free experience, native dark mode, and multi-page articles presented on a single page.
+
+It has finally happened: PipeWire 1.0 has been released as this now very common software to the Linux desktop for managing audio and video streams. With time it's proven to be a suitable replacement to the likes of PulseAudio and JACK while pushing forward the Linux desktop with its modern design and feature set.PipeWire 1.0 retains API/ABI compatibility with the long-lived PipeWire 0.3.xx series. PipeWire 1.0 delivers improved time reporting for less jitter in ALSA when using IRQ mode, various module fixes, Bluetooth LC3 codec and compatibility improvements, improved transport and time handling for JACK, optimized buffer re-use with JACK, and a variety of other improvements.
+
+There isn't anything fundamentally different about PipeWire 1.0 but was part of their plan for releasing 1.0 later in the year and finally moving past all the 0.3.xx releases. PipeWire has proven itself stable and plenty reliable for Linux desktop uses.Downloads and more details on the big PipeWire 1.0 release via FreeDesktop.org GitLab </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundesliga live im Ticker: Hoffenheim 1:1 gegen Mainz 05</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Die Bundesliga-Klubs absolvieren den 12. Saison-Spieltag! Am Freitag (24. Novemb">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Bundesliga live im Ticker: Hoffenheim 1:1 gegen Mainz 05</p>
+            <span id="topic" >VfB Stuttgart</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://images.live.dumontnext.de/2023/11/26/1e76cce5-f358-45e8-a5c1-05cf74877d0a.jpeg?w=1000&auto=format&q=75&format=auto&s=92a2c1194665b41c1e1dd4a13715a619" alt="">
+
+                <textarea id="text" readonly> Die Bundesliga-Klubs absolvieren den 12. Saison-Spieltag! Am Freitag (24. November 2023) eroberte der FC Bayern durch ein 1:o gegen den 1. FC Köln zumindest vorübergehend die Tabellenspitze.
+
+Am Samstag (25. November) konnte Bayer Leverkusen diese jedoch beim Auswärts-Spiel in Bremen zurückerobern – die Werkself siegte mit 3:0. Dortmund gewann gegen Gladbach 4:2 und der FC Augsburg kam im Abstiegs-Duell zu einem 1:1 gegen Union Berlin. Die Berliner sind nun mit sieben Punkten auf Rang 17, der 1. FC Köln ist mit sechs Zählern Letzter. Freiburg gegen Darmstadt endete auch 1:1. Wolfsburg besiegte Leipzig mit 2:1. Am Abend verlor Eintracht Frankfurt daheim mit 1:2 gegen den VfB Stuttgart. Am Sonntag (26. November) trennten sich Heidenheim und Bochum 0:0. Hoffenheim spielte am Abend gegen Mainz 1:1.
+
+Hier alle Bundesliga-Spiele im Liveticker verfolgen: </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respiratory illnesses spiking in Santa Clara County</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="A dramatic increase in influenza-like illnesses and emergency room visits in San">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Respiratory illnesses spiking in Santa Clara County</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://sanjosespotlight.s3.us-east-2.amazonaws.com/wp-content/uploads/2023/11/24125024/DSC_4760-2-1200x630.jpg" alt="">
+
+                <textarea id="text" readonly> A dramatic increase in influenza-like illnesses and emergency room visits in Santa Clara County has prompted health officials to urge residents to get vaccinated.
+
+County data focused on local wastewater readings this month shows a rise in RSV, or respiratory syncytial virus, as well as influenza and COVID-19. The concentration of RSV in wastewater has almost doubled in the last week in Gilroy, Palo Alto and Sunnyvale and in the last month in San Jose, according to the county’s public health department. Hospitalizations countywide for RSV in the last two weeks are about three times higher than mid-October, data shows, which has led to a countywide push for vaccinations to protect residents.
+
+Sarah Rudman, deputy health officer for Santa Clara County Public Health Department, said wastewater readings for RSV are higher than this time last year—and COVID-19 wastewater readings have shot up in the last couple of weeks.
+
+“Usually when we see that, it’s followed by a wave of folks with more serious diseases winding up in the emergency room,” Rudman told San José Spotlight.
+
+These illnesses typically start in November and continue through March or April. In Santa Clara County, 88.6% of residents have completed the primary series of COVID-19 vaccinations, but only 35.4% have received the updated bivalent booster shot.
+
+Rudman said RSV can cause serious and life-threatening diseases in both young babies and older adults.
+
+“It is concerning to see the levels of RSV and COVID and flu all going up right at the same time,” she said, adding this is especially alarming during the holidays when people travel and gather with vulnerable family members. “That’s why we all need to be taking especially good care… by taking steps to protect ourselves and protect our loved ones.”
+
+Residents can be vaccinated through their doctors or pharmacies and can sign up online. Rudman said free vaccinations are available for people without insurance. She recommends people get vaccinated against COVID-19 and flu at the same time, as well as RSV for those eligible.
+
+The RSV vaccine, which became available this summer, is approved by the U.S. Food and Drug Administration for people ages 60 and older or in weeks 32 to 36 of pregnancy. An additional shot is available for high-risk babies after birth if their mothers weren’t vaccinated, Rudman said, but is in low supply.
+
+“We really want to encourage people who are pregnant to get their shot at the end of their pregnancy to pass that extra layer of protection to their baby,” she said.
+
+Iris Colon, maternal-fetal medicine specialist physician and OB-GYN at Santa Clara Valley Medical Center, said RSV commonly causes mild, cold-like symptoms—but can lead to pneumonia or bronchiolitis in babies. Colon said the RSV vaccine is given late in pregnancy as it can cause a slight increase in preterm birth. The vaccine is considered safe, she said, and data was obtained from pregnant women.
+
+“Most of us will be able to fight off this infection in seven days or less,” Colon told San José Spotlight. “The problem is when RSV infects babies… or those older than 60. Those populations are at an increased risk for severe disease. RSV is the No. 1 cause of hospitalization of babies within the first year of life.”
+
+Rudman said residents should isolate if they’re sick, cover their coughs, wash their hands with soap and get tested for COVID-19 if they have related symptoms. In Santa Clara County, masks are only required in health care facilities, she said, but people vulnerable to severe disease can benefit by wearing masks indoors or in crowds.
+
+“When wastewater levels are this high, we especially recommend masking indoors and in crowded places,” she said.
+
+Contact Lorraine Gabbert at [email protected]. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

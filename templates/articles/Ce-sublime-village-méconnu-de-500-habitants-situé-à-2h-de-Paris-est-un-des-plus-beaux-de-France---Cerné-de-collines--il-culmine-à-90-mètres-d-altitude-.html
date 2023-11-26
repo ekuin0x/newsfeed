@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ce sublime village méconnu de 500 habitants situé à 2h de Paris est un des plus beaux de France ! Cerné de collines, il culmine à 90 mètres d’altitude…</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Situé à 2 heures de Paris, il est un des plus beaux et typiques villages normand">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Ce sublime village méconnu de 500 habitants situé à 2h de Paris est un des plus beaux de France ! Cerné de collines, il culmine à 90 mètres d’altitude…</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.pariszigzag.fr/wp-content/uploads/2023/11/Beaumont-en-Auge-©-AdobeStock-aterrom.jpg" alt="">
+
+                <textarea id="text" readonly> Situé à 2 heures de Paris, il est un des plus beaux et typiques villages normands et mérite bien une petite escapade !
+
+Un village méconnu à 2h de Paris !
+
+Perchée sur sa colline à 90 mètres d’altitude, entre Pont-l’Êveque et Deauville, cette bourgade de moins de 500 habitants a un charme fou ! Il y a déjà cette architecture pittoresque qui la rend photogénique avec ses maisons typiques en colombages qui en côtoient d’autres en pierres et ardoises. Et évidemment, depuis son belvédère, il y a cette vue panoramique sur la vallée de la Touques et sa campagne, qui laisse également entrevoir Deauville, Trouville, Touque, et même, au loin, la mer…
+
+Mais ce ne sont pas les seuls atouts de ce village cerné de collines. En flânant dans ses rues on peut en effet observer son patrimoine riche et quelques lieux qui témoignent du rôle important qu’il a joué au fil des siècles dans l’Histoire de France. Comme son lavoir municipal à la conception moderne, son ancienne auberge de voyageurs du XVIIème siècle, ou encore son collège royal et militaire renommé, fondé par Louis XVI en 1776.
+
+On trouve également son prieuré, qui accueillit une communauté de moines bénédictins jusqu’à sa désertion en 1792, au moment de la Révolution, et fut l’un des plus anciens lieux de pèlerinage de Normandie. Subsiste son église Saint-Sauveur, du XIème siècle, dont seul la tour a conservé le style roman de l’époque.
+
+Qui sont les deux grands personnages qui ont fait sa renommée ?
+
+Deux personnages du XVIIIème siècle sont en effet associés à ce village normand. On peut y observer leurs maisons natales respectives. Pierre-Simon Laplace, mathématicien et astronome français, est considéré comme l’un des plus grands scientifiques de son époque, et souvent surnommé “le Newton français”. Il a en effet contribué de manière significative à plusieurs domaines des sciences physiques et mathématiques, et notamment l’astronomie, en permettant une meilleure compréhension du système solaire, et la statistique avec, entre autres, sa “théorie des probabilités”. Son influence, dans le milieu politique également, lui valut d’avoir, à sa mort en 1827, son nom inscrit au Panthéon ainsi que sur la tour Eiffel. Outre sa maison natale, on trouve aussi dans le village une statue en bronze à son effigie, offerte par les États-Unis en 1932 “Pour la paix et le développement des sciences”.
+
+À lire également : Avez-vous remarqué les 72 noms écrits en lettres d’or sur la Tour Eiffel et savez-vous de qui il s’agit ?
+
+Jean-Charles Langlois, dit Le colonel, fut quant à lui membre de la Garde impériale napoléonienne, et précurseur de la photographie civile et militaire. Il s’illustra notamment avec des panoramas et photographies de batailles, dont le Panorama de la Bataille de Solférino. Il eut lui aussi sa statue édifiée en 1885, mais elle fut détruite durant la Seconde Guerre mondiale. Seul son socle est encore visible.
+
+Beaumont-en-Auge, village préféré des français ? </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

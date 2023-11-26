@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozzy Osbourne says he’ll die happy if he can do one more show</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Early this year, Ozzy Osbourne canceled a run of upcoming shows due to various h">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Ozzy Osbourne says he’ll die happy if he can do one more show</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/50241423dac2f7c4942f57dc83e19ecc.jpg" alt="">
+
+                <textarea id="text" readonly> Early this year, Ozzy Osbourne canceled a run of upcoming shows due to various health problems (including a accident that injured his spine years ago and his 2020 diagnosis of Parkinson’s), suggesting at the time that he might be unable to do a regular tour ever again. He tried to return to live performing for October’s Power Trip festival in California, but as the date got closer, he had to drop out of that as well over not being physically “ready” and his own refusal to do anything “half-assed.”
+
+It’s unclear if/when Osbourne will ever do a show again, but speaking with Rolling Stone UK, he said that he’s “fucking pissed off” at the fact that he hasn’t gotten a chance “to say goodbye or thank you” to his fans. “They’ve been loyal to me for fucking years,” he said. “They write to me, they know all about my dogs. It’s my extended family really, and they give us the lifestyle we have.”
+
+Advertisement
+
+Osbourne told Rolling Stone UK that he at least wants to do one more show for his fans, explaining, “I just want to be well enough to do one show where I can say, ‘Hi guys, thanks so much for my life.’” He said that doing a final show like that is what he’s “working towards,” adding, “If I drop down dead at the end of it, I’ll die a happy man.”
+
+Perhaps unsurprisingly, then, Osbourne also told Rolling Stone UK that he doesn’t fear death and that he doesn’t want to “have a long, painful, and miserable existence.” He mentioned that he watched his father die of cancer and prefers the idea of “going to a place in Switzerland” where you can “get it done quickly” if you have a terminal condition. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

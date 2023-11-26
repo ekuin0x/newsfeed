@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>« Cette année, le loto a permis de sauver 118 sites » (Stéphane Bern)</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="LA TRIBUNE DIMANCHE- Êtes-vous satisfait des résultats de l'édition 2023 du loto">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>« Cette année, le loto a permis de sauver 118 sites » (Stéphane Bern)</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static.latribune.fr/full_width/2250808/stephane-bern.jpg" alt="">
+
+                <textarea id="text" readonly> LA TRIBUNE DIMANCHE- Êtes-vous satisfait des résultats de l'édition 2023 du loto du patrimoine ?
+
+STÉPHANE BERN- Une nouvelle fois, et pour cette sixième édition du loto du patrimoine, les Français se sont mobilisés pour voler au secours des 118 sites en péril sélectionnés, dont les 18 emblématiques qui figurent sur les tickets de grattage. Au-delà d'apporter une manne financière bienvenue pour ces monuments dont beaucoup, non protégés, ne bénéficient donc pas de l'aide de l'État, je crois que la Mission patrimoine, que je porte avec le soutien de la Fondation du patrimoine, a ranimé la flamme de la sauvegarde du patrimoine, car les Français y sont très attachés tant celui-ci est porteur d'identité, de culture, d'histoire et de dynamisme économique pour nos territoires.
+
+Comment sont sélectionnés les sites soutenus et l'attribution des dotations ?
+
+Les délégués régionaux et départementaux bénévoles de la Fondation du patrimoine nous remontent les dossiers ainsi que les Français qui les inscrivent sur le site Missionbern.fr. La fondation et nous avons mis en place quatre critères de sélection : état de péril, projet de revalorisation du site, impact économique pour le territoire et maturité du projet financier. Sur plus de 5 000 dossiers proposés, nous avons déjà sélectionné 862 monuments que nous nous efforçons de sauver partout en France y compris dans l'outre-mer. Nous travaillons étroitement avec le ministère de la Culture et les Drac. Puis nous répondons aux demandes financières qui nous sont faites, mais le loto du patrimoine sert avant tout de levier pour boucler les budgets de restauration des monuments.
+
+Lire aussiPatrimoine: Stéphane Bern défend la création d'un secrétariat d'Etat dédié
+
+Votre rôle à la Mission patrimoine ne s'arrête pas au loto...
+
+Je prends fait et cause pour les paysages naturels que l'on défigure, pour les maisons alsaciennes typiques, anciennes, que des maires veulent détruire, et bien sûr pour le patrimoine religieux. Au fil des rapports - notamment celui des sénateurs Pierre Ouzoulias et Anne Ventalon sur le patrimoine religieux en péril - je n'ai cessé de tirer le signal d'alarme sur l'état des églises de nos campagnes qui sont à la charge de mairies démunies. Je suis heureux que le président de la République ait entendu le message et qu'il ait proposé en septembre cette collecte nationale qui touche tous les patrimoines religieux. Chacun peut contribuer sur Fondation-patrimoine.org/sauver. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

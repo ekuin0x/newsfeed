@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The (Game) State of Affairs: Analyzing BVB’s Performances Across Match Contexts</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The last time Borussia Dortmund won a league title, many of you were probably in">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>The (Game) State of Affairs: Analyzing BVB’s Performances Across Match Contexts</p>
+            <span id="topic" >BVB</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.vox-cdn.com/thumbor/wzbJQ_L5R2yY5eDmsOqPZOanZUM=/0x551:7690x4577/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24880349/1254580572.jpg" alt="">
+
+                <textarea id="text" readonly> The last time Borussia Dortmund won a league title, many of you were probably in nappies (some of you still might be). They had the chance to change that last season, taking the race for the Bundesliga title right down to the wire, but BVB fell at the final hurdle, dropping points against Mainz as Bayern Munich claimed a late winner and title-decider against FC Köln. Missing out on the Meisterschale in the most humiliating way possible has opened up the discussions about BVB “bottling” it again. It’s easy to see why fans feel this way, but is it fair to attribute Dortmund’s failures to mentality issues?
+
+These discussions about Dortmund’s supposed mental fragility are unlikely to go away any time soon, in part because the truth is likely unknowable from our vantage point. However, there are some reasonable proxies for “mentality” in football, one of them being the way a team responds to different match contexts. So I thought I’d dig a little deeper.
+
+With last season’s crushing disappointment barely behind us, and Dortmund kicking off the new season in extremely unconvincing fashion, now seemed like as good a time as any to share an analysis that paints BVB in a moderately positive light. I have analyzed Borussia Dortmund’s performances and outcomes across a variety of match contexts, including game state (whether BVB is winning, drawing, or losing) and game minutes (split into 15 minute chunks), using Bundesliga data from 2014/15 to 2022/23 to compare BVB against the rest of the league, Bayern Munich in particular.
+
+Analyzing how BVB respond to different match contexts isn’t an exhaustive exploration of the team’s mentality. Instead, I would suggest that it is simply an analysis of how the team performs under different conditions, which is in and of itself interesting, and that this might have some implications for how we think about this crock of bottlers.
+
+What better way to lift everyone’s spirits than with some statistics?
+
+Performances Across Game States
+
+Game state is, in simple terms, whether a team is winning, drawing, or losing at a given moment in a game. You can split game state up further (for example, whether a team is winning by one goal or two or more goals), but in this analysis we will focus on these three simple game states.
+
+When we look at BVB’s performances across three metrics — shot difference, goal difference, and expected goal (xG) difference — from 2014/15 to 2022/23, we get a sense of how Dortmund have performed when facing different contexts. I have chosen these three metrics because each of them can be used to predict match and season outcomes pretty well, and they are good measures of a team’s overall performance, at both ends of the pitch. They also each tell us something slightly different about a team’s performance, which makes them effective when combined.
+
+Figure 1 (below) shows that there was a ton of variance across all three game states, particularly in their goal and xG differences.
+
+Dortmund’s goal difference varies so significantly across all three game states that it is very difficult to observe any meaningful pattern. Goal difference is so variable because both goals for and against are victim to significant random chance.
+
+Dortmund’s xG difference, on the other hand, is a little less wild. We can see the period of dominance under Klopp & Tuchel, Favreball’s famous xG overperformance, and the improvement’s made under Terzic last season. Dortmund performed particularly well when winning or drawing, and it is only when losing that Dortmund’s xG difference drops. The variance in shot difference across game states, on the other hand, is reversed — it is highest when BVB are losing and lowest when they are winning. This makes some sense, because teams that are losing will be chasing the game and therefore shooting more (and conceding less), but I think the significant drop in BVB’s shot difference when they are winning shows a meaningful shift in the way they approach games when they are winning. Dortmund’s shot difference hovered around zero for five seasons, which might be because they sit back, choosing to take the opportunities that the opponent’s openness gives them, rather than piling on the pressure and trying to get more goals. Last season, their shot difference when winning increase significantly, to almost +4, and is almost equal to their shot difference when losing. I’d argue that consistency across game states is probably a good sign, because a team with the talent advantages that Dortmund has over so many of their opponents shouldn’t be adjusting their approach to the game whether they are winning or losing.
+
+Comparing Dortmund’s performances against the rest of the Bundesliga, we get a better sense of what these numbers really mean. Figure 2 (below) visualizes xG difference by game state, from 2014/15 to 2022/23, for all Bundesliga teams, with Dortmund and Bayern’s performance highlighted (plots showing the same for shot difference and goal difference can be found here). What is immediately clear is that Dortmund have struggled to keep up with Bayern since the Klopp & Tuchel years.
+
+There isn’t a big difference between BVB and Bayern when both sides are drawing, but when winning or losing, Bayern have performed much better. Compared against the rest of the Bundesliga, Dortmund are clearly one of the best teams in the league across game state, but their xG difference when winning has been pretty poor in the last five seasons. Interestingly, Dortmund were a lot more competitive with Bayern when both were winning last season, and their performance when drawing was almost identical with Bayern’s. It was only when losing that Dortmund didn’t hold up against their title rivals. I didn’t expect to find that Dortmund had closed the gap with Bayern quite as much as they have.
+
+I didn’t expect to see that BVB have improved so much when winning either. I, like a lot of fans, have felt that BVB sit back too much when they are winning, instead of going for the jugular. The performances across game state last season are promising.
+
+Points from Winning & Losing Positions
+
+While performance across game states tells us a lot about how BVB respond to different situations, it is a little difficult to translate this to outcomes. Therefore, I think it is important to look at points won from winning and losing positions. No one cares about “metrics” you nerds. Football isn’t played on a spreadsheet. Points rule!
+
+When we consider points dropped from winning positions (Figures 3 and 4 below), it is a bit of a mixed bag. Dortmund drop relatively few points from winning positions, but that is largely driven by their excellent form at home. Compared against Bayern, Dortmund dropped much fewer points from winning positions, but it really feels like Dortmund have to get tougher away from Westfalenstadion.
+
+While the number of points that Bayern dropped last season is clearly, at least in part, a product of them having more leads to drop (as evidenced by Schalke’s excellent performance in this regard), they definitely struggled to see out games against teams that they used to sweep aside. I don’t think we can use those mishaps last season as fuel for optimism this season, because it turns out you don’t have as many mishaps when you buy one of the best strikers in the world, but hey, at least it’s nice to remember a time when Bayern were Calamity FC.
+
+Equally, these struggles didn’t come out of nowhere. Figure 4 (above), plots the proportion of games where BVB and Bayern Munich have taken a lead that have ended in wins, draws and losses. For both teams, a winning position ends in three points in the vast majority of cases. We can see that the proportion of leads that Bayern give up is generally very, very low, but it has been gradually increasing in recent years. Not only have they dropped a lot of points, the proportion of losses from winning positions has increased in the last couple seasons.
+
+On the other hand, the proportion of leads that Dortmund have squandered has been decreasing, as has the leads that are turned in to losses. Games where BVB have taken the lead only to fumble the bag right before our eyes are definitely a hotspot for “bottlers” and “mentality issues” sightings on social media and in the comments here at Fear the Wall, so it’s well worth considering just how often this is actually going on. Granted, the proportion of games BVB were making a mess of has been consistently higher than Bayern, but I think that’s more a testament to what a force Bayern were a few years ago.
+
+Turning this on its head and considering how BVB respond to going a goal (or more) down considers the alternative hypothesis: BVB are actually mentality monsters. We all know about Bayern’s (sometimes self-assigned) reputation for mental toughness, the so called “Mia San Mia” mentality. But what about the “Echte Liebe” mentality, huh? You didn’t think about that, did you?
+
+Figure 5 (above) plots the proportion of losing positions that end in wins, draws, and losses (additional plots looking at comebacks from deficits can be found here), and it is clear that Bayern have been more likely to recover from a deficit than BVB. However, this figure also demonstrates that BVB are not fragile, soft-to-the-touch quitters. They turn losing positions around to gain points, even all three points, in a significant proportion of games. The gap between the two teams is not massive (though there are a couple seasons where Bayern turned around almost 75% of losing positions), and it has been shrinking in recent seasons.
+
+BVB’s response to both winning and losing positions highlights just how dominant they are in the Bundesliga. They may not be on Bayern’s level, but the fact is that when BVB take the lead they usually keep it, and when they go behind, there is still a pretty good chance that they will come away with something.
+
+Performances by Game Minutes
+
+The final portion of this analysis takes a slightly different look at match contexts, focusing on BVB’s performances over the course of a game. How a team performs at different points in a game can shed light on how they respond to time pressure.
+
+Splitting the 90 minutes in to six 15 minute chunks, Figure 6 (below) plots Dortmund’s performance last season over the course of games, across our three metrics, and compared against the rest of the Bundesliga.
+
+Perhaps surprisingly, Dortmund generally improve as the game goes on, and across all three metrics they are generally close to or at their very best in the final 15 minutes of games. It is possible that this is driven by a need to chase games, but given that BVB won the vast majority of games last season, it strikes me as unlikely that this would be the sole explanation for this spike.
+
+Figure 6 also highlights a massive drop in Bayern’s goal difference from the first half to the second half, for which I have little explanation, and a dip in xG difference that both BVB and Bayern experience in the 15 minutes immediately after half time (followed by the increase in BVB’s xG performance in the final 15 minutes). It’s important not to overstate what might be a product of random variance, but some of these, Bayern’s goal difference especially, seem like it is probably a meaningful trend. Bayern are a strictly 45-minute team. Spread the word.
+
+When we look at xG difference split by game minutes, across the entire period being studied, it helps us get a better understanding of what we see in Figure 6.
+
+Figure 7 (above) highlights Bayern’s superiority (plots visualizing shot and goal difference by game minutes can be found here), but it also highlights how far ahead both BVB and Bayern are compared against the rest of the league. Bayern are consistently the best team in the league in each 15 minute period, and BVB are not that far behind.
+
+In the earlier seasons, BVB and Bayern are pretty much level across most game minutes, but the gap has grown in the last five seasons. Last season, however, the gap between the two teams shrunk, and BVB were level or slightly ahead of Bayern in a couple periods.
+
+Despite what sometimes feels like the inevitability of a BVB collapse, it seems like Dortmund become a greater threat as the clock ticks down. That seems at odds with how we often view this team.
+
+Summary
+
+I think the main takeaway from this analysis is about how we frame BVB’s “struggles”. Dortmund are frustrating, but they are still a dominant force in the Bundesliga. We know that BVB are not Bayern’s equals, otherwise they might have won a league title at some point in the last decade. We don’t need a bunch of numbers to tell us that BVB have fallen short of a title though.
+
+Rather, I believe this analysis shows that the narratives about the two teams are, in part, a function of the significant resource gap between Bayern Munich and Borussia Dortmund. Bayern have more money, better facilities, and can attract a higher caliber of player, and as a result, they have won the league every year since the dawn of time. Their reputation as winners informs the narrative, so when they turn a deficit around and claim all three points, it is confirmation of what an unstoppable force they are. When they shit the bed, however, everyone takes great joy in it, but they don’t make the mistake of treating it as emblematic of some deep psychological sickness that has struck the entire team. The opposite is generally true of BVB, and I think that is a mistake driven largely by narrative.
+
+None of this is intended to ignore the fact that Dortmund have a capacity for being incredibly stupid. They do. The Mainz loss on the final day of last season, or the yearly Bayern Munich pounding, cannot be explained away without acknowledging that there must be some psychological component holding them back. I just think it’s important to have a little perspective. We’re dealing in fine margins, where success is measured based on having overcome an opponent with a significant resource advantage, and where everything else is very easy to spin as proof that BVB are massive losers. Falling just short of glory is frustrating, but hopefully this analysis paints a slightly more nuanced picture of Dortmund’s performances in recent years, and adds a little context to discussions about the dreaded “mentality” problems.
+
+For anyone that is interested in the code that produced this analysis, including all the plots you see in this article (and some more), you can find everything here. If you are interested in some (but not all) of my previous football analytics work, the code, data, and resulting outputs can all be found here. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stéphane Bern vous invite à découvrir l’histoire Napoléon III, ce mercredi soir sur France 3.</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Stéphane Bern vous invite à découvrir l’histoire Napoléon III, ce mercredi soir ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Stéphane Bern vous invite à découvrir l’histoire Napoléon III, ce mercredi soir sur France 3.</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://image.over-blog.com/tbVhu--DZmfBzA0_ViK2oZ4SjjE=/filters:no_upscale()/image%2F0953084%2F20231121%2Fob_0ffce4_secretsd27histoire-napolc389oniii2cl.jpg" alt="">
+
+                <textarea id="text" readonly> Stéphane Bern vous invite à découvrir l’histoire Napoléon III, ce mercredi soir sur France 3. Un numéro inédit du magazine Secrets d'histoire, dès 21h10.
+
+Sur les traces de la glorieuse destinée de son oncle Napoléon Ier, le prince Louis-Napoléon Bonaparte marque à plus d’un titre notre histoire. D’abord en devenant le premier président français élu au suffrage universel. Ensuite en orchestrant cyniquement un coup d'État afin de faire tomber la toute jeune Seconde République. Enfin en s’autoproclamant empereur sous le nom de Napoléon III, aussitôt plébiscité par référendum. Il concrétise ainsi une ambition dévorante.
+
+Pourtant, le chemin jusqu’au pouvoir aura été semé d’embûches, notamment à cause de ses origines familiales qui le contraignent à l’exil et au bannissement, en Angleterre, aux États-Unis ou en Suisse. Mais Louis-Napoléon Bonaparte ne lâche rien, comme lorsqu'il réussit à s’évader de manière rocambolesque de la prison d’État du fort de Ham, déguisé en maçon…
+
+Depuis l’imposant château de Compiègne dans l’Oise, l’une des résidences préférées de Napoléon III, Secrets d’Histoire vous ouvre les portes des appartements et des salons et Stéphane Bern vous invite à découvrir l’histoire de ce chef d’État français pas comme les autres. À lui seul, Napoléon III incarne magnifiquement la France du XIXe siècle, son panache, son développement économique sans précédent, sa révolution industrielle avec l’arrivée des voies de chemins de fer, mais aussi les premières lois sociales et surtout son explosion artistique et intellectuelle. Il aime le grand spectacle et les fêtes impériales dont les véritables reines sont l’impératrice Eugénie, son épouse, et sa cousine la princesse Mathilde. Il invente un style, son style, que nous allons découvrir ensemble en poussant les portes des bâtiments les plus emblématiques du Second Empire. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

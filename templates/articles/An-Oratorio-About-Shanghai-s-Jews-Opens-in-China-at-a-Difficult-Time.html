@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Oratorio About Shanghai’s Jews Opens in China at a Difficult Time</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="In 2019, Yu, worried that the stories of Jewish refugees in his hometown were be">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>An Oratorio About Shanghai’s Jews Opens in China at a Difficult Time</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/27/multimedia/26emigre-shanghai-01-fkvp/26emigre-shanghai-01-fkvp-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> In 2019, Yu, worried that the stories of Jewish refugees in his hometown were being forgotten, came up with the idea for the piece. He approached the New York Philharmonic, which has had a partnership with the Shanghai Symphony since 2014, about commissioning the work together.
+
+Yu said he never expected the oratorio to premiere in wartime but hoped that its message would still resonate.
+
+“We always make the same mistakes in our lives, and we have to learn from history,” he said. “We can be inspired by the kindness and support that Shanghai showed in this moment.”
+
+To shape the music and the plot, Yu turned to Zigman, a classically trained film and television composer who has returned to classical music in recent years, including with “Tango Manos” (2019), a piano concerto he wrote for the pianist Jean-Yves Thibaudet. Yu has long known Zigman, who has composed more than 60 Hollywood scores, including “The Notebook,” and he and Thibaudet suggested the idea for a tango concerto.
+
+For “Émigré,” Zigman said he was eager to create a “multicultural love story” that drew attention to the violent struggles unfolding in Asia and Europe at the time. Those include the 1937 massacre in Nanjing, an eastern Chinese city, in which tens of thousands of Chinese civilians were killed by occupying Japanese forces; and Kristallnacht, the wave of antisemitic violence carried out by Nazis in 1938.
+
+“Our project is really about bridging cultures and humanity and love, hope, loss and tragedy,” Zigman said. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

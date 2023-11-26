@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stéphane Bern says he’s ruined</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="In an interview with French TV listings guide Télé-Loisirs, Stéphane Bern has sa">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Stéphane Bern says he’s ruined</p>
+            <span id="topic" >Stephane Bern</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://assets.paperjam.lu/images/articles/delano_stephane-bern-says-hes-ruined/0.5/0.5/600/400/bal_croix_rouge_stephane_bern_xavier_bettel_-91.jpg" alt="">
+
+                <textarea id="text" readonly> In an interview with French TV listings guide Télé-Loisirs, Stéphane Bern has said that the restoration of the former Thiron-Gardais royal military college has cost him some €4 million. The property, which dates back to the 17th century and had fallen into ruin, caught his eye while he was filming his popular France2 show “Secrets d'histoire”.
+
+Bern, whose mother was Luxembourgish, has close ties with the grand ducal family and has chronicled various European royal families and presented TV shows on heritage. He was even appointed by Emmanuel Macron to raise funds for France’s national heritage.
+
+In the interview, Bern explains that he purchased the building and grounds for just €300,000 but was forced to take out a 25-year mortgage on his apartment to finance the project after declining subsidies from the French state, except to restore the small museum in the college.
+
+He said the project had ruined him financially, but that he was proud to have employed a hundred craftsmen, to have saved this historical place and that it is attracting visitors. “I love showing people around,” he added and described the restoration as the adventure of a lifetime.
+
+“I have no taste for luxury,” he said in the interview. “History has a price. I have very sincere ethics and believe that state heritage deserves a commitment like this.” Luckily, he has also received support from the banks, he concluded.
+
+The college, which is in the Perche nature reserve some 140km east of Paris, can be visited until the end of September. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

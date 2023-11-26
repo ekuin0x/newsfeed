@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BVB: Hans-Joachim Watzke teilt auf Mitgliederversammlung aus</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="... in der Liga: „Wir haben aus 12 Spielen 24 Punkte geholt. Wenn wir ehrlich si">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>BVB: Hans-Joachim Watzke teilt auf Mitgliederversammlung aus</p>
+            <span id="topic" >BVB</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://images.bild.de/656309a5a98a374f3d498b0d/9aa00a4c71e7024a72ed2d98ae797a6d,881b49ba?w=1280" alt="">
+
+                <textarea id="text" readonly> ... in der Liga: „Wir haben aus 12 Spielen 24 Punkte geholt. Wenn wir ehrlich sind, hatten wir uns zwei, drei mehr erhofft. Aber es ist nicht so, dass wir in Sack und Asche gehen müssen. Wir haben aktuell in der Liga zwei Mannschaften – und das kann ich ohne Scheu sagen – vor allem mit Leverkusen außergewöhnlichst gut machen. Das muss man auch mal anerkennen. Wir stehen auf einem Champions-League-Platz.“
+
+Und weiter: „(...) Was nicht heißen soll, dass bei uns alles gut ist. Wir haben in Mannschaft, Trainer, und Sebastian in der sportlichen Führung die Dinge schon auch in dieser Woche kritisch aufgearbeitet. Es ist einiges zutun. Ich bitte nur bei allem immer um die analytische Sicht. Wir haben die nächsten Wochen viel Zeit und Möglichkeiten uns zu verbessern. Am Sonntag haben wir die Möglichkeit zu prüfen, ob die Leverkusener wirklich nicht zu schlagen sind.“
+
+... in der Champions League: „In dieser Gruppe stehen wir an erster Stelle. Die Gruppe ist fragil und alles kann passieren. Am Dienstag haben wir aber die Möglichkeit, uns mit einem Erfolg vorzeitig zu qualifizieren. Davon hätte ich bei der Auslosung zu diesem Zeitpunkt nicht zu träumen gewagt. Auch das gehört zur Wahrheit dazu. (...) Wir schlagen Newcastle. Dann heißt es, 'so gut sind die auch nicht'.“ </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
