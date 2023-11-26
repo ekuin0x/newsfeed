@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas tree traditions this holiday weekend</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Just like Black Friday, shopping is a big after-Thanksgiving tradition, so is co">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Christmas tree traditions this holiday weekend</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cbs6albany.com/resources/media/ff0add1c-9918-4cfe-a554-0199cdb7fb89-large16x9_treefarm.PNG" alt="">
+
+                <textarea id="text" readonly> Just like Black Friday, shopping is a big after-Thanksgiving tradition, so is coming out and choosing the family Christmas tree.
+
+"Every year, we come here, since I was a kid growing up," said one mom at the Ellms Tree Farm in Charlton.
+
+MORE:
+
+Of course, sometimes out in the fields, sizing up that tree can be a bit deceiving.
+
+"Every year, every year," said one family. "I'm like that one will fit, and then we have to knock a whole foot off. Yeah, they seem they will fit just fine out in the field, but once you get "them inside...Somehow they're twice the size when they're in your living room."
+
+Click on the video to view the whole story. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

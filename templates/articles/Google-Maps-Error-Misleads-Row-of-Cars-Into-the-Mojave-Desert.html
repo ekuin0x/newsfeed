@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps Error Misleads Row of Cars Into the Mojave Desert</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content=""Every car we were driving with was heading that direction..." Shelby Easler say">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Google Maps Error Misleads Row of Cars Into the Mojave Desert</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://a.fsdn.com/sd/topics/topicgoogle_fb.gif" alt="">
+
+                <textarea id="text" readonly> "Every car we were driving with was heading that direction..." Shelby Easler says in a TikTok video , "so we assumed this was going somewhere..."But SFGate reports that instead of a handy "alternate route," Google Maps was leading her and her two passengers " far off the major highway and into Nevada's fierce deserts on an off-roading trail ."1.5 million people have viewed Easler's earlier footage of their road to nowhere . The off-roading trail was apparently only wide enough for traffic in one direction, and attempting to return in that other direction, "We were driving over bushes and rocks and alot of the cars couldn't even make it," Easler says in the second video. "Which is kind of why our car broke down."They told SFGate that ultimately "We had to leave the car in Vegas, and it got towed to the service center of a dealership. They said the rear, right tire was coming off, and the alignment was messed up too. Low-key a pretty expensive fix."They eventually called the highway patrol to shut down the road that Google Maps was sending people to, because "With every car coming in, every single car was getting trapped." </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

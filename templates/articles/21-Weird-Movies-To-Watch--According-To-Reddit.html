@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21 Weird Movies To Watch, According To Reddit</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content=""AKA that movie with the killer tire that roams around. I mean, it's not terribl">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>21 Weird Movies To Watch, According To Reddit</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2023-11/21/15/enhanced/8d0f37a439b2/original-491-1700579354-2.jpg?crop=1243:650;0,89%26downsize=1250:*" alt="">
+
+                <textarea id="text" readonly> "AKA that movie with the killer tire that roams around. I mean, it's not terrible, and I get what they were going for, but you still have to ask yourself the OP's question after watching it. Did I really just spend an hour and a half on that?"
+
+
+
+—u/limpossible
+
+"It's definitely a weird, great little movie that deserves a cult following. I've only ever recommended it to people with an absurd sense of humor.
+
+I looked up the director (Quentin Dupieux) a little after posting my answer and checked out some of the trailers for his other work. I definitely think I'm going to go see if I can find some of his stuff via streaming (Mandibles and Smoking Causes Coughing are at the top of that list).
+
+—u/limpossible </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

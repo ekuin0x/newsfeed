@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mpox kills 600 in largest ever DRC outbreak</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Nearly 600 have died of suspected mpox in the Democratic Republic of Congo this ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Mpox kills 600 in largest ever DRC outbreak</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-26, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.telegraph.co.uk/content/dam/global-health/2023/11/24/TELEMMGLPICT000304060771_17008317210060_trans_NvBQzQNjv4Bqo9GXGxU_lMMVU7xpegTzFMlqjgtC5ZDa0ob1slyW53E.jpeg?impolicy=logo-overlay" alt="">
+
+                <textarea id="text" readonly> Nearly 600 have died of suspected mpox in the Democratic Republic of Congo this year, with a further 11,988 infected, in what has become the nation’s largest-ever outbreak.
+
+The death toll surpasses the 112 global fatalities recorded during last summer’s outbreak, when the disease spread among multiple Western nations for the first time, including the UK.
+
+Experts warn the outbreak is being driven by a strain of the virus that previously spread exclusively through animal to human contact, but is now rapidly spreading between humans.
+
+“The risk of mpox further spreading to neighbouring countries and worldwide appears to be significant,” the WHO said.
+
+DRC’s struggles with mpox, a viral infection spread primarily through close human contact previously known as monkeypox, has been attributed to the nation’s poor health infrastructure.
+
+Mpox, formerly known as monkeypox, has now been discovered in 85 per cent of provinces in the DRC, including Kinshasa, Lualaba and South Kivu, where there were no prior documented cases. The death rate stands at 4.6 per cent.
+
+The outbreak has been attributed to a Belgian resident visiting Kenge in Kwango province in March, who tested positive for the virus.
+
+Epidemiological investigations identified five sexual contacts that subsequently contracted the infection - a strain of mpox that is distinct from the one which circulated globally last year.
+
+According to the WHO, “this event is unusual and highlights the risk that MPXV clade I could also be widely spread among sexual networks, as seen for clade II during the 2022-23 global outbreak.”
+
+Common symptoms include a skin rash or lesions, accompanied by fever, headache, muscle aches, back pain, low energy, and swollen lymph nodes that typically last 2-4 weeks.
+
+Complications from severe cases include bacterial infection from skin lesions, pneumonia, and adverse lung and heart effects. These cases may require hospitalisation and antiviral medication, which proves challenging in some regions of the DRC.
+
+National response capacities in the country face immense challenges, including limited epidemiological information on exposure and infection risk factors, a lack of public awareness amongst vulnerable groups, and competing priorities.
+
+Mpox is zoonotic, meaning it derives in animals and spreads to humans. Evidence of the virus has previously been found in squirrels, Gambian pouched rats, dormice and various species of monkeys.
+
+The global outbreak of the virus last summer caused a spate of cases in previously unaffected regions, including the UK, US, Australia, Europe, and Canada. It circulated primarily amongst men who have sex with men, and sex workers. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
