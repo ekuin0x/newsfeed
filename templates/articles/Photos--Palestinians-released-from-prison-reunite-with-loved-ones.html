@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos: Palestinians released from prison reunite with loved ones</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Israel has released 39 Palestinian prisoners in line with a Qatar-mediated deal ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Photos: Palestinians released from prison reunite with loved ones</p>
+            <span id="topic" >israel</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.aljazeera.com/wp-content/uploads/2023/11/2023-11-24T192721Z_2104190640_RC2UJ4AD1434_RTRMADP_3_ISRAEL-PALESTINIANS-PRISONERS-1700854508.jpg?resize=1920%2C1440" alt="">
+
+                <textarea id="text" readonly> Israel has released 39 Palestinian prisoners in line with a Qatar-mediated deal that saw 13 Israeli captives freed by Hamas hours earlier.
+
+Qadura Fares, who heads the Palestinian Prisoners’ Club NGO, said 33 prisoners freed in the West Bank were handed to a team from the International Committee of the Red Cross. He said the remaining six were released in Jerusalem.
+
+The releases on both sides were part of a deal for a four-day truce in the Israel-Hamas war that began Friday.
+
+Over the next four days, 150 Palestinian prisoners and 50 Israeli captives are to be freed.
+
+Marah Bakeer, who was arrested in 2015 when she was 16 years old, was among those released in Jerusalem.
+
+She told Al Jazeera many of the released prisoners require medical attention.
+
+“All of the prisoners suffered a high level of medical neglect [while detained],” she said.
+
+She said she is looking forward to spending time with her family and is considering enrolling in a university to pursue a degree in law. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

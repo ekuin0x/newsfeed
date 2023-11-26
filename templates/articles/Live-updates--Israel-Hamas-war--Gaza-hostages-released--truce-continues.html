@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live updates: Israel-Hamas war, Gaza hostages released, truce continues</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Palestinians have gathered in front of the Al-Bireh municipality building near R">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Live updates: Israel-Hamas war, Gaza hostages released, truce continues</p>
+            <span id="topic" >israel</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.cnn.com/cnnnext/dam/assets/231124161830-west-bank-super-tease.jpg" alt="">
+
+                <textarea id="text" readonly> Palestinians have gathered in front of the Al-Bireh municipality building near Ramallah, in the occupied West Bank, where some of the 39 detainees and prisoners released by Israel as part of a deal with Hamas are expected to arrive shortly.
+
+The Israeli Prison Authority confirmed that all 39 had left their places of incarceration —Damon and Megiddo prisons in Israel, and Ofer prison in the West Bank — earlier Saturday.
+
+Of those, 33 are teenage boys and six are women.
+
+Based on information from the Israeli Prison Authority and the Palestinian Prisoners’ Club, an NGO promoting prisoners’ rights, CNN assesses that 15 of those released on Saturday were serving sentences, mostly for attacks on Israelis.
+
+The other 24 were held in what is called administrative detention, which means they were held without knowing any charges against them, and without any legal process.
+
+Violence near one of the prisons: Three boys were shot and wounded with live ammunition near Ofer prison earlier Saturday evening, according to the Palestine Red Crescent Society.
+
+A CNN team on the ground near Beitunia crossing, which is about 200 meters away from the Israeli prison, had witnessed many Palestinians waiting in the area for the expected release of the prisoners. The team heard three gunshots over the course of an hour and witnessed three boys being carried away on a stretcher over the same time period.
+
+The Red Crescent said two of the boys were 17, and one was 16.
+
+CNN has reached out to the Israel Border Police for comment.
+
+CNN's Nada Bashir, Abeer Salman, Celine Alkhaldi and Kareem Khadder contributed reporting to this post.
+
+This post has been updated with details about the shooting outside Ofer prison. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

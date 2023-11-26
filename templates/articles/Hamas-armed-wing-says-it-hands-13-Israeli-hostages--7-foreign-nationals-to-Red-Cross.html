@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamas armed wing says it hands 13 Israeli hostages, 7 foreign nationals to Red Cross</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="An Israeli soldier stands on a Merkava tank near the Israel-Gaza border, during ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Hamas armed wing says it hands 13 Israeli hostages, 7 foreign nationals to Red Cross</p>
+            <span id="topic" >hamas</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.reuters.com/resizer/M49K-rBri2ncrirWxIdZ5eacpLM=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/CCWCNMVLUFPTTE4T6VZMSB6BGY.jpg" alt="">
+
+                <textarea id="text" readonly> An Israeli soldier stands on a Merkava tank near the Israel-Gaza border, during a temporary truce between Hamas and Israel, in southern Israel, November 25, 2023. REUTERS/Alexander Ermochenko Acquire Licensing Rights
+
+CAIRO, Nov 25 (Reuters) - Hamas said on Saturday night that its armed wing had handed over 13 Israeli hostages and seven foreign nationals to the International Red Cross.
+
+Reporting by Ahmed Tolba; Writing by Adam Makary; Editing by Hugh Lawson
+
+Our Standards: The Thomson Reuters Trust Principles. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

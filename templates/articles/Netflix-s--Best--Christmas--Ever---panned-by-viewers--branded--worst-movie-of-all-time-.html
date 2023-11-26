@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix’s ‘Best. Christmas. Ever!’ panned by viewers, branded ‘worst movie of all time’</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="If viewer reaction is any indication, Netflix certainly isn’t sleighing with the">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Netflix’s ‘Best. Christmas. Ever!’ panned by viewers, branded ‘worst movie of all time’</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://nypost.com/wp-content/uploads/sites/2/2023/11/brandy-norwood-jackie-best-christmas-72821544.jpg?quality=75&strip=all&w=1024" alt="">
+
+                <textarea id="text" readonly> If viewer reaction is any indication, Netflix certainly isn’t sleighing with their Christmas content.
+
+The streaming giant’s much-hyped holiday flick, “Best. Christmas. Ever!”, has been panned by fans, in spite of its all-star cast.
+
+Jason Biggs, Heather Graham, Matt Cedeño and Brandy Norwood appear in the comedy, about a “twist of fate” that brings two families together on Dec. 25.
+
+The film is currently performing well for Netflix, sitting in second spot on their global Weekly Top 10 list of most-watched movies.
+
+But those who tune in appear less than impressed. The project has a Rotten Tomatoes score of 33% and viewers have taken to X to slam the movie.
+
+“Trying to figure out the plot of #BestChristmasEver,” a viewer declared alongside a meme of a confused-looking Adele.
+
+”Best Christmas Ever’ is probably [the] worst Christmas movie I’ve seen in a long time,” someone else tartly tweeted.
+
+3 Brandy Norwood as Jackie and Jason Biggs as Rob in “Best. Christmas. Ever!” Scott Everett White/Netflix
+
+“AI must have wrote #BestChristmasEver,” another mocked.
+
+Meanwhile, an additional viewer guffawed: “On a scale of 1-10, the new Netflix movie ‘Best. Christmas. Ever!’ is the worst movie of all time.”
+
+Despite viewer backlash and the poor Rotten Tomatoes score, some critics say they enjoyed the festive flick.
+
+3 Heather Graham as Charlotte in “Best. Christmas. Ever!” Scott Everett White/Netflix
+
+Variety critic Courtney Howard wrote that Graham and Norwood’s performances are both “comedic and dramatic” with “tonal fluctuations [of] grace and nuance.”
+
+Screen Rant echoed the outlet’s words, saying that the plot was “sweet and sentimental.”
+
+“The real reason to watch this one is Brandy, a multi-talented star who has withstood the test of time; she is simply that girl! Brandy is fun, wholesome, and beaming the whole way through,” the writer gushed over the R&B singer.
+
+3 Critics couldn’t help but gush over the performance of Norwood. Scott Everett White/Netflix
+
+Netflix’s newest holiday production comes amid their decision to hike their prices despite raking in nine million new subscribers this year.
+
+The streamer believes that their increase in members is due to their crackdown on password-sharing. The company had raised the US price of the premium ad-free plan by $3 per month to $22.99. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

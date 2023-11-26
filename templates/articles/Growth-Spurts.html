@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growth Spurts</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The first example that I solved was 13-Down: “Yao Ming, before joining the N.B.A">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Growth Spurts</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/26/crosswords/26wordplay-monocle/26wordplay-monocle-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> The first example that I solved was 13-Down: “Yao Ming, before joining the N.B.A.?,” which solves to BALLER IN CHINA. Take out the letters I-N-C-H, which are in the gray boxes, and you get BALLERINA, which is an amusing first career for someone who’s 7 feet 6 inches tall. Given an INCH and a clue about height, I guessed that this theme was likely to be related to measurements. It did not register that all the runs of gray squares were four letters long, which turned out to be important.
+
+Next, I arrived at 67-Down, “Affectionate squeeze of an infant’s bottom?” This entry starts with BABY BUMP, and its final four letters are the gray letter run, which in this entry is also INCH. This makes the answer BABY BUM PINCH, and means that we’ve now been given two INCHes.
+
+Armed with that knowledge, I moved onto a few more half-finished theme entries and learned that each one grew by the same amount: one INCH. At this moment, my inner Grinch came out. All INCHes, all the time? Where’s my “iamb,” my “foot,” my “yard”? But soon, the Grinch in me was grinning. These theme entries are clever and surprising, not one-trick ponies, and a few are also quite tough. The entry at 43-Down is in a corner I had some trouble with and it has a zany clue: “Reasons that South American furniture stores have super-long lines?” I was glad to find the “Z” in this entry, which helped me get LATEST CRAZES, the phrase that goes outside the INCH. The full entry is LATIN CHEST CRAZES, which is over-the-top enough to be fun in a puzzle, I think.
+
+Of course, my favorite entry in the bunch involves the irresistible combination of a fuzzy friend and a catchy portmanteau. The clue at 30D strictly works with the full entry: “Peruvian road sign?” solves to CHINCHILLA XING — slow down and try CHILLAXING a little bit, why don’t you?
+
+Tricky Clues
+
+38A. This “Sequin-covered undergarment popularized by Lady Gaga” was mentioned in a crossword clue last year, but DISCO BRA is a New York Times debut entry. I kept seeing DIS COBRA as I continued with my solve for some reason — very disconcerting! </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

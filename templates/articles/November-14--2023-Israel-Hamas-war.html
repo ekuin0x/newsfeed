@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>November 14, 2023 Israel-Hamas war</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The Israeli military said it is conducting a raid inside Gaza’s biggest hospital">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>November 14, 2023 Israel-Hamas war</p>
+            <span id="topic" >hamas</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.cnn.com/cnnnext/dam/assets/231113084539-al-shifa-hospital-gv-110823-super-tease.jpeg" alt="">
+
+                <textarea id="text" readonly> The Israeli military said it is conducting a raid inside Gaza’s biggest hospital as it targets Hamas militants it claims are operating beneath the structure — which the militant group and hospital officials deny.
+
+Thousands of Palestinians are believed to be sheltering in and around the hospital, where conditions have rapidly deteriorated with doctors working by candlelight and wrapping premature babies in foil to keep them alive.
+
+Here’s what we know so far:
+
+The raid: On early Wednesday morning, local time, the Israeli military said it was “carrying out a precise and targeted operation against Hamas in a specified area in the Shifa Hospital” in Gaza.
+
+Hospitals are protected in times of war under international humanitarian law, but Israel said in a statement that Hamas’s “continued military use of the Shifa hospital jeopardizes its protected status.”
+
+Israel believes it has given Hamas operatives sufficient time to cease their alleged activities inside the building, according to the statement.
+
+The US on Tuesday cited intelligence suggesting Hamas has a command node under the hospital, seeming to back Israel’s assertion. CNN cannot independently verify the US or Israeli claims.
+
+Israeli army spokesman Peter Lerner told CNN that the presence of civilians at the hospital makes the ground operation there “challenging.” He said Israeli forces were trying to “mitigate” the impact, citing the presence of medics and Arabic speakers among those carrying out the raid.
+
+What’s happening on the ground: Khaled Abu Samra, a doctor at the hospital, told CNN they were given 30 minutes’ warning before the Israeli operation on the complex began.
+
+“We were asked to stay clear of the windows and the balconies. We can hear the armored vehicles, they are very close to the entrance of the complex,” he said.
+
+Khader Al Za’anoun, a journalist inside the hospital, told CNN that Israeli tanks had moved into the hospital complex, and there were gunfire exchanges across the yard. It’s unclear whether there are IDF soldiers inside the hospital buildings, Al Za’anoun said.
+
+What Palestinian authorities have said: Palestinian Health Minister Dr. Mai Al-Kaila said Wednesday the raid represented “a new crime against humanity, medical staff, and patients.”
+
+It could have “catastrophic consequences” for patients and medical staff, she said. Her health ministry is based in Ramallah and falls under the control of the Palestinian Authority (PA) -- and is separate from the Hamas-controlled Health Ministry in Gaza.
+
+Hamas blamed both Israel and the US for the Israeli raid in a statement, claiming that the US had given Israel “a green light … to commit more massacres against civilians" by using Israel’s “false narrative” of Al-Shifa being used as a command center. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

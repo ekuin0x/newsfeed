@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salmonella outbreak infects dozens, killing 2, across 32 states, including Texas</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="AUSTIN (KXAN) – The Centers for Disease Control and Prevention released a warnin">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Salmonella outbreak infects dozens, killing 2, across 32 states, including Texas</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.kxan.com/wp-content/uploads/sites/40/2023/11/AP23328716913489.jpg?w=1280" alt="">
+
+                <textarea id="text" readonly> AUSTIN (KXAN) – The Centers for Disease Control and Prevention released a warning Friday about an outbreak of Salmonella linked to cantaloupe that has infected nearly 100 people across 32 states, including Texas.
+
+The CDC said through interviews with sick individuals and tests, investigators have linked the outbreak to cantaloupe. Since the outbreak, several cantaloupe brands have recalled products, including Malichita brand whole cantaloupes, Vinyard brand pre-cut cantaloupes, and ALDI whole cantaloupe and pre-cut fruit products.
+
+Investigators are still working to identify additional products that may also be contaminated.
+
+Of those infected with Salmonella, 45 have been hospitalized, and two have died as a result of the illness, according to the CDC.
+
+The CDC warns consumers to discard any recalled cantaloupe or other fruit products. Additionally, wash the surfaces of anything the recalled fruit may have touched with hot, soapy water.
+
+People infected with Salmonella will likely begin showing symptoms within six hours and six days of swallowing an infected product. People might get diarrhea, a fever, and stomach cramps if infected.
+
+Most will recover from the infection within a week, but children younger than five, adults 65 years and older, and people with weakened immune systems may experience more severe illnesses that require medical treatment. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

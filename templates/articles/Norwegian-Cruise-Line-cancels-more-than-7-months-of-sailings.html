@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norwegian Cruise Line cancels more than 7 months of sailings</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Norwegian Cruise Line has canceled more than seven months of sailings on its Nor">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Norwegian Cruise Line cancels more than 7 months of sailings</p>
+            <span id="topic" >usa</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2023/11/21/USAT/71671224007-ncl-sun-aerial-tortola-horz-2.jpg?crop=1498,841,x0,y104&width=1498&height=841&format=pjpg&auto=webp" alt="">
+
+                <textarea id="text" readonly> Norwegian Cruise Line has canceled more than seven months of sailings on its Norwegian Sun ship.
+
+The line scrapped the vessel’s planned itineraries from March 28 through and including Nov. 3, 2025, because of “a fleet redeployment,” Norwegian said in a letter to guests and travel partners Tuesday, which it shared with USA TODAY.
+
+The line is giving impacted passengers full refunds of their fares and “a 10% discount” in the form of a future cruise credit. Travelers can apply the credit toward any of Norwegian's published sailings through Dec. 31, 2025.
+
+“We sincerely appreciate your understanding and look forward to welcoming you aboard very soon,” the letter said.
+
+The changes come after the line canceled three 2025 sailings on its Norwegian Epic ship in June so the ship could undergo “a revitalization,” as the line said at the time. Norwegian also previously canceled sailings aboard Norwegian Spirit scheduled between early July and mid-September 2024 because of a full-ship charter.
+
+Your cruise was canceled:Now what?
+
+Unlike airlines, cruise cancellation policies are not regulated by the federal government. But Jared Feldman, owner of travel agency Jafeldma Travel, told USA TODAY in June that cruise lines typically give refunds and work to accommodate guests on a different itinerary, adding that they “don't take schedule changes lightly.” They may also offer additional compensation.
+
+Nathan Diller is a consumer travel reporter for USA TODAY based in Nashville. You can reach him at ndiller@usatoday.com. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

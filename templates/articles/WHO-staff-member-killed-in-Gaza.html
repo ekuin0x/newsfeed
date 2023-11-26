@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHO staff member killed in Gaza</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="With heavy hearts, WHO announces the death of one of our staff in Gaza, in the o">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>WHO staff member killed in Gaza</p>
+            <span id="topic" >gaza</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.who.int/media/images/default-source/who_homepage/dima.tmb-1200v.png?sfvrsn=9fc536ac_6" alt="">
+
+                <textarea id="text" readonly> With heavy hearts, WHO announces the death of one of our staff in Gaza, in the occupied Palestinian territory. Dima Abdullatif Mohammed Alhaj, 29 years old, had been with WHO since December 2019. She worked as a patient administrator at the Limb Reconstruction Centre, a critical part of the WHO Trauma and Emergency Team.
+
+
+
+Dima died today when her parents’ house in southern Gaza—where she had evacuated to from Gaza City—was bombed. She was tragically killed alongside her husband, their six-month old baby boy, and her two brothers. Reportedly, over 50 family and community members sheltering in the same house also died.
+
+
+
+Dima had a bachelor’s degree in Environmental and Earth Sciences from the Islamic University of Gaza, and continued to study and work on environmental issues and health. She was a master’s student at Glasgow University, Scotland, UK, as part of the Erasmus exchange program from 2018-2019.
+
+
+
+On Women’s Day 2022, Dima said in a WHO social media post that she was proud of her work because “it contributes to giving people hope and a new lease on life.”
+
+
+
+Dr Rik Peeperkorn, the WHO representative in the occupied Palestinian territory said “she was a wonderful person with a radiant smile, cheerful, positive, respectful. She was a true team player. Her work was crucial, and she had been requested to take on even more responsibilities to support the Gaza suboffice and team. This is such a painful loss for all of us. We share our deepest condolences with her mother and father (a long-serving medical specialist in Gaza), her family, and her many friends.”
+
+
+
+The humanitarian community and UN family have lost other members since 7 October. MSF today lost two doctors. UNRWA has lost 108 colleagues. These are not just numbers, but people who were working so that others could have a better life.
+
+
+
+The death of Dima and her family is another example of the senseless loss in this conflict. Civilians have died in their homes, at their workplaces, while evacuating, while sheltering in schools, while being cared for in hospitals.
+
+
+
+When will it stop?
+
+
+
+We plead again with all those who hold in their hands the power to end this conflict to do so.
+
+
+
+All of the WHO stands alongside Dima’s family and colleagues in the occupied Palestinian territory, the Regional Office for the Eastern Mediterranean, and across the organization to mourn her loss.
+
+ </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

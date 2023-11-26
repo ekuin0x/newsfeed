@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satoshi Is Black</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The music switches from soft elevator tunes to Usher, signaling that the day’s e">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Satoshi Is Black</p>
+            <span id="topic" >crypto</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Sun-0, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://media.wired.com/photos/6552828d6f7fd650860e0146/191:100/w_1280,c_limit/0251_black_blockchain_summit.jpg" alt="">
+
+                <textarea id="text" readonly> The music switches from soft elevator tunes to Usher, signaling that the day’s events are about to begin. Brother Sinclair Skinner, the Summit’s cofounder, enters the auditorium, and the stragglers in the room snap to order. Skinner is one of those people who’s never met a stranger in his life. He’s wearing his usual “I ♥️ Black People” T-shirt—it’s his version of a black turtleneck. His cat-eye glasses, lenses tinted pink, are giving Clark Kent meets P-Funk Mothership. He says a few words of welcome, and we stand up to receive libations from Priest Nana Akua N. Zenzele: “Bless us abundantly. We ask that you continue to support our people in this blockchain summit and that we are supported in using this technology throughout the world.” We sing along to a Howard student’s beautiful rendition of “Lift Every Voice and Sing.”
+
+Brother Sinclair Skinner, a cofounder of the summit. Photograph: Jared Soares
+
+I’m here as a nonbeliever. I worry that the Black-utopian narrative of a crypto-fied future leaves out how many of us will survive to the end of the story. With Skinner onstage, though, my mood swivels toward optimism. It helps that he’s an unusually credible narrator: a Howard alum, with a storied history in organizing protests on that campus and for the 1995 Million Man March, as well as forming the first Black super PAC for Barack Obama’s 2012 campaign. He was turned on to crypto when he helped organize a DC Occupy encampment and saw how a Bitcoin wallet was used to distribute resources. In 2017, he launched the remittance company BillMari by embarking on a bus tour of historically Black colleges and universities, spreading the gospel of this new tech to young Black minds. The tour ended in Zimbabwe, where it was abruptly stopped by the uprising against Robert Mugabe. (“When people tell their startup launch stories, I say mine included a coup,” Skinner tells me later. “If you can’t top that, I’m not impressed.”) The idealistic ethos of crypto—anarcho-populist protest meets decentralized network, as Skinner saw it—convinced him it could be a way to build a pan-African movement.
+
+The next year, in 2018, Skinner created the Black Blockchain Summit to hash out with other Bitcoin disciples, currency creators, artists, and government reps what the future could look like for Black communities globally. This was during crypto’s early wave, when Nipsey Hussle was evangelizing the digital revolution. Then, as the market inflated, scams proliferated, and Black investors started to get crowded out, Skinner envisioned the summit as a “safety net” by which Black people could learn from and protect one another. He still sees it that way. When I ask him what he thinks of the FTX crash, he replies that no one should be surprised. The company’s founder may have used the language of altruism, but “it’s still the same white elites moving money around,” he says. What about the risks for the average investor? Skinner acknowledges that crypto is a gamble—but the promise of the future it might deliver seems, to him, magnitudes better than sticking to the status quo. When you have nothing to lose, and no sign that TradFi or Silicon Valley will show up for Black people, gambling on crypto starts to look like a necessity.
+
+Crypto holds a certain appeal for Black people. Black Americans are significantly more likely to invest in cryptocurrency than white Americans and to buy crypto as their first investment. A definitive picture of the current moment is hard to capture, but last year an estimated 25 percent of Black Americans owned cryptocurrency; for those under 40 years old the portion jumped to 38 percent. At the same time, Black people are significantly less likely than white people to think of cryptocurrencies as risky. They are about twice as likely to believe, falsely, that cryptocurrency is both safe and regulated by the government—a perception helped by Black celebrities paid to lend cultural cred to white-led crypto companies.
+
+All this might start to form a picture of a Black populace that is uniquely vulnerable to crypto’s deceptions. But the Black Blockchain Summit insists on troubling this assumption. As the debris settles from last year’s crash, the energy in this room continues to be bullish. I want to know: What’s left to buy into? </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
