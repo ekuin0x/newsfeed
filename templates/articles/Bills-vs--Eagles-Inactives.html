@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bills vs. Eagles Inactives</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The Eagles will have seven players inactive for today's showdown with the Buffal">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Bills vs. Eagles Inactives</p>
+            <span id="topic" >Eagles</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/eagles/z3mgnn3gontoiwbg1rnq" alt="">
+
+                <textarea id="text" readonly> The Eagles will have seven players inactive for today's showdown with the Buffalo Bills.
+
+TE Grant Calcaterra: The tight end suffered an ankle injury last week against the Chiefs. He will miss his second game of the season.
+
+TE Dallas Goedert: The veteran playmaker is still recovering from a fractured forearm suffered in Week 9.
+
+OT Lane Johnson: The tackle will not play after being added to the injury report with groin tightness earlier today. Johnson underwent an MRI and warmed up before the game, but he is not healthy enough to play.
+
+QB Tanner McKee (3rd QB): The rookie will serve as the emergency quarterback and can only play if Jalen Hurts and Marcus Mariota get injured.
+
+RB Rashaad Penny: The running back is once again inactive.
+
+CB Josiah Scott: After being featured in the last four games, Scott is inactive.
+
+DT Milton Williams: The defensive tackle is sidelined with a concussion.
+
+Tight ends Grant Calcaterra (ankle) and Dallas Goedert (forearm), along with defensive tackle Milton Williams (concussion), did not practice this week and are all out with injuries.
+
+Wide receivers A.J. Brown (thigh), Julio Jones (knee), and DeVonta Smith (knee) all hit the injury report this week. They have no game status designations and will play. Running back D'Andre Swift was a full participant in practice on Friday after being limited earlier in the week; he will also play.
+
+The Eagles elevated tight end Noah Togiai and linebacker Ben VanSumeren from the practice squad for today's game. Togiai was signed to the practice squad on November 14 and will play for the first time this season. VanSumeren will make his third straight appearance.
+
+Wide receiver Quez Watkins was activated off the Injured Reserve list yesterday after missing the last five games with a hamstring injury. The fourth-year pro came into the game questionable to play. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
