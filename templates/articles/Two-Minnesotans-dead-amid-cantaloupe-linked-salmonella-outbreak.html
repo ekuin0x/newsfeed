@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Minnesotans dead amid cantaloupe-linked salmonella outbreak</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Two Minnesotans have died as a salmonella outbreak linked to cantaloupe continue">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Two Minnesotans dead amid cantaloupe-linked salmonella outbreak</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://chorus.stimg.co/25109473/merlin_72801462.jpg?h=630&w=1200&fit=crop&bg=999&crop=faces" alt="">
+
+                <textarea id="text" readonly> Two Minnesotans have died as a salmonella outbreak linked to cantaloupe continues, according to the CDC.
+
+Minnesota has 13 cases of salmonella linked to the outbreak — the highest number of reported cases of any state, the CDC said. Canada is also investigating a salmonella outbreak linked to cantaloupe.
+
+More melons have been recalled over the last week.
+
+As of Sunday, the recalled food list includes certain whole cantaloupes that might have a sticker that says "Malichita" or "Rudy," with the number "4050" and "Product of Mexico/produit du Mexique"; Vinyard brand pre-cut cantaloupes sold in Oklahoma, ALDI whole cantaloupe and pre-cut fruit sold in Illinois, Indiana, Iowa, Kentucky, Michigan, and Wisconsin; Freshness Guaranteed brand and RaceTrac brand pre-cut cantaloupes sold in Illinois, Indiana, Kentucky, Louisiana, Michigan, North Carolina, Ohio, Tennessee, Texas and Virginia. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

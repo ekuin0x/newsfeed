@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Lynch Wins Booker Prize for ‘Prophet Song’</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="When Paul Lynch, the Irish writer, started work on his fifth novel, he was think">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Paul Lynch Wins Booker Prize for ‘Prophet Song’</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/12/26/multimedia/26booker-prize-lwzb/26booker-prize-lwzb-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> When Paul Lynch, the Irish writer, started work on his fifth novel, he was thinking about the long civil war in Syria and the West’s apparent indifference to the people who fled the conflict.
+
+So, he crafted a book that could bring that plight home.
+
+That novel, “Prophet Song,” which imagines a near-future Ireland descending into totalitarianism, then a civil war that leads to families’ fleeing the country, has won the Booker Prize, the prestigious literary award.
+
+On Sunday, Esi Edugyan, a novelist and the chair of this year’s judging panel, said that “Prophet Song” resonated with contemporary crises including the Israel-Hamas war, but that the novel had won solely on its literary merits. “This is a triumph of emotional storytelling, bracing and brave,” Edugyan said in a news conference before the announcement.
+
+The judges weren’t unanimous in their decision, even after six hours of debate, Edugyan said. Still, she added, the panel felt that “Prophet Song” was a worthy winner that “captures the social and political anxieties of our current moment.” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

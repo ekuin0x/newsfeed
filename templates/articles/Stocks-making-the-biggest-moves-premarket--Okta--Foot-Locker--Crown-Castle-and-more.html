@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stocks making the biggest moves premarket: Okta, Foot Locker, Crown Castle and more</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Check out the companies making headlines before the bell. Okta — The cybersecuri">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Stocks making the biggest moves premarket: Okta, Foot Locker, Crown Castle and more</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://image.cnbcfm.com/api/v1/image/106080661-1565867081465gettyimages-1146875461.jpeg?v=1701088069&w=1920&h=1080" alt="">
+
+                <textarea id="text" readonly> Check out the companies making headlines before the bell. Okta — The cybersecurity company fell 1.4% after Jefferies downgraded shares to market perform from outperform. Okta's security breach announced on Oct. 20 has significantly degraded the brand and lead to a lack of trust among its customers, according to Jefferies. Teva Pharmaceutical — Shares gained 2.4% following an upgrade from UBS to buy from neutral. UBS cited the pharmaceutical company's strong brand pipeline and upcoming outcomes to two major clinical trials. Crown Castle — The wireless tower operator's stock gained more than 4% after a report from The Wall Street Journal that activist investor Elliott Management has accrued a stake of more than $2 billion in the company. Elliott wants to approach the company on ways to boost the stock, according to sources in the report. Mondelez — Shares rose 1.1% after RBC upgraded the snack maker to outperform from sector perform, citing share gains, category growth and expanding retail footprint. Foot Locker — The shoe-and-apparel retailer retreated 3.6% on the heels of a downgrade to sell from neutral by Citi. The bank said Foot Locker is in a tough environment for a turnaround. E-commerce stocks — Shares ticked up across the board on Cyber Monday. Shares of Amazon and Etsy gained around 0.6%. Ebay rose 0.3%, while Walmart ticked up 0.2%. GE HealthCare Technologies — GE HealthCare Technologies shares fell 3% following a downgrade. UBS lowered its rating on the medical technology company to sell from neutral, saying it expects disappointing margins ahead. — CNBC's Alex Harring and Sarah Min contributed reporting </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

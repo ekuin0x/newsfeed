@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This company just put the air in Apple’s MacBook Air</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Two Fridays ago, I drove down to a squat single-story Silicon Valley office buil">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>This company just put the air in Apple’s MacBook Air</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.vox-cdn.com/thumbor/F_Q4uyfM0NKALOPbfeLw9fl62PA=/0x0:4032x3024/1200x628/filters:focal(2218x1768:2219x1769)/cdn.vox-cdn.com/uploads/chorus_asset/file/25110450/IMG_0906.jpg" alt="">
+
+                <textarea id="text" readonly> Two Fridays ago, I drove down to a squat single-story Silicon Valley office building to see a MacBook Air. There was no security guard, no need to badge in, not even a PR person in my demo room. That’s because I wasn’t visiting Apple headquarters for an unannounced laptop. Instead, I went to San Jose to see an existing MacBook — one surgically modified to prove how far an exotic cooling tech has come.
+
+Frore Systems is a startup with $116 million in funding, and I’ve shown you its first product before: the AirJet Mini is a piezoelectric cooling chip that weighs just nine grams and is thinner than two US quarters stacked together. Each nominally consumes one watt and can remove 4.25 additional watts of heat. Here’s the question: what would happen if Frore used those AirJets to cool a laptop that normally doesn’t have a fan at all?
+
+What the company discovered — and I saw firsthand — is that Apple’s M2 chip can run faster, for longer, with Frore’s tech on board. Without it, a 15-inch M2 MacBook Air was like a runner that can’t sprint indefinitely without running out of breath. But with three AirJet Minis, the same laptop got a permanent second wind.
+
+Here’s the bottom line: the longer I ran an intensive benchmark on Frore’s modified and unmodified pair of 15-inch MacBook Airs, the bigger a difference I saw.
+
+Even during the very first of a multi-minute benchmark like Cinebench R23 or Shadow of the Tomb Raider, the AirJet version pulled out slightly ahead, though perhaps within the margin of error at, say, 29 frames per second with AirJet versus 28 frames per second without. The Xcode benchmark finished in 172.7 seconds with AirJet versus 178.2 seconds without the first time around.
+
+Three AirJet Minis and a custom heatsink inside a 15-inch M2 MacBook Pro. Photo by Sean Hollister / The Verge
+
+The reverse of that heatsink — the AirJets strongly suck air through a stack of copper fins atop a custom heat spreader that screws down onto Apple’s logic board. Photo by Sean Hollister / The Verge
+
+But after half an hour of back-to-back Shadow of the Tomb Raider gaming benches, scores had dipped to an unplayable 22fps on the stock Mac versus 27fps on the AirJet version. I started to see massive stutter on the stock Mac at the 40-minute mark — while Frore’s AirJets just kept breezing on.
+
+With Cinebench R23, a video editing benchmark, multicore scores seriously dipped after just a few repeat benches — from 8775 with AirJet to 8380 without. According to a Frore-provided overlay that I watched like a hawk, the stock Mac simply wasn’t able to maintain the same CPU clocks. Both clock speed and wattage plummeted on occasion, presumably because a fanless computer has no other good way to cool itself.
+
+What’s happening here is fairly well understood: today’s processors are only as fast as they can be cooled, with many advertising “turbo” modes that the thinnest computers can only maintain for a short time. For example: Apple’s Air can run the M2 chip at 3.2GHz but throttles down to 2.8GHz after 30 minutes of Cinebench R23, says Frore.
+
+A chart from Frore showing how the Apple M2’s megahertz and processor power can take a dive during sustained tasks. Image: Frore
+
+But as neat as it was to see the AirJets give Apple’s M2 a second wind, I also walked away a tad underwhelmed. Tomb Raider stutter aside, we’re mostly talking about an already capable computer simply taking a bit longer to perform the most intensive tasks, with less demanding benchmarks (like single-core Cinebench, where I saw identical scores) not stressing the chip enough to make a real difference.
+
+More importantly, we already know what Apple’s M2 chip can do when you add airflow — it’s called a 13-inch MacBook Pro!
+
+Frore knows this and brought a 13-inch M2 MacBook Pro for me to test alongside the Airs — but it’s not really an apples-to-apples test if I’m comparing them to a 15-inch MacBook Air with a wider chassis and more thermal headroom. Even so, Frore’s modified 15-inch Air was mostly neck and neck with the 13-inch Pro, rather than regularly beating it. (The Pro did take four seconds longer to complete a run of Xcode.)
+
+Frore carved out a little extra space in the 15-inch MacBook Air’s lid. Photo by Sean Hollister / The Verge
+
+But there is one good reason Frore picked the 15-inch MacBook Air — at 0.45 inches (11.5mm) thick, it’s one of the thinnest laptops ever made. It’s not clear Apple could fit the fan from its 13-inch MacBook Pro in there — or any fan, for that matter. Even Frore had to painstakingly mill 0.3mm out of the laptop’s lid to give the AirJets a big enough air gap to do their thing, and the company wound up removing the speakers, Wi-Fi antenna, and even the Mac’s internal keyboard connector along the way.
+
+But Frore did it, and engineering chief Prabhu Sathyamurthy tells me laptops can get even thinner if they’re designed with AirJet in mind — they could reach 9.5mm in thickness simply by substituting a thinner keyboard and a thin OLED display, the company claims.
+
+Click to enhance and maybe make those numbers large enough to read. Image: Frore
+
+There is one thing I didn’t see accounted for in Frore’s proposal, though, and didn’t get to satisfactorily test at Frore’s offices: the all-important battery.
+
+While Frore says each of its AirJet Mini chips require one watt of power, I saw three of them consume over five watts from the MacBook’s USB-C port, and the AirJet-equipped MacBook Air (obviously) drained far faster than the power-throttled fanless one did during my tests.
+
+Mind you, Frore’s been clear since the beginning that its chips need to be integrated into a device for them to work optimally, and the MacBook demo is anything but where power is concerned. Sathyamurthy says you can expect the AirJet part of a complete system to draw as little as 0.1W or 0.2W when idle, with the AirJet Minis themselves staying turned off until or unless they need to blow. He thinks the average user will see them kick on 10 to 15 percent of the time and not at all for “emails and web surfing.” We’re talking a Zoom call or worse.
+
+For demo purposes only: a USB-C power cable for the AirJets where the MacBook’s speaker used to be. Photo by Sean Hollister / The Verge
+
+And when they do blow, they blow far quieter than a fan, I can confirm. I had to bend down next to the laptop to hear them at all. The modified laptop also seems a tad cooler than Apple’s fanless MacBook Air — a thermal camera showed me a wider, cooler region instead of a hotspot near the chip.
+
+I can’t say this demo convinced me that Frore can make the fan obsolete. I mostly saw it meeting the performance of a fan, with less noise in a tighter space. But that could mean a lot to the right company trying to push the envelope in portability or — pretty please! — using those space savings for additional batteries.
+
+I wonder if any laptop manufacturer will give it a go. So far, Frore’s only confirmed design win is this Zotac mini-PC that’ll always be plugged into a wall, but it has prototyped 4K webcams, doorbell cameras, LED light bulbs, and more. Sabrent, Phison, and OWC tried experimental AirJet-cooled SSDs. Frore seems to think AirJets could fit into a Steam Deck, too. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

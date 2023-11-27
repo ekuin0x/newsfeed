@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The New Progressive Nihilism</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Since the dawn of the modern age, the conquest of disease and death has been a c">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>The New Progressive Nihilism</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.sanity.io/images/rqbxxjr2/production/76da896b7be2e3f9002ff7868d5b27cefc3c8f35-1154x736.png?w=1200&h=630" alt="">
+
+                <textarea id="text" readonly> Since the dawn of the modern age, the conquest of disease and death has been a central dimension of progressive optimism. Modern thought has long dreamed of a day when the human lifespan would know no upper limit—when, as Condorcet put it, “nature has fixed no limits to our hopes.” Declining infant mortality, increasing life expectancy, and a growing arsenal of cures for once deadly illnesses have encouraged these hopes. To be sure, the dream of life extension sometimes mutates into a hubristic denial that death and dying are a part of life, as with the transhumanist fantasies that captivate many of Silicon Valley’s techno-optimists. Nonetheless, as the philosopher Martin Hägglund has argued, the conviction that no life can ever be complete is closely linked to the broader modern conception of progress.
+
+Recently, however, a retreat from this core conviction has been underway across the West, especially among self-declared progressives. This is one way to understand the jubilation with which many on the Western left responded to Hamas’s Oct. 7 attack on Israel. It takes a profound pessimism about the world to see mass slaughter—carried out by a group animated by overtly anti-modern politics—as an “exhilarating” act, as apparently did many of those who took to the streets to express solidarity with the attackers and turned the paragliders Hamas fighters used to descend murderously on a music festival into a positive symbol. How did we arrive at this point?
+
+As progressive optimism declined, so did the notion that politics could reach for something beyond itself. In its place has been substituted a progressive nihilism. In the late 20th century, the vanishing of a utopian horizon left only a politics of subversion, in which disruption became an end in itself. Think of the “carnivals against capitalism” of the late 1990s and early aughts. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

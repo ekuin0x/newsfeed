@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Cast controls are now compatible with media player widget</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Google Cast is among the best media casting protocols in the world right now, an">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Google Cast controls are now compatible with media player widget</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.sammobile.com/wp-content/uploads/2023/11/Samsung-One-UI-6-quick-panel-720x405.jpg" alt="">
+
+                <textarea id="text" readonly> Google Cast is among the best media casting protocols in the world right now, and it comes built into Android, Android TV/Google TV, and several soundbars and speakers. However, its controls weren't as seamlessly integrated with Android as they should have been. That's changing now, though.
+
+Earlier, Google Cast media controls showed up as a regular notification, similar to any other app. It is now being reported that Google Cast controls now show up in the media player widget in smartphones running Android 13 (or newer version of Android). This means the media player widget in the quick settings toggle area will show what media is playing on a nearby Google Cast device. It will display media name, play/pause, previous/next, stop, and a progress bar with seek controls.
+
+This control will also be visible on the lock screen, integrated into the same media player widget. The widget will also display which Google Cast-compatible device is being used to play media. You can even change the audio output. Instead of the streaming service's logo, a generic Google Cast icon is displayed on the top left of the media player widget.
+
+This new feature is available on all Android devices running version 23.44.14 of Google Play services. So, if you are running this version of Google Play services and have a Google Cast-compatible device, such as a TV or speaker, in your home, you can now access media casting controls more easily on your phone. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

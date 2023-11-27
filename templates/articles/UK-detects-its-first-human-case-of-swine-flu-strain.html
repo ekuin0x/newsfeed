@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK detects its first human case of swine flu strain</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Health officials are scrambling to trace contacts of a person infected with a ne">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>UK detects its first human case of swine flu strain</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://i.guim.co.uk/img/media/0c17993e2d4e0e17f8b923482b844474bc873380/0_126_5126_3075/master/5126.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2caa509103c43dd9239b22458282570d" alt="">
+
+                <textarea id="text" readonly> Health officials are scrambling to trace contacts of a person infected with a new form of swine flu, after the UK detected its first human case of H1N2.
+
+Fifty human cases of the strain have been reported globally since 2005. The new case is the first to be detected in the UK and is unrelated genetically to the previous cases.
+
+Influenza A(H1N2)v is similar to flu viruses circulating in pigs in the UK. The UK Health Security Agency has formally notified the World Health Organization (WHO) about the discovery.
+
+Based on early information, the infection detected in the UK is a distinct clade or form – 1b.1.1 – which is different from recent human cases of H1N2 elsewhere in the world.
+
+The person infected, who has not been identified, had a mild illness and has recovered. They were not hospitalised and were not known to have worked with pigs, the Guardian understands. How they came to be infected remains under investigation.
+
+The UK Health Security Agency (UKHSA) is carrying out contact tracing of close contacts to prevent further spread of the virus. It is not known at this stage how transmissible the strain is or if there could be other cases in the UK.
+
+Meera Chand, an incident director at UKHSA, said: “It is thanks to routine flu surveillance and genome sequencing that we have been able to detect this virus. This is the first time we have detected this virus in humans in the UK, though it is very similar to viruses that have been detected in pigs.
+
+“We are working rapidly to trace close contacts and reduce any potential spread. In accordance with established protocols, investigations are under way to learn how the individual acquired the infection and to assess whether there are any further associated cases.”
+
+Any contacts will be offered testing as necessary and advised on any necessary further care if they have symptoms or test positive. The UKHSA is also taking steps to increase surveillance within existing programmes involving GP surgeries and hospitals in parts of North Yorkshire. To assist in the detection of cases, people who are contacted and asked to test are being encouraged to do so.
+
+The chief veterinary officer, Christine Middlemiss, said: “We know that some diseases of animals can be transferred to humans – which is why high standards of animal health, welfare and biosecurity are so important.
+
+“Through our animal and human surveillance systems we work together to protect everyone. In this case, we are providing specialist veterinary and scientific knowledge to support the UKHSA investigation. Pig keepers must also report any suspicion of swine flu in their herds to their local vet immediately.”
+
+H1N1, H1N2 and H3N2 are major subtypes of swine flu A viruses in pigs and occasionally infect humans. In 2009, there was a pandemic in humans caused by H1N1, commonly referred to as swine flu. This now circulates in humans seasonally. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

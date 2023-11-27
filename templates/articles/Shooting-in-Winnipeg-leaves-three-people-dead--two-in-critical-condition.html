@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting in Winnipeg leaves three people dead, two in critical condition</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Police in Winnipeg, Manitoba are investigating a shooting that left three people">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Shooting in Winnipeg leaves three people dead, two in critical condition</p>
+            <span id="topic" >world</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdnph.upi.com/sv/ph/og/upi_com/2541701049200/2023/1/6aff3612fdea01186560109aa77b92bf/v1.5/Shooting-in-Winnipeg-leaves-three-people-dead-two-in-critical-condition.jpg" alt="">
+
+                <textarea id="text" readonly> Police in Winnipeg, Manitoba are investigating a shooting that left three people dead and two in critical condition over the weekend. Image by Simaah from Pixabay
+
+Nov. 26 (UPI) -- Police are investigating a shooting early Sunday that left three people dead and two others critically injured in Winnipeg, Manitoba, Canada, police said. The Winnipeg police said the shooting happened just after 4 a.m. about a mile west of the downtown area. Advertisement
+
+Officers on the scene described the five victims "with injuries consistent with being shot," police said in a press release.
+
+"This incident occurred in a multi-suite residence; no further information regarding a possible motive is available," Constable Jason Michalyshen, a Winnipeg police spokesperson, said.
+
+A man and a woman were pronounced dead at the scene, police said. Three of the victims were taken to a hospital, and one of those victims later died of his injuries. Two of the victims, one man and one woman, remain hospitalized.
+
+The victims' names have not been released, and police said the investigation into the shooting is ongoing.
+
+"The Winnipeg Police Service Forensic Services Unit will be on scene for an extended period due to the gravity of this incident," they said.
+
+Winnipeg Police's 2022 Annual Statistical Report shows violent crime rates in Manitoba's capital reached the highest levels since 2009 last year, and, with 53, reported a record number of homicides.
+
+Advertisement
+
+In another weekend incident, police in Vermont are investigating the shooting of three Palestinian students attending college in the U.S. who had been visiting family in the town of Burlington over the Thanksgiving holiday break.
+
+They were shot in the home's front yard by an unidentified gunman after the students, two of whom were reportedly wearing traditional Palestinian headscarves known as keffiyehs, returned from bowling. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
