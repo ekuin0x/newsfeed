@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>‘Geert Wilders is de enige die doorheeft dat er iets te winnen valt’</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Ik heb Nederlandse politici die praten over buitenlandpolitiek altijd een beetje">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>‘Geert Wilders is de enige die doorheeft dat er iets te winnen valt’</p>
+            <span id="topic" >Geert Wilders</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://bnr-external-prod.imgix.net/288800-288803.jpeg?q=45&w=1500&auto=format,compress" alt="">
+
+                <textarea id="text" readonly> Ik heb Nederlandse politici die praten over buitenlandpolitiek altijd een beetje komisch gevonden. Alsof een emmer regenwater discussieert over zijn invloed op het IJsselmeer.
+
+Toch had ik bij het BNR Buitenlanddebat voor het eerst deze campagne het gevoel dat het ergens over ging. De verkiezingen zijn volgende week woensdag, maar het lijkt alsof we al bezig zijn aan de nabeschouwing. En dat is toch best pijnlijk. De laatste jaren schreeuwde iedereen, van links tot rechts moord en brand over alles wat er mis was met het tijdperk Rutte. En nu kán het echt anders en is het toch verrassend stil.
+
+De laatste jaren schreeuwde iedereen, van links tot rechts moord en brand over alles wat er mis was met het tijdperk Rutte. En nu kán het echt anders en is het toch verrassend stil. (Bron: ANP) ( ANP / ANP )
+
+‘De verkiezingen zijn volgende week woensdag, maar het lijkt alsof we al bezig zijn aan de nabeschouwing’
+
+Sinds het begin van de campagne zijn de peilingen vrijwel ongewijzigd. De enige die door lijkt te hebben dat er iets te winnen valt is Geert Wilders. Voor deze gelegenheid is hij zelfs bereid zijn lievelingsonderwerp, islam-bashing, tijdelijk te parkeren.
+
+Lees ook | 'Coalitie mogelijk met even solide financieel plan als Big Bazar'
+
+Ik had me er eerlijk gezegd echt op verheugd: alle dingen die ik belangrijk vind, zouden deze campagne eindelijk worden besproken. Ik zag het helemaal voor me, ik ga er lekker voor zitten: met een krantje en een banaantje. Maar tot nu toe zijn we getrakteerd op voorzichtig voetjevrijen over coalities en partijleiders die elkaar overtoepen hoe belangrijk bestaanszekerheid wel niet is.
+
+Misschien was het daarom wel een verademing om naar een buitenlanddebat te luisteren. Want in het buitenland gebeurt tenminste wat. Afgaande op deze campagne, nemen we straks wél afscheid van de persoon Mark Rutte. Maar niet van het gevoel dat alles precies hetzelfde blijft. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

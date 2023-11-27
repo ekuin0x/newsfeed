@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City celebrates Gurpurab with a message of peace</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="To mark the occasion of Gurpurab , Satnam Singh Ahluwalia and Gunnu Ahluwalia or">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>City celebrates Gurpurab with a message of peace</p>
+            <span id="topic" >Gurpurab</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static.toiimg.com/thumb/msid-95434864,width-1070,height-580,imgsize-148770,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" alt="">
+
+                <textarea id="text" readonly> To mark the occasion of Gurpurab , Satnam Singh Ahluwalia and Gunnu Ahluwalia organised an event at a city hotel on Monday. The programme titled Ek Onkar (One Universal Creator ) started with Gurbani Shabad – Awal Allah Noor Upaya Kudrat Ke Sab Bande. A cross-section of people from different communities spoke about the contribution of Sri Guru Nanak Dev towards love, equality and peace.At the end of the event, 553 LED diyas were lit by guests — that included socialites, actors and diplomats — to usher in the 553rd birth anniversary of Sri Guru Nanak Dev. The guests were also shown a documentary about the teachings of the Guru.“We have always tried to bring awareness by spreading the teachings of Sri Guru Nanak Dev in a diverse but distinct manner which is equally consequential and important. This celebration was another of our endeavours to remember the teachings of our Guru and to spread his message among all so that we shall all resolve to conduct ourselves in a manner so as to emulate his teachings,” said Satnam. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

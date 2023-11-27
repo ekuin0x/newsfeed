@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi è Geert Wilders, leader del partito di estrema destra più votato nei Paesi Bassi</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Le elezioni parlamentari nei Paesi Bassi hanno visto emergere come formazione po">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Chi è Geert Wilders, leader del partito di estrema destra più votato nei Paesi Bassi</p>
+            <span id="topic" >Geert Wilders</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://media-assets.wired.it/photos/655f24423990451c2f645bbf/16:9/w_1280,c_limit/GettyImages-654007832.jpg" alt="">
+
+                <textarea id="text" readonly> Le elezioni parlamentari nei Paesi Bassi hanno visto emergere come formazione politica più votata il Partito per la libertà di Geert Wilders, che sostiene posizioni di estrema destra e islamofobe. Una sorpresa inaspettata e dovuta a un grande travaso elettorale dal centrodestra del premier uscente Mark Rutte, leader del Partito popolare per la libertà e la democrazia, che ha perso il 7% rispetto alle ultime elezioni, ottenendo appena il 15% dei voti.
+
+Grazie a questo 7% confluito verso l’estrema destra, Wilders è riuscito a conquistare oltre il 23% dei voti, quasi il 10% in più di quanto previsto dai sondaggi, abbastanza da garantirgli 37 dei 150 seggi della camera bassa olandese. Al secondo posto è arrivata invece la coalizione tra Partito laburista e Sinistra verde, guidata dall’ex vicepresidente della Commissione europea Frans Timmermans, con 25 seggi. Mentre ai centristi di Rutte ne sono andati 24.
+
+Nonostante la vittoria numerica, sarà difficile vedere Wilders diventare il nuovo primo ministro olandese, dato che, come riporta Euractiv, le altre formazioni più votate hanno dichiarato di non voler far parte di una coalizione guidata dagli estremisti. Per avere la maggioranza e un governo stabile, Wilders ha bisogno di 76 seggi e tra i 15 partiti entrati in parlamento nessuno condivide posizioni così estreme come quelle proposte dal Partito per la libertà.
+
+Le posizioni politiche di Wilders
+
+La base ideologica del partito è infatti lo specchio delle idee del suo fondatore, lo stesso Wilders, fuoriuscito dal Partito popolare per la libertà e la democrazia nel 2004 a causa della linea filoeuropeista e disponibile all’ingresso della Turchia nell’Unione europea della formazione centrista. Da qui, Wilders ha fatto dell’euroscetticismo, dell’islamofobia e del nazionalismo olandese la sua forza elettorale.
+
+Considerato comunemente un politico populista e sovranista, si dice agnostico, antifascista, filosemita e sionista. Ha collaborato con i partiti anti europei guidati da Marine Le Pen e Nigel Farage e con la Lega, in particolare sui temi di contrasto alle migrazioni e contrari all’Unione europea. Il suo partito ha espresso le posizioni più radicali contro Islam e immigrazione, superate solo dai gruppi apertamente neofascisti e neonazisti.
+
+Tra le sue istanze si trovano la “de-islamizzazione” dei Paesi Bassi, la chiusura delle moschee, il ritiro dei permessi di asilo, l’espulsione delle persone con precedenti penali che abbiano doppia nazionalità e una legge per rendere più difficile il ricongiungimento familiare. Inoltre, ha proposto un referendum per far uscire i Paesi Bassi dall’Unione europea ed è negazionista del cambiamento climatico. Ha per esempio proposto di smantellare le turbine eoliche in mare per lasciare spazio alle navi. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
