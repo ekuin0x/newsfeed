@@ -27,6 +27,3 @@ const openNav = function(){
 const closeNav = function(){
     $("#mobile-nav").css("width" , "0%")
 }
-
-$("head").prepend("<!--hello-->")
-
