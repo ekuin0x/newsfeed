@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>‘We Went Back to the Stone Age’</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="In response to the devastating Oct. 7 attack on Israel by Hamas, the group that ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>‘We Went Back to the Stone Age’</p>
+            <span id="topic" >Gaza</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/26/multimedia/26gaza-siege-01-bhkv/26gaza-siege-01-bhkv-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> In response to the devastating Oct. 7 attack on Israel by Hamas, the group that controls the Gaza Strip, Israel imposed what it called a complete siege — cutting off almost all water, food, electricity and fuel for the more than two million Palestinians living in Gaza. It also launched thousands of airstrikes on the enclave and sent in ground forces to try to root out Hamas.
+
+A brief cease-fire, the first since the war began seven weeks ago, began to take hold on Friday, and as part of a hostage agreement between Israel and Hamas, dozens of trucks with water and other vital humanitarian aid crossed into Gaza.
+
+Still, it was far less than what typically came into the territory before the war, and there was no indication that the freer flow of aid would last beyond the four-day agreed truce.
+
+Before the cease-fire, little humanitarian aid — far short of what Gazans need — had been trickling in. And so, from the north to the south, in tented camps, apartments, schools and hospitals, residents crammed together in ever-shrinking spaces have been struggling every day to meet their most basic needs.
+
+Surviving has become a full-time, perilous undertaking.
+
+Days start well before dawn. Tasks seem simple: Fetch water. Bake bread. Buy diapers. Stay alive.
+
+But people do not always succeed.
+
+Mineral water trucked into the territory in aid convoys has been enough for only 4 percent of the population, according to the United Nations World Food Program. Some desalinated water is still being distributed in the south, but the north has no potable water sources left, according to the U.N. People who cannot access the scarce mineral and desalinated water rely on brackish water from wells, which the U.N. has said is not safe for human consumption.
+
+Flour, too, is running out and most wheat mills have been bombed, according to the United Nations. Humanitarian agencies have managed to deliver bread, canned tuna and date bars to about a quarter of the population since Oct. 7, but distribution is hampered by fighting and the siege, the World Food Program said. Some farmers are slaughtering their animals, trading their future livelihoods for the emergency at hand.
+
+The World Food Program has warned that only 10 percent of the food Gaza needs has entered the territory since the war began, creating “a massive food gap and widespread hunger.”
+
+“Wheat flour, dairy products, cheese, eggs and mineral water have completely disappeared,” in the market, Alia Zaki, a spokeswoman for the World Food Program, said this month. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

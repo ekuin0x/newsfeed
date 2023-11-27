@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinion | I Can Help Rebuild Gaza. First I Need to Survive Today.</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="I was a young child, living in the Jabaliya area, in the north of Gaza, when I f">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Opinion | I Can Help Rebuild Gaza. First I Need to Survive Today.</p>
+            <span id="topic" >Gaza</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/26/multimedia/26Almashharawi-wblz/26Almashharawi-wblz-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> I was a young child, living in the Jabaliya area, in the north of Gaza, when I first saw an Israeli soldier up close. The Israel Defense Forces invaded the camp and our home. They stayed for three days. After that, I was afraid of Israelis. I always thought that they were coming to kill or kidnap me.
+
+And yet I know the world can be better. I’ve seen how people in other conflicts have worked toward coexistence, and I know that one day I will work to better Gaza, to rebuild our community and to move forward. But this week I took the only opportunity that secured my immediate future: to flee.
+
+I’m a Palestinian raised in the Gaza Strip, so I have long known conflict. My family are refugees from 1948; my grandmother used to tell me really great stories about our village, Al Muharraqa. It was on the eastern border of Gaza, about nine miles from Gaza City.
+
+Still, every other time there has been a war in Gaza, it hasn’t really come to this level of intensity. This is the first time in my life I really didn’t know where to go or if I would survive at all. But because I have seen a different version of this world, I still held out hope. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

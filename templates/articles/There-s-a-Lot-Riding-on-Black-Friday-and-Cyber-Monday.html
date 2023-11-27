@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>There’s a Lot Riding on Black Friday and Cyber Monday</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Disney’s latest animated feature falls short of expectations. “Wish” was forecas">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>There’s a Lot Riding on Black Friday and Cyber Monday</p>
+            <span id="topic" >Cyber Monday</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/27/multimedia/27db-blackfriday-vgql/27db-blackfriday-vgql-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> Disney’s latest animated feature falls short of expectations. “Wish” was forecast to earn up to $50 million in worldwide box office in its debut weekend, trailing the latest “Hunger Games” movie and “Napoleon.” That’s bad news for Disney, where expensive movies — “Wish” cost an estimated $200 million, excluding marketing costs — have underperformed.
+
+Image
+
+The S.E.C. on trial
+
+The Supreme Court will hear a landmark case this week that could determine the future of the S.E.C.’s in-house enforcement arm and have serious consequences for how other regulators operate.
+
+It all began with an enforcement action against a hedge fund manager. About a decade ago, the S.E.C. charged George Jarkesy, an investment adviser and conservative media personality, with securities fraud. Jarkesy was found guilty in an administrative proceeding overseen by an administrative law judge. But he won a later challenge to that process in federal court, saying that the Seventh Amendment guaranteed the right to a jury trial.
+
+The S.E.C. has challenged that ruling. The agency argues that the right to a jury trial is limited for civil actions and that Congress did not make a mistake in setting up the agency in this way. Defendants, however, contend that these proceedings are weighted in favor of the agencies.
+
+Most justices have shown an inclination to limit agency power and this is just one of several cases challenging the power of federal regulators. The Supreme Court is also mulling the future of the Consumer Financial Protection Bureau and whether to overrule a principle that requires judges to defer to agencies’ interpretations of administrative rules. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

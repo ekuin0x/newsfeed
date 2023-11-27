@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One map that shows everywhere Elon Musk is doing business</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Where in the world is Elon Musk? Everywhere it seems. From Austin to Shanghai hi">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>One map that shows everywhere Elon Musk is doing business</p>
+            <span id="topic" >Elon Musk</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://content.fortune.com/wp-content/uploads/2023/11/GettyImages-1242718655.jpg?resize=1200,600" alt="">
+
+                <textarea id="text" readonly> Where in the world is Elon Musk? Everywhere it seems. From Austin to Shanghai his plants are spitting out parts and combining components to produce his myriad product lines. Musk is the ultimate operator—and here’s a look at everywhere he operates.
+
+Musk’s presence in the U.S.
+
+Musk’s presence outside the U.S.
+
+By the numbers
+
+Since we’ve known him, Elon Musk has racked up some big hits—and some wild misses. —Fortune staff
+
+1,000
+
+Number of solar roofs Musk aspired to install per week. Since the company was founded, it has installed some 3,000 total.
+
+2.4
+
+Miles of tunnel built and operated by the Boring Company.
+
+1.50%
+
+Tesla’s return on assets for the past four quarters. Microsoft’s was 28%.
+
+$41 billion
+
+Amount lost in 13 days by Musk after Tesla’s disastrous Q3 2023 earnings announcement.
+
+275
+
+SpaceX launches since inception.
+
+2029
+
+The year Musk (and futurist Ray Kurzweil) believe full human-level AI will likely emerge, “give or take a year.”
+
+$100 million
+
+Amount of his own money Musk used to start the Boring Company, according to biographer Walter Isaacson.
+
+42
+
+The answer to “the ultimate question of life, the universe, and everything” in The Hitchhiker’s Guide to the Galaxy; also, the sum of numbers in the date marking xAI’s formation (7/12/23).
+
+468
+
+Number of complaints, questions, or comments Maryland’s DOT State Highway Administration received from local government agencies regarding the Boring Co.’s proposal to dig a tunnel between Baltimore and Washington, D.C., according to emails obtained by Fortune via a FOIA request.
+
+$19 billion
+
+Valuation of X (formerly Twitter) according to an October employee stock plan. Musk purchased the company more than a year earlier for $44 billion. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

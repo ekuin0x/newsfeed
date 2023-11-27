@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaza’s main public library has been destroyed.</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Authorities in Gaza City have condemned what they say was the deliberate destruc">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Gaza’s main public library has been destroyed.</p>
+            <span id="topic" >Gaza</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://s26162.pcdn.co/wp-content/uploads/2023/11/Gaza-Library.jpeg" alt="">
+
+                <textarea id="text" readonly> Authorities in Gaza City have condemned what they say was the deliberate destruction of the city’s main public library by Israeli forces after finding the building in ruins while a ceasefire was being observed between Israel and Hamas.
+
+As reported by Storyful earlier today, the Municipality of Gaza has released a series of photographs showing the remains of the library, “which was in regular use by members of the community, including schoolchildren, before the Hamas-led attack on Israel on October 7.”
+
+Municipal authorities in Gaza have accused the Israeli army of deliberately destroying thousands of books and historical documents. They have also called for the intervention of the United Nations Educational, Scientific and Cultural Organization (UNESCO) to “intervene and protect cultural centers and condemn the occupation’s targeting of these humanitarian facilities protected under international humanitarian law.”
+
+As was the case in Sarajevo in 1992—when Bosnian Serb forces, stationed in the hills above the city, razed the National and University Library of Bosnia and Herzegovina to the ground—the targeted destruction of Gaza’s primary public library is a stark reminder that genocide is about more than just the premeditated mass extinguishing of human life; it’s also about the calculated, and often vindictive, destruction of a people’s culture, language, history, and shared sites of community.
+
+Like the purposeful wiping out of entire families, a tactic employed by the Israel army long before this latest assault began, the deliberate destruction of cultural and historic sites is a way for Israel to erase all evidence of Palestinian life, Palestinian humanity, from Gaza. To turn the besieged enclave—with its ancient mosques and archeological sites, its labor-of-love bookstores and meticulously-curated libraries, its pesky health care workers and journalists and sole survivors—into an empty soccer field. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Starship blew itself up in the air, Elon Musk’s company says</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Sign up to our free weekly IndyTech newsletter delivered straight to your inbox ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>SpaceX Starship blew itself up in the air, Elon Musk’s company says</p>
+            <span id="topic" >Elon Musk</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static.independent.co.uk/2023/11/18/18/SEI180731083.jpg?quality=75&width=1200&auto=webp" alt="">
+
+                <textarea id="text" readonly> Sign up to our free weekly IndyTech newsletter delivered straight to your inbox Sign up to our free IndyTech newsletter Please enter a valid email address Please enter a valid email address SIGN UP I would like to be emailed about offers, events and updates from The Independent. Read our privacy notice Thanks for signing up to the
+
+IndyTech email {{ #verifyErrors }} {{ message }} {{ /verifyErrors }} {{ ^verifyErrors }} Something went wrong. Please try again later {{ /verifyErrors }}
+
+SpaceX’s Starship blew itself up in the air, Elon Musk’s private space company has said.
+
+Starship underwent its second flight test over the weekend, when the company attempted to send the rocket almost into orbit and then have it land in the ocean. It completed the first part of that mission – but disappeared around eight minutes into its flight.
+
+Now the company has confirmed that it lost data from the flight at that moment, which came near the end of the burn of the second stage of the rocket.
+
+At that point, the spacecraft used a “safe command destruct” that meant that it caused itself to explode in the air, the company said. It did not say why that had been issued, but did indicate that it had been “appropriately triggered based on available vehicle performance data”.
+
+SpaceX noted that until that moment the flight appeared to have been going as planned. The Super Heavy Booster on the bottom of the spacecraft completed a full burn for the first time, for instance, and the two pieces of Starship separated successfully.
+
+The booster also managed to flip after it had separated from the upper part of the rocket, SpaceX said. It started another burn then but then “experienced a rapid unscheduled disassembly”, as SpaceX refers to explosions.
+
+That came three and a half minutes into the flight and happened around 90 kilometres above the Gulf of Mexico, SpaceX said.
+
+The company said that the explosions would prove useful in adjusting future builds of the Starship spacecraft. Before the flight it had explicitly said that the launch was intended as a test and could go wrong – and it reiterated that “while it didn’t happen in a lab or on a test stand, it was absolutely a test”.
+
+“With a test like this, success comes from what we learn, and this flight test will help us improve Starship’s reliability as SpaceX seeks to make life multiplanetary,” SpaceX said.
+
+“Data review is ongoing as we look for improvements to make for the next flight. The team at Starbase is already working final preparations on the vehicles slated for use in Starship’s third flight test, with Ship and Booster static fires coming up next.” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X May Lose Up to $75 Million in Revenue as More Advertisers Pull Out</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="X, the social media company formerly known as Twitter, could lose as much as $75">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>X May Lose Up to $75 Million in Revenue as More Advertisers Pull Out</p>
+            <span id="topic" >Elon Musk</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/24/multimedia/24musk-ads-pjfv/24musk-ads-pjfv-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> X, the social media company formerly known as Twitter, could lose as much as $75 million in advertising revenue by the end of the year as dozens of major brands pause their marketing campaigns after its owner, Elon Musk, endorsed an antisemitic conspiracy theory this month.
+
+Internal documents viewed by The New York Times this week show that the company is in a more difficult position than previously known and that concerns about Mr. Musk and the platform have spread far beyond companies including IBM, Apple and Disney, which paused their advertising campaigns on X last week. The documents list more than 200 ad units of companies from the likes of Airbnb, Amazon, Coca-Cola and Microsoft, many of which have halted or are considering pausing their ads on the social network.
+
+The documents come from X’s sales team and are meant to track the impact of all the advertising lapses this month, including those by companies that have already paused and others that may be at risk of doing so. They list how much ad revenue X employees fear the company could lose through the end of the year if advertisers do not return.
+
+On Friday, X said in a statement that $11 million in revenue was at risk and that the exact figure fluctuated as some advertisers returned to the platform and others increased spending. The company said the numbers viewed by The Times were either outdated or represented an internal exercise to evaluate total risk.
+
+The advertising freezes come during the final three months of the year, which is traditionally the social media company’s strongest quarter as brands run holiday promotions for events such as Black Friday and Cyber Monday. In the last three months of 2021 — the last year the company reported fourth-quarter earnings before Mr. Musk took over — the company recorded $1.57 billion in revenue, of which nearly 90 percent came from advertising.
+
+Since Mr. Musk’s $44 billion acquisition of Twitter last year, some brands have been hesitant to advertise on the platform, concerned with Mr. Musk’s behavior and content moderation decisions, which have led to a rise in incendiary and hateful content. U.S. advertising on the platform is down nearly 60 percent this year, prompting the company to try to woo back advertisers in an effort its chief executive, Linda Yaccarino, is spearheading. X is also campaigning for advertisers to return during the holiday period to make up for revenue shortfalls earlier in the year. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

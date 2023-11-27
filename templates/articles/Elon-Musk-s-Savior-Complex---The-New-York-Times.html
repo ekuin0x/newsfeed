@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Musk’s Savior Complex - The New York Times</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="In his biography of Alexander Hamilton, Ron Chernow writes that Hamilton “always">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Elon Musk’s Savior Complex - The New York Times</p>
+            <span id="topic" >Elon Musk</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/09/22/opinion/21brooks/21brooks-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> In his biography of Alexander Hamilton, Ron Chernow writes that Hamilton “always had to fight the residual sadness of the driven man.” That sentence has stayed with me because I’ve also noticed that there can be something sad about extremely ambitious people — like they’re striving furiously to fill a hole that was carved into them by traumatic experiences during childhood, and they have never quite succeeded.
+
+Some historians and psychologists have marveled at how many of the most significant figures in history lost a parent at an early age, either to death or abandonment — from George Washington and Thomas Jefferson to Bill Clinton and Barack Obama. These are what one psychologist termed “eminent orphans.”
+
+It’s easy to put Elon Musk into that category. He had a miserable childhood in South Africa marked by verbal and physical abuse from a father who repeatedly told him he was worthless, according to Walter Isaacson’s new biography of Musk. He had no friends and lived in a world in which you either bullied or were bullied. A background like that might create a sense of existential insecurity, which could induce in some a lifetime of self-doubt or in others a manic ambition to prove the bastards wrong — to earn love, significance and safety.
+
+But Isaacson’s account suggests that this is not the only or even the main impetus behind Musk’s extreme ambition. In the midst of that bleak childhood, Musk dived into science fiction, computer games and comics, and in some sense never left. In that world, Musk seems to have been gripped by a story just as fervently as a religious person is gripped by a holy book. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
