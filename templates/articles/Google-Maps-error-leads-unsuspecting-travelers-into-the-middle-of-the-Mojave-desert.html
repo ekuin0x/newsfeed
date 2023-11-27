@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps error leads unsuspecting travelers into the middle of the Mojave desert</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="The big picture: Google Maps has made navigation extremely easy and can be a lif">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Google Maps error leads unsuspecting travelers into the middle of the Mojave desert</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.techspot.com/images2/news/bigimage/2023/11/2023-11-27-image-6.jpg" alt="">
+
+                <textarea id="text" readonly> The big picture: Google Maps has made navigation extremely easy and can be a lifesaver in unknown areas. However, it's definitely not perfect and can sometimes make mistakes that can create massive problems for travelers. Reports of the app leading people astray come up every now and again, and the latest error created massive problems for a group of Californians returning home from the recent Formula One Grand Prix in Las Vegas.
+
+According to SFGate, Shelby Easler, her brother Austin, and their partners were driving back to Los Angeles from Las Vegas on November 19, using Google Maps for navigation. The group reportedly decided to take an alternative route off Interstate 15 after the app informed them that a dust storm was causing delays on the freeway. The app also showed that the off-road route was 50 minutes faster, making it a bit of a no-brainer.
+
+However, the alternative route turned out to be too good to be true, as it led them into the middle of the Mojave Desert, where the dust storm and the rough terrain badly damaged their car. As it turned out, theirs wasn't the only car to get into trouble by following Google Maps, as a bunch of other vehicles were also similarly misled by the app.
+
+The stranded families called 911 for help, but the California Highway Patrol reportedly refused to drive down to their location, citing increased workload due to the dust storm. Realizing that they were stranded in the middle of the desert, Easler says her group tried to turn around their car and get back to the main road by making their way through the sand and the bushes. However, they could only travel a short distance before their car got damaged and they got trapped once again.
+
+The group eventually reached a nearby gas station after several hours of driving, and went to the nearest airport to fly back home. As for the car, it was towed to a service center in Vegas, where it underwent expensive repairs before it became roadworthy again.
+
+Recounting the incident, Easler said they thought the alternative route suggested by Google Maps would be a safer option in the middle of the dust storm, and the fact that it was supposed to be 50 minutes faster made it an obvious choice. She added that it was their first time driving to and from Vegas, and none of them knew that the I-15 was pretty much the only route for that trip. Having learned her lesson the hard way, she told SFGate, "In the future, I'll stick to the road I know and double-check somewhere else if the route seems sketchy." </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

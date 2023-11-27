@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The mystery of the disappearing Google Drive files</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Updated Google Drive users are reporting files mysteriously disappearing from th">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>The mystery of the disappearing Google Drive files</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://regmedia.co.uk/2023/11/27/shutterstock_broken_drive.jpg" alt="">
+
+                <textarea id="text" readonly> Updated Google Drive users are reporting files mysteriously disappearing from the service, with some netizens on the goliath's support forums claiming six or more months of work have unceremoniously vanished.
+
+The issue has been rumbling for a few days, with one user logging into Google Drive and finding things as they were in May 2023.
+
+According to the poster, almost everything saved since then has gone, and attempts at recovery failed.
+
+Others chimed in with similar experiences, and one claimed that six months of business data had gone AWOL.
+
+There is little information regarding what has happened; some users reported that synchronization had simply stopped working, so the cloud storage was out of date. Others could get some of their information back by fiddling with cached files, although the limited advice on offer for the affected was to leave things well alone until engineers come up with a solution.
+
+A message purporting to be from Google support also advised not to make changes to the root/data folder while engineers investigate the issue. Some users speculated that it might be related to accounts being spontaneously dropped. We've asked Google for its thoughts and will update should the search giant respond.
+
+In the meantime, the experience for affected users is a reminder that just because files are being stored in the cloud, there is no guarantee that they are safe. European cloud hosting provider OVH suffered a disastrous fire in 2021 that left some customers scrambling for backups and disaster recovery plans.
+
+Google itself has suffered the odd outage or two over the years. Earlier in 2023, the mega-corp's europe-west9 region took a shower after water made its presence felt inside a Parisian Google Cloud datacenter.
+
+Ultimately, trusting one's data – particularly data on which a business depends – to any sort of cloud storage should only be done after fully understanding the implications of the services' terms and conditions. Just because the files have been uploaded one day does not necessarily mean they will still be there – or recoverable – the next. ®
+
+Updated to add
+
+MatthewSt reports that he has a fix; obviously this is something worked out by a user rather than official advice, so caution is advised. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

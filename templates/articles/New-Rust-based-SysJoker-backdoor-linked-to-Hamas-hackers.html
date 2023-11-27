@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Rust-based SysJoker backdoor linked to Hamas hackers</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="A new version of the multi-platform malware known as 'SysJoker' has been spotted">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>New Rust-based SysJoker backdoor linked to Hamas hackers</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.bleepstatic.com/content/hl-images/2023/10/18/Hacker.jpg" alt="">
+
+                <textarea id="text" readonly> A new version of the multi-platform malware known as 'SysJoker' has been spotted, featuring a complete code rewrite in the Rust programming language.
+
+SysJoker is a stealthy Windows, Linux, and macOS malware first documented by Intezer in early 2022, who discovered and analyzed C++ versions at the time.
+
+The backdoor featured in-memory payload loading, a plethora of persistence mechanisms, "living off the land" commands, and a complete lack of detection for all its OS variants on VirusTotal.
+
+Examination of the new Rust-based variants by Check Point has established a connection between the previously unattributed backdoor and 'Operation Electric Powder,' which dates back to 2016-2017.
+
+This operation involved a series of cyber-attacks targeting Israel, believed to be orchestrated by a Hamas-affiliated threat actor known as 'Gaza Cybergang.'
+
+New SysJoker
+
+The Rust-based variant of SysJoker was first submitted to VirusTotal on October 12, 2023, coinciding with the escalation of the war between Israel and Hamas.
+
+The malware employs random sleep intervals and complex custom encryption for code strings to evade detection and analysis.
+
+On the first launch, it performs registry modification for persistence using PowerShell and exits. Upon later executions, it establishes communication with the C2 (command and control) server, the address for which it retrieves from a OneDrive URL.
+
+SysJoker's primary role is to fetch and load additional payloads on the compromised system, directed via the reception of JSON-encoded commands.
+
+While the malware still collects system information like OS version, username, MAC address, etc., and sends it to the C2, it lacks the command execution capabilities seen in previous versions. This might return in a future release or have been stripped by the backdoor's developers to make it lighter and stealthier.
+
+Check Point discovered two more SysJoker samples they named 'DMADevice' and 'AppMessagingRegistrar' based on their specific characteristics, but states that they all follow similar operational patterns.
+
+Possible ties to Hamas
+
+The specific element that allowed Check Point to potentially link SysJoker to the Hamas-affiliated threat group 'Gaza Cybergang' is utilizing the 'StdRegProv' WMI class in the PowerShell command used for establishing persistence.
+
+This method was seen in past attacks against the Israel Electric Company, part of the 'Operation Electric Powder' campaign.
+
+Other similarities between the activities include the implementation of certain script commands, the data collection methods, and using API-themed URLs.
+
+All that said, and given the existing evidence, the confidence in the attribution is not conclusive. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

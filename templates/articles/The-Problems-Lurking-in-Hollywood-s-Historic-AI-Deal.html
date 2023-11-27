@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Problems Lurking in Hollywood’s Historic AI Deal</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Not everyone in Hollywood is happy with the film industry's historic AI deal. A ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>The Problems Lurking in Hollywood’s Historic AI Deal</p>
+            <span id="topic" >technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://media.wired.com/photos/6560b55b46e58c687971ed7c/191:100/w_1280,c_limit/Sag-AI-Deal-Culture-1786708723.jpg" alt="">
+
+                <textarea id="text" readonly> Not everyone in Hollywood is happy with the film industry's historic AI deal. A provision allowing for the creation of digital replicas and synthetic performers could, critics argue, decrease the number of jobs available to both performers and crew. This, in turn, could allow big-name stars—and their AI-generated clones—to feature in multiple projects at once, pushing out emerging actors as Hollywood becomes awash with synthetic performers.
+
+Feelings are so strong that 14 percent of the national board of the Screen Actors Guild-American Federation of Television and Radio Artists, or SAG-AFTRA for short, actually voted against taking the deal to its general membership for ratification. Leaders of the Directors Guild of America and the Writers Guild of America, in contrast, overwhelmingly agreed to have their members accept the agreements they hammered out with the Alliance of Motion Picture and Television Producers (AMPTP).
+
+With their deal with AMPTP, writers were trying to wrest control of a tool that could learn to draft original scripts or alter human-written scripts without permission. For actors, one of the key issues in the negotiations was different—AI could, they worried, steal their very likeness. Tight controls seem existentially necessary. "In this agreement, there are indeed a lot of imagined uses going forward, both for minor characters, for major characters, and background actors,” says Joshua Glick, visiting associate professor of film and electronic arts at Bard College. “That is part of why there’s maybe more anxiety surrounding where the actors stand with AI versus the gains made for the writers.”
+
+One of the loudest critics of the deal has been Family Ties actress Justine Bateman, who serves as an AI adviser to the SAG-AFTRA negotiating committee. In the days after SAG reached its tentative deal with the AMPTP, she posted a widely shared thread on X that ended with, “Bottom line, we are in for a very unpleasant era for actors and crew.”
+
+Bateman’s biggest worry is the language in the agreement concerning “synthetic performers”—or AIs that resemble humans. “This gives the studios/streamers a green-light to use human-looking AI objects instead of hiring a human actor,” she wrote on X. “It’s one thing to use [generative AI] to make a King Kong or a flying serpent (though this displaces many VFX/CGI artists), it is another thing to have an AI object play a human character instead of a real actor.” This, she argued, would be akin to Teamsters allowing their employer to use self-driving trucks instead of union drivers.
+
+How you regulate the characteristics of these “synthetic performers” is another quandary. A summary of the new deal states that “if a producer plans to make a computer-generated character that has a main facial feature—like eyes, nose, mouth, or ears—that clearly looks like a real actor, and they use that actor’s name and face to prompt the AI system to do this, they must first get permission from that actor and agree on how this character will be used in the project.” </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

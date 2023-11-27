@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nom Nom Nom. What’s the Deal With Cookie Monster’s Cookies?</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Years ago, a reader wrote probing for details on a mystery that had vexed him: W">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Nom Nom Nom. What’s the Deal With Cookie Monster’s Cookies?</p>
+            <span id="topic" >entertainment</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/11/multimedia/00xp-cookie-monster-02/00xp-cookie-monster-02-facebookJumbo-v2.jpg" alt="">
+
+                <textarea id="text" readonly> Years ago, a reader wrote probing for details on a mystery that had vexed him: What’s the deal with the cookies that Cookie Monster eats?
+
+The email said nothing else. I chuckled and filed the note in the cupboard of my brain where such things go. Until I realized something: Me want cookies. And me want answers.
+
+Cookie Monster, for those of you who skipped childhood, is a classic muppet on “Sesame Street.” He is a scraggly, blue fellow with bulging eyeballs, who has for decades been singularly obsessed with chaotically chowing down on cookies. The crumbs end up almost everywhere except his mouth, an effect that looks like a high-speed blender without a top.
+
+The character was created in the 1960s by Jim Henson, the creator of the Muppets, for a General Foods Canada commercial. Cookie eventually moved to “Sesame Street,” where he presumably found a good rent-stabilized apartment. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

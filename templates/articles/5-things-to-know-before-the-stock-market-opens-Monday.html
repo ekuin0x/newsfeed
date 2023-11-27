@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 things to know before the stock market opens Monday</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Here are the most important news items that investors need to start their tradin">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>5 things to know before the stock market opens Monday</p>
+            <span id="topic" >business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-27, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://image.cnbcfm.com/api/v1/image/107338784-17008438972023-11-24t155843z_2060477855_rc2rj4a1epk1_rtrmadp_0_usa-holidayshopping-blackfriday.jpeg?v=1700844097&w=1920&h=1080" alt="">
+
+                <textarea id="text" readonly> Here are the most important news items that investors need to start their trading day:
+
+1. Capping a strong November
+
+Wall Street hopes to close out November on a high note, after U.S. stocks posted four straight positive weeks. The three major U.S. indexes climbed last week, as the Dow Jones Industrial Average rose 1.3%, the S&P 500 increased 1% and the Nasdaq Composite gained 0.9%. Equities have taken a step higher in recent weeks as bond yields have retreated. Traders will watch holiday retail spending trends, new home sales data due Monday and the personal consumption expenditures inflation data expected Thursday, among other potential catalysts this week. Follow live market updates here.
+
+2. Cyber Monday ends key shopping stretch
+
+Shoppers have at least one more day of deals ahead of them. Holiday bargain hunters will look around for discounts to mark Cyber Monday, as retailers try to get a read on how they have fared during one of the most important shopping stretches of the year. While Black Friday deals started days or weeks earlier than usual this year, e-commerce spending on the day itself climbed 7.5% year over year, according to Adobe Analytics data. Retailers have had to become more creative to get consumers to open up their wallets this year, as shoppers grow more accustomed to deals after a period of persistent inflation.
+
+3. More Hamas hostages released
+
+Seventeen more hostages held by Hamas in Gaza were released on Sunday. It brings the number of hostages freed to 41 over the first three days of a four-day ceasefire with Israel. U.S. President Joe Biden is among those pushing for a longer pause in fighting to allow more captives to be released. Meanwhile, Elon Musk visited Israel and met with Prime Minister Benjamin Netanyahu as he faces backlash for promoting an antisemitic post on his social media platform X, formerly known as Twitter. Musk reportedly aims to set up his company SpaceX's Starlink satellite internet service in the Gaza Strip. Follow live updates on the conflict here.
+
+4. 'Hunger Games' eats on Thanksgiving
+
+The box office turned in a solid run over Thanksgiving. Lionsgate 's "Hunger Games: The Ballad of Songbirds and Snakes" led the cinema haul during the five-day period, drawing an estimated $42 million. Apple 's epic biopic "Napoleon," which is distributed by Sony , also took in about $32.5 million. The weekend continued an underwhelming box office run for Disney . Its latest animated film, "Wish," drew $31.7 million, short of the $45 million to $55 million analysts expected.
+
+5. ByteDance cuts gaming jobs </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
