@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear Abby: Age is no excuse for not understanding how to use smartphones</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="DEAR ABBY: This is in response to “Love My Cheap Phone” (Aug. 28). As a millenni">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Dear Abby: Age is no excuse for not understanding how to use smartphones</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://www.mlive.com/resizer/noJDo0vstTy56R2y-gq7S5SojIw=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/OWXVYSX3BNAP7PJ5QPK4YBU34U.jpg" alt="">
+
+                <textarea id="text" readonly> DEAR ABBY: This is in response to “Love My Cheap Phone” (Aug. 28). As a millennial who has worked in retail my whole adult life, I’m tired of the excuse that the older generation can’t or won’t use smartphones.
+
+Personal computers have been out for decades, and smartphones have been around more than 16 years. Like the automatic transmission, these things are designed to make our lives easier and should be embraced rather than shunned. I’ve had people cuss me out over not being able to access discounts due to not having a smartphone -- going so far as to claim discrimination.
+
+The only person holding them back is themself, and most of the time smartphones are more intuitive than previously thought. They also all don’t cost $1,000; many basic use smartphones can be bought for under $200, not to mention certain phone companies offer big discounts on people’s first smartphone with a new account. I don’t feel bad for “Love.” I suggest they get with the times, because these devices aren’t going away. -- MILLENNIAL IN OREGON
+
+DEAR MILLENNIAL: Thank you for writing. After that letter appeared, I was inundated with comments from readers. Some of them agreed with you. Other readers understood “Love’s” point and offered suggestions for transitioning more easily to a modern communication device. Read on:
+
+DEAR ABBY: I’m a senior with mobility issues, and I couldn’t live without my smartphone. It is not a “toy.” I use it to fill my prescriptions, schedule medical appointments, check test results and communicate with my doctors. I do most of my shopping, conduct all of my banking online, call up ride-sharing, make travel arrangements and keep in touch with friends and family. I encourage “Love” to open their mind a bit. -- ONLINE SENIOR IN CALIFORNIA
+
+DEAR ABBY: There is a government program, Lifeline (go to fcc.gov), that provides a FREE smartphone and phone service to low-income people. If someone chooses not to have a smartphone for other reasons, that’s their choice -- but no one should go without one because they cannot afford it. -- MARY IN MASSACHUSETTS
+
+DEAR ABBY: Some states offer the Affordable Connectivity Program (ACP) which provides free phone service with smartphones AND TABLETS to low-income individuals or those receiving Social Security. A tablet might be the better option to use for the kind of interactions the writer described. -- HOPEFULLY HELPING OUT WEST
+
+DEAR ABBY: I’m guessing “Love” has family and friends who have older phones in the junk drawers of their homes. (We do.) Perhaps someone would be willing to part with one. Also, AARP offers classes to learn how to use a smartphone, which I suspect is behind your writer’s reluctance to modernize. -- KRISTIN IN NEW HAMPSHIRE
+
+DEAR ABBY: As a retired librarian who has helped many seniors with their technology, the idea of a $1,000 smartphone is akin to thinking that all cars are Rolls Royces. Many phones can be had for under $200, and some for less than $100. A number of cellphone and service providers cater to seniors trying to transition from their beloved flip phones. I urge “Love” to visit their local library and see what advice they can get there. -- MR. G. IN SYRACUSE, N.Y.
+
+Dear Abby is written by Abigail Van Buren, also known as Jeanne Phillips, and was founded by her mother, Pauline Phillips. Contact Dear Abby at www.DearAbby.com or P.O. Box 69440, Los Angeles, CA 90069. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

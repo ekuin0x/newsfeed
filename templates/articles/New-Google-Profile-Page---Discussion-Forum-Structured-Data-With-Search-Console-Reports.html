@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Google Profile Page & Discussion Forum Structured Data With Search Console Reports</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Google has announced new structured data for discussion forum and profile page s">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>New Google Profile Page & Discussion Forum Structured Data With Search Console Reports</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://s3.amazonaws.com/images.seroundtable.com/google-robots-discussing-1701100834.jpg" alt="">
+
+                <textarea id="text" readonly> Google has announced new structured data for discussion forum and profile page structured data on Google Search, with new markup and also new Search Console reports. Also, with this change, Google updated the Q&A forum structured data.
+
+Google said this markup works with "Google Search features that are designed to show first-person perspectives from social media platforms, forums, and other communities. Implementing this structured data will help ensure what Search shows in these features is as accurate and complete as possible."
+
+This seems related to the new personalized experience within Google Search, the hidden gems, the follower counts and discussion and forum features.
+
+Profile Page (ProfilePage) Structured Data
+
+The ProfilePage markup is designed for any site where creators, which Google says are either people or organizations, share first-hand perspectives. The markup allows Google Search to "better identify information about the creator, such as their name or social handle, profile photo, follower count, or the popularity of their content." Other structured data features can use ProfilePage markup too, including, Article and Recipe structured data have authors, and there are often several authors present in discussion forum and Q&A page structured data.
+
+Here is the visual example Google shared:
+
+Here is the example I shared in the raw search results last week:
+
+Here is the new Search Console report for Profile page structured data:
+
+Dave Smart posted on Mastodon how the URL Inspection Tool also picks up on this markup:
+
+Here are the technical details on how to implement profile page structured data for Google Search.
+
+Discussion Forum (DiscussionForumPosting) Structured Data
+
+The DiscussionForumPosting markup "for any forum-style site where people collectively share first-hand perspectives. When forum sites add this markup, Google Search can better identify online discussions across the web and make use of this markup in features such as Discussions and Forums and Perspectives," Google wrote.
+
+"Forums with this markup are considered for having their content appear in the Perspective and "Discussions and forums" features. However, the use of the markup does not guarantee appearance," Google added.
+
+Here is the visual example Google shared:
+
+Here is what the Search Console report looks like for discussion and forum:
+
+Sufyan Shaikh spotted this a little bit before the announcement under the enhancements section of the Search Console navigation. He posted this screenshot on X:
+
+Q&A markup Changes
+
+Google also make changes to its Q&A markup, Google said "If you're already using Q&A markup for your question and answer themed user forum, we are also updating the Q&A structured data documentation to be more in line with the richness of the new discussion forum guidelines."
+
+Google said don't use both types of structured data on the same page. Google said it now recommends that you use the one that's best suited to your use case. Google provided these tips for you to know which one to use:
+
+Q&A forums: If your forum is structured by a question that's followed by answers, use Q&A markup.
+
+For general forums: If your forum structure is more general and isn't strictly question and answer content, use DiscussionForumPosting.
+
+Google posted about this change in the Search Console data anomalies page under the rich results section saying, "November 27: Q&A Google Search is now recommending new properties for Q&A pages: author and datePublished. As a result, you may see an increase in warnings for your Q&A items. See the Q&A documentation for more information on specifying the new fields."
+
+Not only did Google added Search Console reports for the new markup, as I wrote above. Google also updated the rich results test tool for these new structured data.
+
+Forum discussion at X. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

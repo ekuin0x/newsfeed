@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Rolls Out New Games for Premium Users</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="YouTube ventured into gaming this week by rolling out a test of YouTube Playable">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>YouTube Rolls Out New Games for Premium Users</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/84802b9ce412183bf14f39bbd88f1e33.jpg" alt="">
+
+                <textarea id="text" readonly> YouTube ventured into gaming this week by rolling out a test of YouTube Playables to all Premium users. Playables are small, free games for mobile and desktop devices with no downloads, such as Angry Birds Showdown, from YouTube.
+
+YouTube is the latest video-watching platform to branch out into gaming. Google announced it would test out YouTube Playables as a test feature back in September for certain users. That experiment has now expanded to all Premium users, according to Droid Life, implying early tests were not a complete bust. Users have seen forays into gaming from Netflix and TikTok in the last year as well, and you may be asking why YouTube now also has a gaming division.
+
+
+
+Advertisement
+
+Playables, along with Netflix and TikTok’s video game ventures, are efforts to capture some of the excitement around the booming video game industry. The global revenue of the video game industry was $193 billion in 2021, nearly double the revenue of the film industry at $100 billion. The gaming industry is also growing significantly faster than the watching industry. 200 million people watch video games daily on YouTube, and now the company is trying to convert some of those viewers into players.
+
+
+
+Advertisement
+
+Playables will be available to Premium subscribers until at least March 28th. Users who pay $13.99 a month will now also have access to 30 Phaser games, a 2D gaming framework for desktop and mobile developed by Photon Storm. The games include 8 Ball Billiards Classic, Merge Master, and Farm Land. YouTube says Premium users can provide feedback on Playables, which would inform the experience if YouTube rolls it out more broadly in the future.
+
+
+
+Advertisement
+
+“We compete with (and lose to) Fortnite more than HBO,” said Netflix CEO Reed Hastings in a shareholder letter back in 2019. Netflix released games for your TV to a select number of users in October. Whether it’s YouTube, Epic Games, or Netflix, all of these companies compete for your attention.
+
+Advertisement
+
+Elsewhere in the world to capture mindshare, TikTok cut hundreds of jobs in its gaming division on Monday, marking a significant retreat from its multi-billion-dollar venture.
+
+
+
+Hastings continued in that 2019 letter, “When YouTube went down globally for a few minutes in October, our viewing and signups spiked for that time.” It’s a good reminder that the divisions between video games, social media, and streaming platforms are less important than they used to be. These platforms are competing across traditional business lines, and the true fight is not market share, but mind share – how much is YouTube capturing your mind’s focus?
+
+ </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

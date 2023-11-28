@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baldur’s Gate 3 bug caused by game’s endless mulling of evil deeds</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="One of the best things about playing Baldur's Gate 3 (BG3) is the way that it si">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Baldur’s Gate 3 bug caused by game’s endless mulling of evil deeds</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/11/GALE-760x380.jpg" alt="">
+
+                <textarea id="text" readonly> One of the best things about playing Baldur's Gate 3 (BG3) is the way that it simulates the feeling of having an actual Dungeon Master overseeing your session. The second-person narration, the dice rolls, and even the willingness to say "Yes" to your quirkiest ideas all add to the impression that there's some conscious intelligence on the other side.
+
+But consciousness can sometimes be a curse, and a recent patch to BG3 introduce burdensome complexity into the game's thinking. Essentially, the game was suffering from lag and slowdowns as players progressed because the game's decision engine couldn't stop assessing previous instances where a party member had gotten away with theft, murder, or other nefarious deeds.
+
+The performance issues have affected some players ever since Patch 4, released on Nov. 2 with more than 1,000 changes. One of those changes was a seemingly small-scope, situational bit: "Scrying Eyes in Moonrise Towers will now only react to theft and vandalism if they see the crime being committed." The floating orbs in that area were, apparently, ignoring players' best attempts at sneaking, invisibility, or other cover-ups.
+
+But that fix left the game unable to stop considering whether other deceptive actions should have been noticed. As developer and publisher Larian Studios told IGN in a statement about the patch, it caused "unnoticed thefts and acts of vandalism to remain stuck forever within the ‘did anyone see me’ pipeline, rather than timing out and moving on, as is intended." The game's "dungeon master," in Larian's terms, is "mulling on it ad infinitum." In a code-execution sense, the game is keeping the details of subterfuge "all up to date and in memory," which eventually slows down the logic engine, leading to slowdowns in the game.
+
+Advertisement
+
+Hence Patch 5, which Larian intends to release this week, was described in a social media post as fixing "the eternally active acts of theft & violence causing slowdowns, introduced in the previous patch."
+
+There is so much going on under the hood of BG3, so much that must be called up and considered for every interaction, that it's unsurprising that a seemingly limited situational patch could cause a wider issue—and could also be hard to suss out and test against. Some players might not engage in sneaky stuff at all, or might be earlier in their playthroughs, and so not have accrued the kinds of "mental" weight that have bogged down other players. And players might experience lag or slowdowns for myriad other reasons.
+
+Because the game is so intriguing, and so well-received as to be the clear front-runner for most Game of the Year lists, this kind of runaway bug issue seems more like a fourth-wall-breaking side story, not another bit about developers feeling beholden to fans for perfect performance at all times. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder: Google is about to start purging inactive accounts</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="If you’ve got an old Google account that you want to keep but haven’t used in th">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Reminder: Google is about to start purging inactive accounts</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.vox-cdn.com/thumbor/a1UuqmTXeWu_sDyVAVipeGpIQ0s=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24016885/STK093_Google_04.jpg" alt="">
+
+                <textarea id="text" readonly> If you’ve got an old Google account that you want to keep but haven’t used in the past couple of years, you’ll want to sign into it soon to prevent its deletion under Google’s inactive account policy. The new rules were announced in May, when Google said that the earliest it would begin deleting accounts was in December 2023. Google has since started emailing affected users saying accounts will be eligible for deletion from December 1st.
+
+To be clear, Google hasn’t said it would delete every eligible account starting on Friday. The company says it plans to take a phased approach, “starting with accounts that were created and never used again.” But now seems like as good a time as any to make sure your old accounts are in order so you don’t risk losing important data.
+
+In a lot of cases, simply signing in should be enough to keep a Google Account active for another two years. Google also says reading or sending an email, using Google Drive, watching a YouTube video, downloading an app from the Google Play Store, using Google Search, or using Sign in with Google to log in to a third-party service are all things that count as activities under its inactive accounts policy.
+
+Once you log in, it’d be a good idea to make sure you’ve got an accessible recovery email address associated with your account. That’s because Google says it’ll send multiple notifications to both impacted Google accounts as well as their recovery email addresses to warn of an impending deletion.
+
+While logging in to your Google account should be enough to prevent its overall deletion for two years, you’ll need to sign in to Google Photos specifically if you want to prevent the deletion of the content stored in that service. The search giant says it “reserves the right to delete data in a product if you are inactive in that product for at least two years,” under a policy that dates back to 2020. However, accounts with YouTube videos will not be deleted, nor will accounts with active subscriptions associated with them. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

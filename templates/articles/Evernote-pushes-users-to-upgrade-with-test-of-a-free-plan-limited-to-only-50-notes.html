@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evernote pushes users to upgrade with test of a free plan limited to only 50 notes</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="After making steep cuts to personnel earlier this year, Evernote’s Milan-based o">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Evernote pushes users to upgrade with test of a free plan limited to only 50 notes</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://techcrunch.com/wp-content/uploads/2018/10/App_Icon.jpg?resize=1200,776" alt="">
+
+                <textarea id="text" readonly> After making steep cuts to personnel earlier this year, Evernote’s Milan-based owner Bending Spoons is now experimenting with a new plan that would push more users to upgrade to paid versions of its service. The company confirmed to TechCrunch it’s been running a small test that placed limits on the number of notes free users could create, but said the new plan is not yet finalized.
+
+TechCrunch was alerted to the test by an Evernote user who logged in to a pop-up message that informed them that unless they upgraded to a paid plan, they would now be limited to only 1 notebook and 50 notes. That change would dramatically limit the service for longtime Evernote users who have accumulated hundreds or thousands of notes over the years.
+
+Despite seeing the messaging in the app itself, the Evernote website’s pricing plans page didn’t indicate there was any such limit on free plans — which made the pricing bump seem like a hidden fee change that Evernote didn’t want to publicize. Instead, its website explains that free users are only limited to things like 60 MB of monthly uploads or 25 MB maximum note size. Other plans, including the personal and professional plans, currently discounted to $10.83 per month and $14.17 per month, respectively, offer support for larger notes and uploads and syncing to unlimited devices, among other things.
+
+Evernote said its website had not been updated with the new information because the change is not yet final. The company confirmed it’s been running a test with less than 1% of its free users to determine if it will implement the new plan. If so, it will then communicate the changes across “the relevant customer touchpoints,” a representative for the company explained.
+
+They also pointed out that the limit would not prevent free users from managing, editing, viewing, exporting or deleting their existing notes, even if they have more than the limit. It will only limit the user’s ability to create new notes, unless they become a paying customer.
+
+Still, that would be a dramatic change for longtime Evernote users who only use the app on a single device for lightweight notetaking purposes. Effectively, it would force a majority of Evernote’s regular users on free plans to become paying users or simply stop using the app.
+
+The change, if it goes through, could also potentially push more users to competing products like Microsoft OneNote, which starts at $6.99 per month with up to 1TB of cloud storage syncing up to five devices — better than Evernote’s Personal plan. Or it could propel users to try out Notion, a collaborative notes organizer that offers a free plan for individual users, as well.
+
+Evernote, which had once been valued at nearly a billion dollars, had been struggling for years before its acquisition by Bending Spoons. The company lost top execs, including its CTO, CFO, CPO and head of HR in 2018, after replacing CEO Phil Libin a few years prior with former Google exec Chris O’Neill. Under Libin, Evernote had attempted to expand into physical goods via partnerships with Moleskine and Pfeiffer, as well as its own desk accessory line. Later in 2018, Evernote laid off 15% of its workforce. CEO Ian Small then replaced O’Neill and the company managed to pull in $100 million in recurring revenue. Unfortunately, the app was still not keeping pace with newer competitors like Notion in the lead up to its exit.
+
+Bending Spoons, which owns video editor Splice, photo editor Remini and other apps, announced its acquisition of Evernote in late 2022 and then promptly laid off 129 staffers. Explaining the decision, a spokesperson at the time said the company had been “unprofitable for years” and “the situation was unsustainable in the long term.”
+
+Perhaps that also applies to Evernote’s ability to offer a free plan, if these new changes go through. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

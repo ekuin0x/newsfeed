@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Google Drive Users' Files Have Mysteriously Vanished</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Google Drive users have been warned not to disconnect their account within the G">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Some Google Drive Users' Files Have Mysteriously Vanished</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://images.macrumors.com/t/pIvd2MR98O_pzORgAl8a92XlufI=/1600x/article-new/2022/05/Google-Drive.jpg" alt="">
+
+                <textarea id="text" readonly> Google Drive users have been warned not to disconnect their account within the Google Drive for desktop app, after a spate of reports of files going missing from the cloud service.
+
+
+
+Alarm bells began ringing last week on Google's community support site when some users reported files mysteriously disappearing from Google Drive, with some posters claiming six or months of data had vanished.
+
+As noted by The Register, one user logged into Google Drive to find things as they were in May 2023, with everything saved since that date gone, despite attempts by Google's support team to help them recover the files. Currently, the thread of complaints has 217 users who clicked the "I have the same question."
+
+The Google Drive team has since posted that it is "investigating reports of an issue impacting a limited subset of Drive for desktop users." In the meantime:
+
+Do not click "Disconnect account" within Drive for desktop
+
+Do not delete or move the app data folder:
+
+Windows: %USERPROFILE%\AppData\Local\Google\DriveFS
+
+macOS: ~/Library/Application Support/Google/DriveFS
+
+Google also recommends making a copy of the app data folder if there's space on your hard drive, until the sync issue is resolved. We'll update this article if we hear more. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
