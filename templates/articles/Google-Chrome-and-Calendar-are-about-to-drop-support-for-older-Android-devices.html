@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Chrome and Calendar are about to drop support for older Android devices</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Older versions of Android often continue to get app and even feature updates for">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Google Chrome and Calendar are about to drop support for older Android devices</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2023/04/google-chrome-android-1-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="">
+
+                <textarea id="text" readonly> Older versions of Android often continue to get app and even feature updates for years to come, but eventually, things must come to an end. Soon, it seems, Google will be dropping support for its Calendar and Chrome apps on some older versions of Android.
+
+Android 14 is the current version of Android, but as has been the case for a while, the version installed on most active devices lags a fair bit behind. Currently, the most-installed version of Android is Android 11.
+
+Over time, Google eventually drops support for older versions of the platform from its major apps, which is soon to be the case for Google Chrome.
+
+The default browser on most Android smartphones will raise its minimum OS requirement to Android 8.0 with the Chrome 120 release in early 2024. Google confirmed the removal on a support page earlier this month.
+
+The last version of Chrome that supports Android Nougat is Chrome 119, and it includes a message to affected users informing them to upgrade their operating system. Chrome 120 will not support nor ship to users running Android Nougat.
+
+As of late November, the current version of Chrome for Android is version 119, meaning that we are currently on the last supported version for devices running Android 7.1 and older.
+
+Similarly, TheSpAndroid uncovered evidence in the latest versions of Google Calendar for Android that show a new message in the app that will appear for users on older versions of Android. On devices running Android 7.1 Nougat and below, the message will say:
+
+Your current Android version is no longer supported. Please update your operating system to continue using Google Calendar.
+
+The minimum version for Google Calendar for Android is also now Android 8.0, starting with version 2023-46-0-581792699, which has not yet widely rolled out.
+
+Unfortunately, in both cases, having an out-of-date Android version to this extent likely just means that no newer version is available because the manufacturer has stopped providing it. In other words, this would require users to buy a new device, which is likely a good idea anyway, from a security perspective, or take more drastic measures with custom software builds like LineageOS.
+
+Regardless, this shouldn’t affect the vast majority of Android users. As of June 2023, Android 7.1 made up just 3% of active devices, with older versions amassing less than 5% more.
+
+More on Android: </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

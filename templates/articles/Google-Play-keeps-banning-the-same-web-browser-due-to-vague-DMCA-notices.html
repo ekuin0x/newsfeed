@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Play keeps banning the same web browser due to vague DMCA notices</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="App developer Elias Saba has had some bad luck with Digital Millennium Copyright">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Google Play keeps banning the same web browser due to vague DMCA notices</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/05/downloader-browser-760x380.png" alt="">
+
+                <textarea id="text" readonly> App developer Elias Saba has had some bad luck with Digital Millennium Copyright Act (DMCA) takedowns. His Android TV app Downloader, which combines a web browser with a file manager, was suspended by Google Play in May after several Israeli TV companies complained that the app could be used to load a pirate website.
+
+Google reversed that suspension after three weeks. But Downloader has been suspended by Google Play again, and this time the reason is even harder to understand. Based on a vague DMCA notice, it appears that Downloader was suspended simply because it can load the Warner Bros. website.
+
+Downloader is similar to standard web browsers in that it lets users access both legal and illegally shared content. The app can be used for general web surfing and can download files from a website when a user inputs the desired URL. According to Saba, the app itself contains no infringing content, nor does it direct users to infringing content.
+
+Google notified Saba that the app was suspended again last night, according to the notice that Saba shared with Ars. "Your app contains content that allegedly infringes upon the copyright of others, and violates applicable copyright laws in the relevant country/jurisdiction," the notice from Google said.
+
+Advertisement
+
+The notice includes a copy of the DMCA complaint, which came from MarkScan, a "digital asset protection" firm that content owners hire to enforce copyrights. MarkScan said in its complaint that it represents Warner Bros. Discovery Inc.
+
+“Properties of Warner Bros. Discovery”
+
+A DMCA notice is supposed to identify and describe the copyrighted work that was infringed. But MarkScan's notice about Downloader identifies the copyrighted work only as "Properties of Warner Bros. Discovery Inc." It provides no detail on which Warner Bros. work was infringed by Downloader.
+
+A DMCA notice is also supposed to provide an example of where someone can see "an authorized example of the work." In this field, MarkScan simply entered the main Warner Bros. URL: https://www.warnerbros.com/.
+
+"I have a good faith belief that use of the copyrighted materials described above as allegedly infringing is not authorized by the copyright owner, its agent, or the law," MarkScan's notice said.
+
+Unsurprisingly, Saba is outraged. "You would think that Google would at least verify that the takedown request is actually making a plausible claim," he told Ars today. "The most important field in the takedown where the claimant has to specify where the copyright infringement exists is void of all detail. If this complete lack of information is all it takes to take an app down, then no app in the Google Play Store is safe from being suspended with just a few clicks and a frivolous takedown request."
+
+The Downloader app had been installed over 10 million times, according to an Internet Archive capture taken before the latest suspension. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

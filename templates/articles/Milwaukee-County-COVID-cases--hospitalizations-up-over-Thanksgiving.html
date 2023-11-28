@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milwaukee County COVID cases, hospitalizations up over Thanksgiving</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Milwauke County is seeing an uptick in both COVID-19 numbers and related hospita">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Milwaukee County COVID cases, hospitalizations up over Thanksgiving</p>
+            <span id="topic" >health</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static.fox6now.com/www.fox6now.com/content/uploads/2023/11/cases.jpg" alt="">
+
+                <textarea id="text" readonly> Milwauke County is seeing an uptick in both COVID-19 numbers and related hospitalizations.
+
+Chief Health Policy Advisor for Milwaukee County Dr. Ben Weston posted on X on Monday, Nov. 27 that there has been a big jump in COVID-19 cases over the Thanksgiving holiday.
+
+Weston said Milwaukee County is seeing its highest COVID-19 positivity rates in nearly two years – and highest hospitalizations in nearly one year. But Weston also noted it's too early to make a connection in COVID-19 numbers to the holiday.
+
+His post noted that less than one-third of Milwaukee County residents 65+ years old have received the updated fall vaccine. He is urging everyone to reach out to family and friends.
+
+"It’s not nearly enough for a population that is at such high risk of getting sick with COVID," Weston said. "Really, we need 100% of 65 and older to have gotten this COVID vaccine. And we’re not there yet."
+
+SIGN UP TODAY: Get daily headlines, breaking news emails from FOX6 News
+
+He said he is not worried as much about current case numbers as he is with the safety of at-risk individuals.
+
+"We haven’t seen levels like that for a year," Weston said. "By no means do I think we’re going back to the beginning of omicron with overwhelmed hospitals or anything like that, but for folks who are vulnerable, folks who are immuno-compromised, people who are over 65 years old, this is something to take note of. "
+
+The Hayat Pharmacy on Layton is seeing more positive COVID-19 tests too.
+
+"For two or three weeks, there was a time when we didn’t get a single positive test, but in the last two weeks, we are getting about one or two positive tests a day," founder Hashim Zaibak said.
+
+The county's percentage of positive tests has been trending up for the past four weeks from around 9% to about 20%.
+
+FREE DOWNLOAD: Get breaking news alerts in the FOX6 News app for iOS or Android.
+
+Zaibak said the rising numbers are leading more people to getting vaccinated, but the number of vaccinations could be higher.
+
+"People sometimes get nervous anytime they hear a friend or coworker or relative who tests positive, then they start thinking about getting the vaccine, because people get busy," Zaibak said. "It’s not that they’re anti-vax or anything, they just get busy."
+
+You can track COVID cases in Milwaukee County with its surveillance dashboard. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

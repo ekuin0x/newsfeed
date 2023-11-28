@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon announces three new serverless offerings to kick off re:Invent</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Amazon kicked off AWS re:Invent, its annual customer conference, in Las Vegas to">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Amazon announces three new serverless offerings to kick off re:Invent</p>
+            <span id="topic" >Business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://techcrunch.com/wp-content/uploads/2021/12/GettyImages-1356696982.jpg?resize=1200,798" alt="">
+
+                <textarea id="text" readonly> Amazon kicked off AWS re:Invent, its annual customer conference, in Las Vegas tonight with a few new serverless offerings designed to make it easier to manage Aurora, Elastic Cache and Redshift serverless services.
+
+Matt Wood, AWS VP, says that Aurora Serverless is great for getting up and running very quickly with a cloud database, but over time, once you get to very, very high scale, and you’re dealing with tens of millions of customers, or millions of different records, it becomes challenging for customers to deal with those kinds of numbers, forcing them to break the database into multiple pieces. “What you have to do as a customer to be able to kind of handle that scale, is you’ve traditionally had to split the data up into smaller and smaller segments, and then manage those segments independently. It’s called sharding. And it’s kind of a pain in the butt,” Wood told TechCrunch.
+
+“We’re announcing a limitless database, which handles all of that sharding for you under the hood completely automatically. So as a customer as your needs change, the database service itself, Aurora serverless, will be able to make those adjustments and manage those shards automatically,” he said. That enables customers to deal with a single database, and it should remove a huge management headache that existed prior to building this feature.
+
+While it was at it, the company also announced Elastic Cache Serverless, which is a serverless caching service that sits between your application servers and your database and improves response times and reduces database costs, he said.
+
+“And what we’re adding here is we’re making it all serverless in a highly available way for mission critical applications that run across availability zones. And so you can set up a highly available caches with microsecond response times, which are ready to scale for pretty much any volume of data you can throw at it in under a minute,” Wood said.
+
+Finally, the company announce Redshift Serverless now uses AI to automatically optimize and scale Amazon Redshift data warehouses based on query patterns and data volumes, greatly reducing the amount of work IT needs to do behind the scenes.
+
+Because each of these options is severless, it means that Amazon manages all of the hardware in the background, and delivers just the right amount of resources you need, scaling up when needed without IT having to deal with all of the back-end management work. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

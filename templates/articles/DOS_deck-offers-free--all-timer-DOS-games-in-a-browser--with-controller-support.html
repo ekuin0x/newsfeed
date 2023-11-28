@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOS_deck offers free, all-timer DOS games in a browser, with controller support</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Revisiting a classic game from the AUTOEXEC.BAT/CONFIG.SYS era of MS-DOS can be ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>DOS_deck offers free, all-timer DOS games in a browser, with controller support</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.arstechnica.net/wp-content/uploads/2023/11/Screenshot-2023-11-27-at-1.40.04 PM-760x380.png" alt="">
+
+                <textarea id="text" readonly> Revisiting a classic game from the AUTOEXEC.BAT/CONFIG.SYS era of MS-DOS can be a fun distraction. But the more friction and configuration between you and a playable game, the more likely you are to fall off before you ever hit the menu screen. You spend enough time fine-tuning your modern systems; doing so within an arcane framework, for a single game, is not everybody's idea of fun.
+
+DOS_deck seems to get this, providing the most frictionless path to playing classic DOS shareware and abandonware, like Doom, Jazz Jackrabbit, Command & Conquer, and Syndicate, with reconfigured controller support and a simplified interface benevolently looted from the Steam Deck. You can play it in a browser, right now, the one you're using to read this post.
+
+In fact, I stopped between that last sentence and this one to play a couple levels of Doom in a Chrome browser. And now I've taken another punctuation break to play the first level of Syndicate, which moves much faster than I remember. The control schemes are clever, the interface is easy to get used to and move around, and there's a host of little extras to appreciate, including constant game progress (game state) saving, and linking and setting certain games as favorites.
+
+Martin Kool, creator of DOS_deck, fully credits his creation's lineage on the About page, specifically the DOSBox emulator and the JS-DOS project that got DOSBox working in a browser. DOS_deck's coders have put "a tremendous effort" into developing controller schemes for their games, Kool writes. From the half-dozen I poked around, I can confirm. I would never have expected to get far at all in the original Warcraft or Syndicate with a controller, but it's doable. Keyboard shortcuts are still valuable—and you can use a keyboard, of course—but a controller works fine for this kind of throwback enjoyment.
+
+Advertisement
+
+
+
+
+
+
+
+There are 14 games in DOS_deck at the moment. Kool writes that more games are coming and lists some of them in rough order in a post on the project's subreddit (I will be checking back in for Descent). There are lots of possible additions, but Kool notes: "I also don't want DOS_deck to become one of the many abandonware sites with 1300+ titles. I genuinely want this service to feel like a Netflix for DOS games, and offer only the best titles and a diverse selection of genres."
+
+While you can't upload your own games, "in the future this might become possible." There are purchase buttons for the games, but they're more of a tribute or convenience, as they won't unlock full versions in DOS_deck itself.
+
+DOS_deck can, of course, be set up on a Steam Deck. The project's About page has a guide to setting it up as a modified Chrome or Edge browser. Tom's Hardware, where we first read about this site, suggests using Chromium, so as to save Chrome or Edge for other uses, including browsing. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

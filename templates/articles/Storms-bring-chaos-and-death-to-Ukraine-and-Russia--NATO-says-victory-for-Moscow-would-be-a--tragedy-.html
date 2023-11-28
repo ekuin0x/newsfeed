@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storms bring chaos and death to Ukraine and Russia; NATO says victory for Moscow would be a 'tragedy'</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Waves crash against a seafront in the Black Sea resort city of Sochi during a st">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Storms bring chaos and death to Ukraine and Russia; NATO says victory for Moscow would be a 'tragedy'</p>
+            <span id="topic" >World</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://image.cnbcfm.com/api/v1/image/107339170-1701087830080-gettyimages-1805600018-AFP_34672KX.jpeg?v=1701087951&w=1920&h=1080" alt="">
+
+                <textarea id="text" readonly> Waves crash against a seafront in the Black Sea resort city of Sochi during a storm on November 27, 2023. (Photo by Mikhail Mordasov / AFP) (Photo by MIKHAIL MORDASOV/AFP via Getty Images)
+
+Storms continue to batter Ukraine, Russia and Russian-occupied Crimea Monday, leaving three people dead and causing chaos on roads and widespread power cuts.
+
+In other news, drone warfare between Russia and Ukraine intensified over the weekend, with both sides targeting each other's capital cities with dozens of drones.
+
+Russian authorities claimed Sunday that Ukraine had targeted Moscow with dozens of drones on Saturday night, just hours after Russia launched its most intense drone attack on Kyiv since the beginning of its full-scale war in 2022, Ukrainian officials said.
+
+Russian air defenses brought down at least 24 drones over the Moscow region and four other provinces to the south and west, the Russian Defense Ministry said. Ukrainian officials have not commented on the strikes.
+
+The alleged attacks came a day after Russia targeted the Ukrainian capital Kyiv with over 60 Iranian-made Shahed drones. The attack began hitting different districts of Kyiv in the early hours of the morning, with more waves coming as the sun came up, Reuters reported. The air raid warning lasted six hours.
+
+In other news, Russian President Vladimir Putin said the model of globalization created by Western countries has outlived its usefulness.
+
+Addressing an international forum Monday, Putin said "it is obvious that the model of globalization, which was formed largely by Western states — naturally, in their own interests — has outlived its usefulness and is in a deep crisis." </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Google Drive for Desktop users are missing months of files</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Google says it’s investigating Google Drive users’ reports claiming that their p">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Some Google Drive for Desktop users are missing months of files</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.vox-cdn.com/thumbor/tt_p_TeatCsh7d67cuq970jX2wk=/0x0:3000x2000/1200x628/filters:focal(1500x1000:1501x1001)/cdn.vox-cdn.com/uploads/chorus_asset/file/23954500/acastro_STK459_04.jpg" alt="">
+
+                <textarea id="text" readonly> Google says it’s investigating Google Drive users’ reports claiming that their personal files have unexpectedly vanished from the cloud service. The company acknowledged the issue today in a new Google community support thread and believes it involves a “limited subset” of Google Drive for desktop app users. Google notes it’s a sync issue for Google Drive desktop versions 84.0.0.0 through 84.0.4.0.
+
+One of the users, who lost all of their Google Drive data going back to May, discovered the unwelcome surprise last week and took their grievances to Google’s community support site, as reported by The Register. Google’s support team, as the user explains, walked them through a data recovery process, including attempting to backup and restore a DriveFS folder, but to no avail.
+
+Currently, the thread has 192 users who clicked the “I have the same question” button and has a handful of panicked commenters with very similar issues. One user noted that their “IT guy” couldn’t find any traces of the files, and another noted that Google asked for an export of their drive diagnostic data.
+
+A Google Drive team member named Saitej posted a warning telling users not to click “disconnect account” within the Google Drive for desktop. They also warned against deleting or moving the app data folder, which is located in:
+
+Windows: %USERPROFILE%\AppData\Local\Google\DriveFS
+
+macOS: ~/Library/Application Support/Google/DriveFS </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

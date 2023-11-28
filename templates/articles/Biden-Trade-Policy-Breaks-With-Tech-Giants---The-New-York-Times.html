@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biden Trade Policy Breaks With Tech Giants - The New York Times</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="One reason that the idea of free trade has fallen out of fashion in recent years">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Biden Trade Policy Breaks With Tech Giants - The New York Times</p>
+            <span id="topic" >Business</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/27/opinion/27stockman/27stockman-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> One reason that the idea of free trade has fallen out of fashion in recent years is the perception that trade agreements reflect the wishes of big American corporations, at everybody else’s expense.
+
+U.S. officials fought for trade agreements that protect intellectual property — and drug companies got the chance to extend the life of patents, raising the price of medicine around the world. U.S. officials fought for investor protections — and mining companies got the right to sue for billions in “lost profit” if a country moved to protect its drinking water or the Amazon ecosystem. And for years, U.S. officials have fought for digital trade rules that allow data to move freely across national borders — sparking fears that the world’s most powerful tech companies would use those rules to stay ahead of competitors and shield themselves from regulations aimed at protecting consumers and privacy.
+
+That’s why the Biden administration, which came into office promising to fight for trade agreements that better reflect the interests of ordinary people, has dropped its advocacy for tech-friendly digital trade rules that American officials have championed for more than a decade.
+
+Last month, President Biden’s trade representative, Katherine Tai, notified the World Trade Organization that the American government no longer supports a proposal it once spearheaded that would have exported the American laissez-faire approach to tech. Had that proposal been adopted, it would have spared tech companies the headache of having to deal with many different domestic laws about how data must be handled, including rules mandating that it be stored or analyzed locally. It also would have largely shielded tech companies from regulations aimed at protecting citizens’ privacy and curbing monopolistic behavior. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

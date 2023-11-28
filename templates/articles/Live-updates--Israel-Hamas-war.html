@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live updates: Israel-Hamas war</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="From left, Noam Or and Alma Or. Hostages Missing Families Forum
+
+Throughout the ">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>Live updates: Israel-Hamas war</p>
+            <span id="topic" >World</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.cnn.com/cnnnext/dam/assets/231127191637-israel-hostages-convoy-11263-super-tease.jpg" alt="">
+
+                <textarea id="text" readonly> From left, Noam Or and Alma Or. Hostages Missing Families Forum
+
+Throughout the 50 days Noam and Alma Or were held captive in Gaza, one thought kept the siblings going: reuniting with their mother, who they’d been separated from on October 7 during Hamas’ brutal attacks on their community.
+
+But when Noam, 17, and Alma, 13, were released together on Saturday, “this dream had been shattered by the fact that she was murdered,” said the siblings’ maternal uncle Ahal Besorai.
+
+“My sister, their mom, was murdered on October 7. The children did not know that,” he said, speaking to CNN from the Philippines. “We thought they were together when they were kidnapped, but they were separated from the outset.”
+
+“When they first crossed the border and reunited with their grandmother and older brother, the first news that they had to confront was the fact that their mom is no longer alive. And that was a terribly emotional and traumatic moment for them,” Besorai added.
+
+The siblings’ father Dror remains missing, believed captive in Gaza.
+
+Some context: Hamas is believed to have held more than 200 hostages in Gaza prior to the releases negotiated with Israel. Under the breakthrough truce agreement, groups of Israeli citizens and other nationals have been freed every day since last Friday, while Israel has released Palestinian women and children detainees from its prisons, many of whom have never been charged or sentenced.
+
+The initial four-day truce was extended by an additional two days on Monday, as stories began to trickle out from the families of freed hostages, giving the first insights into what life had been like in captivity.
+
+Read more about the Or family's ordeal here. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

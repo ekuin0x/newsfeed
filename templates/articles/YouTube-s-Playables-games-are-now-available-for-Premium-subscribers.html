@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube’s Playables games are now available for Premium subscribers</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="YouTube is branching out into games — at least for its paid subscribers. The pla">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>YouTube’s Playables games are now available for Premium subscribers</p>
+            <span id="topic" >Technology</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://cdn.vox-cdn.com/thumbor/1L6awTcXjbADLDMFfR9g1r5lzDc=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23986640/acastro_STK092_04.jpg" alt="">
+
+                <textarea id="text" readonly> YouTube is branching out into games — at least for its paid subscribers. The platform is giving Premium users access to a set of online games that can be directly played on either the mobile app or desktop app. Known as “Playables,” the company first debuted the experimental feature to select users in September. As noted by Droid-Life, YouTube sent a notification last week to Premium subscribers informing them of Playables and allowing them to try it out. Those who opt in will be able to play a total of 37 mini-games that effectively live inside YouTube — there’s no need to download or install them.
+
+The selection of games isn’t too challenging or “out there” — they include crowd-pleasers like Angry Birds Showdown, Brain Out, Daily Solitaire, The Daily Crossword, and a number of arcade games. And they may not be here to stay. YouTube Premium’s notification stated that the games would be available until March 28th, 2024. For now, Premium members can find the full library of games under the “Playables” section in the Explore tab.
+
+YouTube joins a long list of non-gaming tech companies that are trying to expand into games — often with mixed results. After years of hype, Google officially axed its Stadia service in January. Just a couple of weeks ago, Amazon cut over 130 jobs in its free games division and announced it would “refocus” its efforts. In 2021, TikTok teased what it called a “major push” in gaming, only for owner ByteDance to announce on Monday that it would be laying off around 1,000 workers in its gaming unit.
+
+But a less than stellar track record hasn’t stopped other tech companies from pushing forward into gaming. Meta’s experiment with Instant Games has been roughly seven years in the making; the platform this month launched a new distribution model that lets developers publish beta versions of their games directly on Facebook. Netflix has been releasing games exclusively on mobile (the reviews of which are pretty mixed), and wants to expand into cloud games — though it’ll likely be a while until they’re available to the public.
+
+YouTube’s experiments are nothing new; the platform often tests features on its paid subscribers before deciding whether to add them permanently. In addition to Playables, Premium members can also sign up to try out YouTube’s conversational AI feature that lets users ask questions about videos they’re viewing. </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>

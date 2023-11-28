@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QC942MV32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5QC942MV32');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After 9 Years in Limbo, Treasures From Crimea Return to Ukraine</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta name="description" content="Hundreds of ancient artifacts from Crimea that were stored in a Dutch museum for">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body onload="related()">
+    <nav>
+        <div id="logo">NewsFeed</div>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+        <i class="bi bi-list" onclick="openNav()"></i>
+        <i class="bi bi-search" onclick="openSearch()"></i>
+    </nav>
+
+    <div id="mobile-nav">
+        <i class="bi bi-x-lg" onclick="closeNav()"></i>
+        <a href="/a/business">Business</a>
+        <a href="/a/world">World</a>
+        <a href="/a/technology">Technology</a>
+        <a href="/a/health">Health</a>
+        <a href="/a/entertainment">Entertainment</a>
+    </div>
+
+    <form action="/search" method="get" id="search">
+        <input type="text" name="q" />
+        <i class="bi bi-search" onclick="search()"></i>
+    </form>
+
+    <div id="wrapper">
+
+        <div class="flex1" id="article">
+            <p>After 9 Years in Limbo, Treasures From Crimea Return to Ukraine</p>
+            <span id="topic" >World</span>
+                <span class="time">
+                    <i class="bi bi-clock"></i><b>Nov-28, 2023</b>
+                </span>
+                <br><br>
+                <img src="https://static01.nyt.com/images/2023/11/28/arts/27crimea-gold-qegn/27crimea-gold-qegn-facebookJumbo.jpg" alt="">
+
+                <textarea id="text" readonly> Hundreds of ancient artifacts from Crimea that were stored in a Dutch museum for nine years while Russia and Ukraine waged a legal battle over their ownership are now back in Ukraine, officials in Amsterdam said on Monday.
+
+The works arrived on Sunday at the Museum of Historical Treasures of Ukraine in Kyiv, said officials at the Allard Pierson Museum, an archaeological museum at the University of Amsterdam, which borrowed around 400 works from four Crimean museums in 2014 for the exhibition “Crimea: Gold and Secrets of the Black Sea.” The artifacts included gold jewelry, gold plaques, precious gems, Greek and Roman stone ornaments and ceramics.
+
+A month into the show’s run, Russia annexed the Crimean Peninsula, and when it came time to send the objects back, a legal conflict emerged: Should they go back to the Crimean museums, now under Russian state control, or to Ukraine, which argued that the works were part of its national heritage? </textarea>
+
+        </div>
+
+
+
+        <div class="flex2">
+
+            <header>RELATED NEWS</header>
+
+            <div id="related"></div>
+
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"> </script>
+
+
+</body>
+
+</html>
